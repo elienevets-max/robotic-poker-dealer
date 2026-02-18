@@ -1,0 +1,389 @@
+# Chapter 03: MONEY OPERATIONS — Buy-Ins, Color Ups & Bank Fills
+
+> Auto-generated from TruePokerDealer course transcripts.
+> Enhanced with robotics translation notes.
+
+---
+
+## Lesson 8: How to Deal Poker - How to Handle Chips - Lesson 6 of 38
+
+> Thank you very much for your time, thank you very much, thank you very much, thank you very much.
+
+
+### Robotics Notes — Lesson 8
+
+| Human Action | Robot Equivalent | Sensor/Actuator | Priority |
+|---|---|---|---|
+| *Analyze transcript above* | | | |
+
+---
+
+## Lesson 9: Must Learn Poker Dealer Skills - Working in the Bank - Lesson 7 of 38
+
+
+
+### Robotics Notes — Lesson 9
+
+| Human Action | Robot Equivalent | Sensor/Actuator | Priority |
+|---|---|---|---|
+| *Analyze transcript above* | | | |
+
+---
+
+## Lesson 10: How to Deal Poker - Bank Maintenance Part 1 of 2 - Lesson 8 of 38
+
+
+
+### Robotics Notes — Lesson 10
+
+| Human Action | Robot Equivalent | Sensor/Actuator | Priority |
+|---|---|---|---|
+| *Analyze transcript above* | | | |
+
+---
+
+## Lesson 11: Working with a VERY MESSY poker bank - Bank Maintenance Part 2 of 2 - Lesson 9 o
+
+
+
+### Robotics Notes — Lesson 11
+
+| Human Action | Robot Equivalent | Sensor/Actuator | Priority |
+|---|---|---|---|
+| *Analyze transcript above* | | | |
+
+---
+
+## Lesson 12: How to Deal Poker - Buy Ins Part 1 of 2 - Lesson 10 of 38
+
+
+
+### Robotics Notes — Lesson 12
+
+| Human Action | Robot Equivalent | Sensor/Actuator | Priority |
+|---|---|---|---|
+| *Analyze transcript above* | | | |
+
+---
+
+## Lesson 13: How to Deal Poker - Buy Ins Part 2 of 2 - Lesson 11 of 38
+
+
+
+### Robotics Notes — Lesson 13
+
+| Human Action | Robot Equivalent | Sensor/Actuator | Priority |
+|---|---|---|---|
+| *Analyze transcript above* | | | |
+
+---
+
+## Lesson 14: The Craziest Cash Buy In You Have Ever Seen - How to Deal Poker - Lesson 12 of 3
+
+
+
+### Robotics Notes — Lesson 14
+
+| Human Action | Robot Equivalent | Sensor/Actuator | Priority |
+|---|---|---|---|
+| *Analyze transcript above* | | | |
+
+---
+
+## Lesson 17: Poker Hand Rankings - Intro to Poker Rules How to Compare Hands to See Who Wins 
+
+> well here we are the basics of poker now
+> well here we are the basics of poker now
+> this is an introduction to the Game of
+> this is an introduction to the Game of
+> Poker from a professional perspective
+> Poker from a professional perspective
+> and there's so much to Poker we can't
+> and there's so much to Poker we can't
+> fit it all in in a video like this and
+> fit it all in in a video like this and
+> just take our word for it that even
+> just take our word for it that even
+> though I'm going to go over some stuff
+> though I'm going to go over some stuff
+> that sounds kind of specific when it
+> that sounds kind of specific when it
+> comes to Poker you can do anything that
+> comes to Poker you can do anything that
+> you want you can make up home games you
+> you want you can make up home games you
+> could be someone that decided to create
+> could be someone that decided to create
+> a game that people have never seen and
+> a game that people have never seen and
+> it could end up in casinos there's so
+> it could end up in casinos there's so
+> many different variations of the Game of
+> many different variations of the Game of
+> Poker we're going to get into the stuff
+> Poker we're going to get into the stuff
+> that's more common my name is Mark
+> that's more common my name is Mark
+> shumer this is troker dealer.com and
+> shumer this is troker dealer.com and
+> here we
+> here we
+> go well the part of me hopes this is
+> go well the part of me hopes this is
+> your first time ever seeing poker it's
+> your first time ever seeing poker it's
+> kind of fun for me going over the basics
+> kind of fun for me going over the basics
+> I don't get to do very often especially
+> I don't get to do very often especially
+> in the industry this right here is a
+> in the industry this right here is a
+> deck 52 cards it's your standard deck
+> deck 52 cards it's your standard deck
+> this is what poker has played with its
+> this is what poker has played with its
+> best five cards wins really that simple
+> best five cards wins really that simple
+> it's kind of a simple game to get used
+> it's kind of a simple game to get used
+> to and then it takes a long time to
+> to and then it takes a long time to
+> really understand I'm going to go over
+> really understand I'm going to go over
+> the hand rankings so that everybody can
+> the hand rankings so that everybody can
+> understand really what beats what and
+> understand really what beats what and
+> you can kind of take it home with you it
+> you can kind of take it home with you it
+> goes high card pair two pair three OFA
+> goes high card pair two pair three OFA
+> kind
+> kind
+> straight flush Full House four of a kind
+> straight flush Full House four of a kind
+> and then and then a straight flush with
+> and then and then a straight flush with
+> the highest straight flush being the
+> the highest straight flush being the
+> royal flush you've probably heard some
+> royal flush you've probably heard some
+> of those terms before maybe not now
+> of those terms before maybe not now
+> within that the rankings of the
+> within that the rankings of the
+> individual cards goes Ace king queen
+> individual cards goes Ace king queen
+> Jack 10 9 8 7 6 5 4 try dece which is
+> Jack 10 9 8 7 6 5 4 try dece which is
+> three and two in poker terms so the
+> three and two in poker terms so the
+> worst of those hands the one that's at
+> worst of those hands the one that's at
+> the very bottom is the high card hand
+> the very bottom is the high card hand
+> that means that no card has any real
+> that means that no card has any real
+> connection that's significant to poker
+> connection that's significant to poker
+> with any of the others and they're five
+> with any of the others and they're five
+> card poker hands meaning that there's no
+> card poker hands meaning that there's no
+> such thing as a poker hand that doesn't
+> such thing as a poker hand that doesn't
+> have five cards and they all
+> have five cards and they all
+> count so when you're comparing high card
+> count so when you're comparing high card
+> hands you would compare the highest of
+> hands you would compare the highest of
+> the cards first and then work your way
+> the cards first and then work your way
+> down from there so a high card hand with
+> down from there so a high card hand with
+> an ace in it would beat a high card hand
+> an ace in it would beat a high card hand
+> with a king in it that didn't have an
+> with a king in it that didn't have an
+> ace in it and if two of them have an ace
+> ace in it and if two of them have an ace
+> in it then you go to the next one and it
+> in it then you go to the next one and it
+> goes all the way down
+> goes all the way down
+> so with pairs it's kind of the same
+> so with pairs it's kind of the same
+> thing the highest pair Beats the lowest
+> thing the highest pair Beats the lowest
+> pair but what if two people have the
+> pair but what if two people have the
+> same pair say two people have sixes well
+> same pair say two people have sixes well
+> then you'd look at the other three cards
+> then you'd look at the other three cards
+> and that's why I said that all five
+> and that's why I said that all five
+> cards are significant when you look at
+> cards are significant when you look at
+> the other three cards say one person had
+> the other three cards say one person had
+> sixes with an Ace King Jack and another
+> sixes with an Ace King Jack and another
+> person had sixes with a king seven Deuce
+> person had sixes with a king seven Deuce
+> well the sixes with the ace would beat
+> well the sixes with the ace would beat
+> the sixes with the King and some people
+> the sixes with the King and some people
+> call that Ace and that King the kicker
+> call that Ace and that King the kicker
+> of the hand that's what that is next we
+> of the hand that's what that is next we
+> have two pair oh and in that kicker
+> have two pair oh and in that kicker
+> concept before I get into two pair that
+> concept before I get into two pair that
+> kicker concept applies to all poker
+> kicker concept applies to all poker
+> hands basically you could think of a
+> hands basically you could think of a
+> high card hand as a bunch of kickers you
+> high card hand as a bunch of kickers you
+> could think of a two pair hand with a
+> could think of a two pair hand with a
+> kicker is a kicker it applies a lot I'm
+> kicker is a kicker it applies a lot I'm
+> not going to talk about it when I
+> not going to talk about it when I
+> compare those other hands though but it
+> compare those other hands though but it
+> does matter so two pair that's where I
+> does matter so two pair that's where I
+> was two pair is just two pairs Aces and
+> was two pair is just two pairs Aces and
+> fours kings and queens now Aces and
+> fours kings and queens now Aces and
+> fours would actually beat kings and
+> fours would actually beat kings and
+> queens because in two pair hands you
+> queens because in two pair hands you
+> look at the highest of the pair before
+> look at the highest of the pair before
+> you compare any other pairs within that
+> you compare any other pairs within that
+> it's not like kings and queens combined
+> it's not like kings and queens combined
+> have a higher value once you see that
+> have a higher value once you see that
+> there's aces in the Aces and fours and
+> there's aces in the Aces and fours and
+> that the other one just has Kings you
+> that the other one just has Kings you
+> don't care what else it has because Aces
+> don't care what else it has because Aces
+> and fours will win next you've got three
+> and fours will win next you've got three
+> of a kind just the better three of a
+> of a kind just the better three of a
+> kind is going to beat the worst three of
+> kind is going to beat the worst three of
+> a kind three sixes beats three fives
+> a kind three sixes beats three fives
+> we went over that one quick huh oh well
+> we went over that one quick huh oh well
+> next a straight that's going to be five
+> next a straight that's going to be five
+> cards that are all
+> cards that are all
+> sequential what do you mean by that well
+> sequential what do you mean by that well
+> first of all five cards is the important
+> first of all five cards is the important
+> part of that some people don't get that
+> part of that some people don't get that
+> when they first start out something like
+> when they first start out something like
+> 87654 that would be a straight that
+> 87654 that would be a straight that
+> would be
+> would be
+> 7654 tray it's important to understand
+> 7654 tray it's important to understand
+> the highest straight
+> the highest straight
+> wins yes you can tie if you both have an
+> wins yes you can tie if you both have an
+> eight High High straight that's the
+> eight High High straight that's the
+> shorthand way to describe 87654 8 High
+> shorthand way to describe 87654 8 High
+> straight next we would go to a flush a
+> straight next we would go to a flush a
+> flush is five cards of the same suit say
+> flush is five cards of the same suit say
+> that they're all clubs now just like a
+> that they're all clubs now just like a
+> high card hand a flush if you're
+> high card hand a flush if you're
+> comparing it to another flush is just
+> comparing it to another flush is just
+> going to depend what the individual
+> going to depend what the individual
+> cards are that's how you determine which
+> cards are that's how you determine which
+> one
+> one
+> wins next we've got full houses that's a
+> wins next we've got full houses that's a
+> three OFA kind with a pair that's a
+> three OFA kind with a pair that's a
+> clever name isn't
+> clever name isn't
+> it not really but it's okay we've got
+> it not really but it's okay we've got
+> three of a kind and a pair and the three
+> three of a kind and a pair and the three
+> of a kind part is going to be the most
+> of a kind part is going to be the most
+> important part of that so three 9 and
+> important part of that so three 9 and
+> 27s is going to beat 38s and 2 Aces
+> 27s is going to beat 38s and 2 Aces
+> think about that next we've got four of
+> think about that next we've got four of
+> a kind simply put four sixes would be
+> a kind simply put four sixes would be
+> four fives four of a kind very simple
+> four fives four of a kind very simple
+> and the best of the best is this
+> and the best of the best is this
+> straight flush
+> straight flush
+> 54 tryce Ace could be a straight and if
+> 54 tryce Ace could be a straight and if
+> they're all Hearts then that would be a
+> they're all Hearts then that would be a
+> straight flush and notice that an ace
+> straight flush and notice that an ace
+> can be low and high for straights it's
+> can be low and high for straights it's
+> interesting the highest of the straight
+> interesting the highest of the straight
+> flushes is the Royal Flush that's the
+> flushes is the Royal Flush that's the
+> ace king queen Jack 10 and they have to
+> ace king queen Jack 10 and they have to
+> be all the same suit that's what makes
+> be all the same suit that's what makes
+> it the straight flush
+> it the straight flush
+
+### Robotics Notes — Lesson 17
+
+| Human Action | Robot Equivalent | Sensor/Actuator | Priority |
+|---|---|---|---|
+| *Analyze transcript above* | | | |
+
+---
+
