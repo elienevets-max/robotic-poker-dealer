@@ -660,6 +660,6 @@ const doc = new Document({
 });
 
 Packer.toBuffer(doc).then(buffer => {
-  fs.writeFileSync("/home/claude/Deployment_Bible.docx", buffer);
+  fs.writeFileSync("docs/Deployment_Bible.docx", buffer);
   console.log("Document created: " + buffer.length + " bytes");
 });
