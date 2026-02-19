@@ -274,3 +274,58 @@ Critical quotes from Mark Shumaker:
 - On handling skeptical players: "I totally understand that dealers make mistakes. I'm going to talk my game the entire time. You're gonna know what it is that I'm doing the whole time. I invite you to watch with me. I invite you to ask questions."
 - On tipping: "If you build a tip expectation into your head as a poker dealer you're going to tilt yourself... you create a negative freeroll for yourself."
 
+
+================================================================================
+CATEGORY: TOURNAMENT_PROCEDURES (Members-Only Content)
+================================================================================
+
+
+--- Texas Hold 'Em Tournaments - Lesson 35 of 38 ---
+Video ID: members-only
+Length: ~45000 chars
+Source: Members-only content, Lesson 35 of TruePokerDealer curriculum
+
+Key topics covered in this lesson:
+- How tournaments work: buy-in structure, prize pool distribution, blind escalation
+- Player entry procedure: ticket verification, starting stack distribution, table/seat verification
+- Tournament management software (Bravo, Poker Atlas): seat release strategy, progressive table filling
+- Dealing to empty seats and absent players (all stacks get dealt to)
+- TDA Rule 30: hand killed if player not at seat when last card dealt
+- Tournament clock and blind level timing: riffle determines which blind level applies
+- Traditional antes vs big blind ante format (modern standard since ~2017)
+- Short stack with big blind ante: ante posted first, big blind second
+- Seating cards: ordering, placement when player eliminated, verification on tap-in
+- Announcing eliminations: "seat open" vs "player down" etiquette
+- Re-entry vs rebuy vs add-on: procedural and financial differences
+- Button assignment: deal for button, same starting seat all tables
+- Dead button in tournaments (TDA standard): implications for seating new players
+- Color-up and race-off: buying up small chips, one card per odd chip, highest card wins, suit tiebreakers
+- Table breaks: high card for seating assignment, chip transport in racks, TDA Rule 63 (chips out of view)
+- Table balancing: within 2 for 3+ tables, within 1 for final 2 tables
+- Bounty tournaments: bounty chip = all-in declaration, split bounties, redemption procedures
+- Breaks: suiting decks, verifying seating cards, signing down cards, color-up timing
+- Down cards: the only way to ensure proper tournament tip pool distribution
+- Penalties (TDA Rule 71): escalation from warnings to missed hands to disqualification
+- Common penalty triggers: exposed cards, soft play, foreign language, action out of turn, behavior
+- Player responsibilities (TDA Rule 2): speak up if mistake seen, protect hand, follow action
+- Accepted action (TDA Rule 49): caller responsible for correct bet amount regardless of stated amount
+- Face-up for all-ins (TDA Rule 16): all hands must be tabled when all-in action complete
+- Chips out of play (TDA Rules 62-64): hidden chips, chips in transit, lost and found
+- Chop negotiations: one player says no = conversation over, dealer stays neutral
+- ICM chop procedure: counting down all stacks for supervisor calculation
+- Hand-for-hand play: synchronized dealing, TDA RP 8 (deduct 2 min per hand from clock)
+- Making change in tournaments (no dealer bank): asking players politely
+- Tips in tournaments: pool distribution vs individual (promotion tips only)
+- Electronic devices (TDA Rule 5): phones, apps, strategy charts not allowed with live hands
+- Final table: redraw for seats and button, RFID cards, broadcast pace
+- Sit-and-go format: no clock display, dealer uses timer, same dealer start to finish
+- Rotation and table breaks: managing dealer expectations when tournament table breaks
+
+Critical quotes from Mark Shumaker:
+- "Tournaments are so different that they might as well be called another game."
+- On seating cards: "One of the most common mistakes that I see by tournament dealers is when a player gets knocked out they get distracted and they forget to put the seating card out."
+- On down cards: "That little card in most poker rooms is the only way that you get paid."
+- On rotation frustration: "That one expectation of getting to a certain table can literally break you as a dealer."
+- On player responsibility: "If you see a mistake, speak up. It's literally in the rules."
+- On the big blind ante: "It used to take forever to collect antes from every single player. The big blind ante eliminates that."
+
