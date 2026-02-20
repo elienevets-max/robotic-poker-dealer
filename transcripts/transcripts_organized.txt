@@ -396,3 +396,56 @@ Critical quotes from Mark Shumaker:
 - On attendance: "Bad attendance is the number one thing that affects dealers from not getting things that they want."
 - On the big blind ante: "It used to take forever to collect antes from every single player. The big blind ante eliminates that."
 
+========================================
+MIXED_GAMES_ADVANCED_PROCEDURES
+========================================
+
+Mixed Games Lesson 10 of 10: Everything I Missed in the Previous Lessons (Members-Only, ~3 hours)
+Source: TruePokerDealer YouTube Channel (Mark Shumaker)
+Content: Comprehensive review of missed details from mixed game series, drawn from TDA recommended procedures, WSOP rules, and procedure manual notes
+
+Key topics covered:
+- Pot-limit pot count entitlement: TDA says players are entitled to pot count in pot-limit only (not NL or limit)
+- Pot-limit short all-in blind calculation: if player is all-in for less than blind amount, pot calculation still uses full blind value
+- Seven-card stud: picking up up-cards while facing action = dead hand (but enforcement is inconsistent)
+- Stud bring-in with short stacks: all-in for ante player can't bring in, action passes left to first player with chips
+- Stud matching high hands: TDA recommends suit tiebreaker (Spades > Hearts > Diamonds > Clubs, reverse alphabetical)
+- Stud Fourth Street pair showing: WSOP allows big bet option; TDA recommends removing it (Barry Greenstein feedback)
+- Stud exposed card on initial deal: WSOP = misdeal; TDA = continue, exposed card becomes up-card, player eligible for bring-in
+- Stud exposed card on Seventh Street: TDA = set aside, wash/shuffle stub, redeal; WSOP = player keeps or declares all-in
+- Stud dealing to absent players: WSOP deals phantom card to preserve order; TDA recommends skipping (random card theory)
+- Stud premature card on later streets: set aside cards, deal extras, allow skipped player to act, wash/shuffle stub on Seventh Street
+- Random card theory: TDA framework - cards should be random from correct pool, order preservation not important
+- Online poker precedent: Full Tilt drew random cards from pool (not 52-card deck), game was fair
+- TDA recommended procedures: implemented as suggestions, not rules; rooms adopt at own pace, observe results
+- "I put you all in" phrasing: always a floor call, player cannot force another player to bet
+- Chip pull-back: player with enough to call who pulls chip back must raise or it's a floor call
+- Minimum raise with incomplete all-ins: two competing schools (add min raise to call vs. add total faced raise)
+- Draw games (2-7, A-5, Badugi, 5-card draw): all-in tournament procedure preserves draw secrecy
+- Draw game all-in procedure: have players declare draw amounts, deal draws, THEN show hands; dealer protects muck
+- Odd chip in hi-lo split: WSOP says high card by suit even in Raz/low games; some rooms use low card by suit
+- Equal split shortcut in hi-lo: if same two players split both high and low, can just split whole pot (Neil Johnson/PokerStars)
+- Bounty chip thrown alone = all-in declaration; mixed in with bet = floor call
+- Asking to see a hand at showdown: always call supervisor, no TDA consensus on who can request
+- Blind level changes: TDA says on announcement, not on clock expiration
+- Chip stacking: experienced floor should be able to estimate count in seconds; if not, reorganize
+- Big blind ante short stack: most rooms say ante comes first (player only eligible for ante amounts); WSOP treats as both
+- Dodging blinds: intentional delay at table breaks or with tickets = penalty; dealer should report to supervisor
+- Two-motion raises: TDA no longer permits in tournaments
+- Final table chop protection: if player says no, conversation must stop; continued pressure = call floor
+- Women in poker: Katie Stone TDA presentation; 10-20% of casino players vs 50%+ of home game players
+- Behavioral barrier: abuse tolerated because of tipping dynamics; dealers should call floor for any confrontation
+- Historical abuse examples: cigarette burns, harassment tolerated in 1980s; culture improved but not eliminated
+- TDA vs. WSOP key differences: documented across stud exposed cards, Fourth Street pair, absent players, two-motion raises
+- Split pot rule supported by Neil Johnson: two players splitting both high and low evenly = just split the whole pot
+
+Critical quotes from Mark Shumaker:
+- On pot-limit: "In pot-limit games, players are entitled to a pot count. That is not the case in no-limit or limit."
+- On random card theory: "The cards that are eligible to come should all have an opportunity to come. That creates a fair game."
+- On TDA recommended procedures: "It's much better for them to start coming up with things that they think make sense but not forcing anybody to do it."
+- On "I put you all in": "Your job is easy. Floor. That's all you have to do."
+- On minimum raises: "It's all over the place. Just call a floor anytime you're confused about what the minimum raise is."
+- On women in poker: "The biggest customers out there that are not being tapped right now are women in poker."
+- On calling the floor: "On your first day as a poker dealer you may have 10 things come up that you're just like I have never been taught that."
+- On stud up-cards: "In stud poker, if a player picks up the up cards while facing action, the hand is dead."
+
