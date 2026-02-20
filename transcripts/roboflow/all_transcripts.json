@@ -1,0 +1,406 @@
+{
+  "metadata": {
+    "channel": "Roboflow",
+    "channel_id": "UCkPjOoFMapbqhJ07bT56bAA",
+    "channel_url": "https://www.youtube.com/@Roboflow/videos",
+    "downloaded_at": "2026-02-20T11:00:53.729054",
+    "total_videos": 49,
+    "successful": 0,
+    "errors": 49,
+    "skipped": 0
+  },
+  "videos": {
+    "QCG8QMhga9k": {
+      "video_id": "QCG8QMhga9k",
+      "title": "Auto-Annotate Dataset with GroundedSAM 2",
+      "text": "",
+      "error": "ProxyError: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=QCG8QMhga9k (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Fo",
+      "chars": 0,
+      "segment_count": 0
+    },
+    "uWP6UjDeZvY": {
+      "video_id": "uWP6UjDeZvY",
+      "title": "Basketball AI: Detect NBA 3 Second Violation",
+      "text": "",
+      "error": "ProxyError: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=uWP6UjDeZvY (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Fo",
+      "chars": 0,
+      "segment_count": 0
+    },
+    "l_kf9CfZ_8M": {
+      "video_id": "l_kf9CfZ_8M",
+      "title": "Basketball AI: How to Detect Track and Identify Basketball Players",
+      "text": "",
+      "error": "ProxyError: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=l_kf9CfZ_8M (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Fo",
+      "chars": 0,
+      "segment_count": 0
+    },
+    "oEQYStnF2l8": {
+      "video_id": "oEQYStnF2l8",
+      "title": "Detect and Count Objects in Polygon Zone with YOLOv5/YOLOv8/Detectron2 + Supervision",
+      "text": "",
+      "error": "ProxyError: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=oEQYStnF2l8 (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Fo",
+      "chars": 0,
+      "segment_count": 0
+    },
+    "YxJkE6FvGF4": {
+      "video_id": "YxJkE6FvGF4",
+      "title": "Estimate Vehicle Speed with YOLOv8",
+      "text": "",
+      "error": "ProxyError: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=YxJkE6FvGF4 (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Fo",
+      "chars": 0,
+      "segment_count": 0
+    },
+    "pFiGSrRtaU4": {
+      "video_id": "pFiGSrRtaU4",
+      "title": "Fine-Tune DETR Transformer on Object Detection Dataset",
+      "text": "",
+      "error": "ProxyError: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=pFiGSrRtaU4 (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Fo",
+      "chars": 0,
+      "segment_count": 0
+    },
+    "sZ5DiXDOHEM": {
+      "video_id": "sZ5DiXDOHEM",
+      "title": "Fine-Tune Faster RCNN on Instance Segmentation Dataset",
+      "text": "",
+      "error": "ProxyError: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=sZ5DiXDOHEM (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Fo",
+      "chars": 0,
+      "segment_count": 0
+    },
+    "XHT2c8jT3Bc": {
+      "video_id": "XHT2c8jT3Bc",
+      "title": "Fine-Tune Florence-2 on Object Detection Dataset",
+      "text": "",
+      "error": "ProxyError: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=XHT2c8jT3Bc (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Fo",
+      "chars": 0,
+      "segment_count": 0
+    },
+    "6Q6TieCBA4E": {
+      "video_id": "6Q6TieCBA4E",
+      "title": "Fine-Tune GPT-4o on Object Detection Dataset",
+      "text": "",
+      "error": "ProxyError: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=6Q6TieCBA4E (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Fo",
+      "chars": 0,
+      "segment_count": 0
+    },
+    "4HNkBMfw-2o": {
+      "video_id": "4HNkBMfw-2o",
+      "title": "Fine-Tune MT-YOLOv6 on Object Detection Dataset",
+      "text": "",
+      "error": "ProxyError: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=4HNkBMfw-2o (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Fo",
+      "chars": 0,
+      "segment_count": 0
+    },
+    "yHNPyqazYYU": {
+      "video_id": "yHNPyqazYYU",
+      "title": "Fine-Tune PaliGemma on Object Detection Dataset",
+      "text": "",
+      "error": "ProxyError: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=yHNPyqazYYU (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Fo",
+      "chars": 0,
+      "segment_count": 0
+    },
+    "jE_s4tVgPHA": {
+      "video_id": "jE_s4tVgPHA",
+      "title": "Fine-Tune PaliGemma2 on Object Detection Dataset",
+      "text": "",
+      "error": "ProxyError: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=jE_s4tVgPHA (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Fo",
+      "chars": 0,
+      "segment_count": 0
+    },
+    "xEfh0IR8Fvo": {
+      "video_id": "xEfh0IR8Fvo",
+      "title": "Fine-Tune RF-DETR Segmentation on Custom Dataset",
+      "text": "",
+      "error": "ProxyError: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=xEfh0IR8Fvo (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Fo",
+      "chars": 0,
+      "segment_count": 0
+    },
+    "X7gKBGVz4vs": {
+      "video_id": "X7gKBGVz4vs",
+      "title": "Fine-Tune RT-DETR on Object Detection Dataset",
+      "text": "",
+      "error": "ProxyError: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=X7gKBGVz4vs (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Fo",
+      "chars": 0,
+      "segment_count": 0
+    },
+    "AM8D4j9KoaU": {
+      "video_id": "AM8D4j9KoaU",
+      "title": "Fine-Tune RTMDet on Object Detection Dataset",
+      "text": "",
+      "error": "ProxyError: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=AM8D4j9KoaU (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Fo",
+      "chars": 0,
+      "segment_count": 0
+    },
+    "Dv003fTyO-Y": {
+      "video_id": "Dv003fTyO-Y",
+      "title": "Fine-Tune SAM-2.1 / PaliGemma2 for LaTeX OCR",
+      "text": "",
+      "error": "ProxyError: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=Dv003fTyO-Y (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Fo",
+      "chars": 0,
+      "segment_count": 0
+    },
+    "8o701AEoZ8I": {
+      "video_id": "8o701AEoZ8I",
+      "title": "Fine-Tune Scaled-YOLOv4 on Object Detection Dataset",
+      "text": "",
+      "error": "ProxyError: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=8o701AEoZ8I (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Fo",
+      "chars": 0,
+      "segment_count": 0
+    },
+    "q3RbFbaQQGw": {
+      "video_id": "q3RbFbaQQGw",
+      "title": "Fine-Tune SegFormer on Instance Segmentation Dataset",
+      "text": "",
+      "error": "ProxyError: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=q3RbFbaQQGw (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Fo",
+      "chars": 0,
+      "segment_count": 0
+    },
+    "93kXzUOiYY4": {
+      "video_id": "93kXzUOiYY4",
+      "title": "Fine-Tune ViT on Classification Dataset",
+      "text": "",
+      "error": "ProxyError: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=93kXzUOiYY4 (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Fo",
+      "chars": 0,
+      "segment_count": 0
+    },
+    "wuZtUMEiKWY": {
+      "video_id": "wuZtUMEiKWY",
+      "title": "Fine-Tune YOLO-NAS on Object Detection Dataset",
+      "text": "",
+      "error": "ProxyError: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=wuZtUMEiKWY (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Fo",
+      "chars": 0,
+      "segment_count": 0
+    },
+    "hj_ybcRdk5Y": {
+      "video_id": "hj_ybcRdk5Y",
+      "title": "Fine-Tune YOLO11 on Instance Segmentation Dataset",
+      "text": "",
+      "error": "ProxyError: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=hj_ybcRdk5Y (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Fo",
+      "chars": 0,
+      "segment_count": 0
+    },
+    "i3KjYgxNH6w": {
+      "video_id": "i3KjYgxNH6w",
+      "title": "Fine-Tune YOLO11 on Object Detection Dataset",
+      "text": "",
+      "error": "ProxyError: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=i3KjYgxNH6w (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Fo",
+      "chars": 0,
+      "segment_count": 0
+    },
+    "NTnZgLsk_DA": {
+      "video_id": "NTnZgLsk_DA",
+      "title": "Fine-Tune YOLOS on Object Detection Dataset",
+      "text": "",
+      "error": "ProxyError: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=NTnZgLsk_DA (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Fo",
+      "chars": 0,
+      "segment_count": 0
+    },
+    "V-H3eoPUnA8": {
+      "video_id": "V-H3eoPUnA8",
+      "title": "Fine-Tune YOLOv10 on Object Detection Dataset",
+      "text": "",
+      "error": "ProxyError: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=V-H3eoPUnA8 (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Fo",
+      "chars": 0,
+      "segment_count": 0
+    },
+    "rEbpKxZbvIo": {
+      "video_id": "rEbpKxZbvIo",
+      "title": "Fine-Tune YOLOv5 on Classification Dataset",
+      "text": "",
+      "error": "ProxyError: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=rEbpKxZbvIo (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Fo",
+      "chars": 0,
+      "segment_count": 0
+    },
+    "N0V0xxSi6Xc": {
+      "video_id": "N0V0xxSi6Xc",
+      "title": "Fine-Tune YOLOv5 on Instance Segmentation Dataset",
+      "text": "",
+      "error": "ProxyError: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=N0V0xxSi6Xc (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Fo",
+      "chars": 0,
+      "segment_count": 0
+    },
+    "8yRE2Pa-8_I": {
+      "video_id": "8yRE2Pa-8_I",
+      "title": "Fine-Tune YOLOv5 on Object Detection Dataset",
+      "text": "",
+      "error": "ProxyError: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=8yRE2Pa-8_I (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Fo",
+      "chars": 0,
+      "segment_count": 0
+    },
+    "e8LPflX0nwQ": {
+      "video_id": "e8LPflX0nwQ",
+      "title": "Fine-Tune YOLOv7 on Instance Segmentation Dataset",
+      "text": "",
+      "error": "ProxyError: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=e8LPflX0nwQ (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Fo",
+      "chars": 0,
+      "segment_count": 0
+    },
+    "vKzfvtEtiYo": {
+      "video_id": "vKzfvtEtiYo",
+      "title": "Fine-Tune YOLOv7 on Object Detection Dataset",
+      "text": "",
+      "error": "ProxyError: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=vKzfvtEtiYo (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Fo",
+      "chars": 0,
+      "segment_count": 0
+    },
+    "DPjp9Kq4qn8": {
+      "video_id": "DPjp9Kq4qn8",
+      "title": "Fine-Tune YOLOv8 on Classification Dataset",
+      "text": "",
+      "error": "ProxyError: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=DPjp9Kq4qn8 (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Fo",
+      "chars": 0,
+      "segment_count": 0
+    },
+    "5nsmXLyDaU4": {
+      "video_id": "5nsmXLyDaU4",
+      "title": "Fine-Tune YOLOv8 on Object Detection Dataset",
+      "text": "",
+      "error": "ProxyError: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=5nsmXLyDaU4 (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Fo",
+      "chars": 0,
+      "segment_count": 0
+    },
+    "fFCWrMFH2UY": {
+      "video_id": "fFCWrMFH2UY",
+      "title": "Fine-Tune YOLOv8 on Oriented Bounding Boxes (OBB) Dataset",
+      "text": "",
+      "error": "ProxyError: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=fFCWrMFH2UY (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Fo",
+      "chars": 0,
+      "segment_count": 0
+    },
+    "vFGxM2KLs10": {
+      "video_id": "vFGxM2KLs10",
+      "title": "Fine-Tune YOLOv8 on Pose Estimation Dataset",
+      "text": "",
+      "error": "ProxyError: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=vFGxM2KLs10 (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Fo",
+      "chars": 0,
+      "segment_count": 0
+    },
+    "cMa77r3YrDk": {
+      "video_id": "cMa77r3YrDk",
+      "title": "Fine-Tune YOLOv9 on Object Detection Dataset",
+      "text": "",
+      "error": "ProxyError: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=cMa77r3YrDk (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Fo",
+      "chars": 0,
+      "segment_count": 0
+    },
+    "OS5qI9YBkfk": {
+      "video_id": "OS5qI9YBkfk",
+      "title": "Football AI",
+      "text": "",
+      "error": "ProxyError: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=OS5qI9YBkfk (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Fo",
+      "chars": 0,
+      "segment_count": 0
+    },
+    "yGQb9KkvQ1Q": {
+      "video_id": "yGQb9KkvQ1Q",
+      "title": "How to Track Objects with RF-DETR and SORT Tracker",
+      "text": "",
+      "error": "ProxyError: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=yGQb9KkvQ1Q (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Fo",
+      "chars": 0,
+      "segment_count": 0
+    },
+    "-OvpdLAElFA": {
+      "video_id": "-OvpdLAElFA",
+      "title": "RF-DETR Architecture and How it Works",
+      "text": "",
+      "error": "ProxyError: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=-OvpdLAElFA (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Fo",
+      "chars": 0,
+      "segment_count": 0
+    },
+    "aBVGKoNZQUw": {
+      "video_id": "aBVGKoNZQUw",
+      "title": "Roboflow Notebook Tutorial",
+      "text": "",
+      "error": "ProxyError: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=aBVGKoNZQUw (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Fo",
+      "chars": 0,
+      "segment_count": 0
+    },
+    "jIgZMr-PBMo": {
+      "video_id": "jIgZMr-PBMo",
+      "title": "Roboflow Video Inference with Custom Annotators",
+      "text": "",
+      "error": "ProxyError: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=jIgZMr-PBMo (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Fo",
+      "chars": 0,
+      "segment_count": 0
+    },
+    "5kgWyo6Sg4E": {
+      "video_id": "5kgWyo6Sg4E",
+      "title": "Run Different Vision Tasks with Florence-2",
+      "text": "",
+      "error": "ProxyError: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=5kgWyo6Sg4E (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Fo",
+      "chars": 0,
+      "segment_count": 0
+    },
+    "gKTYMfwPo4M": {
+      "video_id": "gKTYMfwPo4M",
+      "title": "Run YOLOv7 Object Detection with OpenVINO + TorchORT",
+      "text": "",
+      "error": "ProxyError: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=gKTYMfwPo4M (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Fo",
+      "chars": 0,
+      "segment_count": 0
+    },
+    "yHW0ip-2i54": {
+      "video_id": "yHW0ip-2i54",
+      "title": "SAM3 Live Session",
+      "text": "",
+      "error": "ProxyError: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=yHW0ip-2i54 (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Fo",
+      "chars": 0,
+      "segment_count": 0
+    },
+    "OMBmVInx68M": {
+      "video_id": "OMBmVInx68M",
+      "title": "Segment Images with SAM2",
+      "text": "",
+      "error": "ProxyError: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=OMBmVInx68M (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Fo",
+      "chars": 0,
+      "segment_count": 0
+    },
+    "G1AEuFwQrWU": {
+      "video_id": "G1AEuFwQrWU",
+      "title": "Segment Images with SAM3",
+      "text": "",
+      "error": "ProxyError: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=G1AEuFwQrWU (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Fo",
+      "chars": 0,
+      "segment_count": 0
+    },
+    "hAWpsIuem10": {
+      "video_id": "hAWpsIuem10",
+      "title": "Supervision Library Tutorial",
+      "text": "",
+      "error": "ProxyError: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=hAWpsIuem10 (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Fo",
+      "chars": 0,
+      "segment_count": 0
+    },
+    "C4NqaRBz_Kw": {
+      "video_id": "C4NqaRBz_Kw",
+      "title": "Track and Count Vehicles with YOLOv8 + ByteTRACK + Supervision",
+      "text": "",
+      "error": "ProxyError: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=C4NqaRBz_Kw (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Fo",
+      "chars": 0,
+      "segment_count": 0
+    },
+    "eHAnIehnCt4": {
+      "video_id": "eHAnIehnCt4",
+      "title": "Zero-Shot Object Detection and Segmentation with YOLOE",
+      "text": "",
+      "error": "ProxyError: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=eHAnIehnCt4 (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Fo",
+      "chars": 0,
+      "segment_count": 0
+    },
+    "QnCGcFHZy9s": {
+      "video_id": "QnCGcFHZy9s",
+      "title": "Zero-Shot Object Detection with Qwen2.5-VL",
+      "text": "",
+      "error": "ProxyError: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=QnCGcFHZy9s (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Fo",
+      "chars": 0,
+      "segment_count": 0
+    },
+    "D-D6ZmadzPE": {
+      "video_id": "D-D6ZmadzPE",
+      "title": "Zero-Shot Object Detection with YOLO-World",
+      "text": "",
+      "error": "ProxyError: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=D-D6ZmadzPE (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Fo",
+      "chars": 0,
+      "segment_count": 0
+    }
+  }
+}
