@@ -18,6 +18,7 @@ A searchable catalog of skills and knowledge modules relevant to the Robotic Pok
 | 8 | Antifragile | Systems That Gain From Disorder | [`skills/antifragile.md`](skills/antifragile.md) | How do I build systems that improve from volatility and stress? |
 | 9 | Radical Candor | Leadership & Feedback | [`skills/radical-candor.md`](skills/radical-candor.md) | How do I give honest feedback without damaging the relationship? |
 | 10 | Difficult Conversations | Conflict Resolution & Hard Talks | [`skills/difficult-conversations.md`](skills/difficult-conversations.md) | How do I navigate a high-stakes conversation without it going sideways? |
+| 11 | Robotics, Vision and Control | Robotics Evaluation & Technical Literacy | [`skills/robotics-vision-control.md`](skills/robotics-vision-control.md) | What can this robot actually do vs. what the vendor claims? |
 
 ---
 
@@ -129,6 +130,17 @@ The human interface layer — how to communicate honestly, give and receive feed
 - **Key Concepts:** Three simultaneous conversation layers, Third Story (neutral observer opening), contribution mapping (systemic, forward-looking) vs. blame (individual, backward-looking), intent vs. impact gap, learning conversation (curiosity over certainty), AND stance (holding contradictory truths), acknowledging feelings before problem-solving, identity management in conflict, meta-communication (naming the dynamic), the cost of avoidance
 - **Tags:** `difficult-conversations` `conflict-resolution` `three-conversations` `feelings` `identity` `contribution` `third-story` `learning-conversation` `blame` `intent-vs-impact` `de-escalation` `poker` `investing` `partnerships` `negotiation`
 
+### Robotics Evaluation & Technical Literacy
+
+The reality filter for robotic system evaluation — understanding what robots can and can't do, translating vendor claims into bounded capabilities, and identifying where automation breaks and humans re-enter the loop. Directly applicable to the robotic poker dealing project.
+
+#### 11. Robotics, Vision and Control
+- **File:** [`skills/robotics-vision-control.md`](skills/robotics-vision-control.md)
+- **Source:** Peter Corke — *Robotics, Vision and Control: Fundamental Algorithms in MATLAB* (adapted for domain consultants)
+- **Core Frameworks:** Sense-Plan-Act Pipeline, State Estimation Over Reality, Perception-as-Inference, Control-as-Feedback, Models-as-Approximations, Reality-Check Process (5-step), Vendor Evaluation Question Battery, Deployment Risk Scan (4-question), Human-in-the-Loop Architecture, Capability Bounding, Failure-Mode Disclosure, Autonomy Envelope
+- **Key Concepts:** Compounding error through pipeline stages, vision as bottleneck, speed-precision tradeoff (physics-level), open vs closed-loop control, compliance and force control, error accumulation over time, thin flexible object manipulation (cards), tactile feedback gap, demo vs deployment gap, last 5% costs 95%, autonomy vs automation distinction, sim-to-real gap, minimum viable robotic dealer requirements
+- **Tags:** `robotics` `computer-vision` `control-systems` `automation` `state-estimation` `feedback-loops` `manipulation` `sensors` `vendor-evaluation` `deployment-risk` `failure-modes` `human-in-the-loop` `poker` `casino-automation` `sense-plan-act` `sim-to-real` `calibration` `perception` `end-effectors` `compliance`
+
 ---
 
 ## By Situation
@@ -206,6 +218,16 @@ The human interface layer — how to communicate honestly, give and receive feed
 | "Am I avoiding necessary stress out of comfort-seeking?" | `antifragile.md` | `scout-mindset.md` |
 | "Is this approach time-tested or just trendy?" | `antifragile.md` | `superforecasting.md` |
 | "How do I design my poker career to get stronger from variance?" | `antifragile.md` | `black-swan.md` |
+| "Is this robotics vendor overselling their system's capability?" | `robotics-vision-control.md` | `antifragile.md` |
+| "What questions should I ask the engineering team about this robot?" | `robotics-vision-control.md` | `munger-mental-models.md` |
+| "Where will this robotic system fail in live casino operation?" | `robotics-vision-control.md` | `black-swan.md` |
+| "What's the realistic capability envelope for a robotic poker dealer?" | `robotics-vision-control.md` | `superforecasting.md` |
+| "How do I evaluate a robotics demo without being fooled?" | `robotics-vision-control.md` | `thinking-clearly.md` |
+| "What's the human-in-the-loop architecture for this deployment?" | `robotics-vision-control.md` | `antifragile.md` |
+| "Can this robot handle 8 hours of continuous dealing?" | `robotics-vision-control.md` | `superforecasting.md` |
+| "What are the failure modes I should worry about?" | `robotics-vision-control.md` | `black-swan.md` |
+| "Is this 'AI-powered' robot claim real or marketing?" | `robotics-vision-control.md` | `rationality.md` |
+| "How do I talk to engineers about robotics without losing credibility?" | `robotics-vision-control.md` | `scout-mindset.md` |
 | "How do I give difficult feedback without damaging the relationship?" | `radical-candor.md` | `scout-mindset.md` |
 | "Why isn't my team giving me honest information?" | `radical-candor.md` | `scout-mindset.md` |
 | "I'm avoiding a hard conversation I know I need to have" | `radical-candor.md` | `antifragile.md` |
@@ -338,12 +360,26 @@ The human interface layer — how to communicate honestly, give and receive feed
 | Real-Time Navigation (10-step) | Difficult Conversations | Third Story → explore their story → listen actively → acknowledge feelings → share your story → share contribution → find overlap → problem-solve → next steps → follow-up |
 | Conversation Reset Protocol | Difficult Conversations | Name the dynamic → acknowledge difficulty → reset to Third Story → check for unaddressed feelings → check identity threat → re-enter learning stance |
 | Avoidance Breaking Protocol | Difficult Conversations | Name avoidance → calculate cost → identify fear layer → prepare → schedule within 48 hours → remember anticipated > actual |
+| Sense-Plan-Act Pipeline | Robotics, Vision & Control | Sensors → Perception → Planning → Actuation → Feedback — errors compound at each stage |
+| State Estimation Over Reality | Robotics, Vision & Control | Robots never know the world — they maintain estimated state from noisy sensors and imperfect models |
+| Perception-as-Inference | Robotics, Vision & Control | Computer vision is statistical inference, not sight — bounded by lighting, occlusion, and processing speed |
+| Control-as-Feedback | Robotics, Vision & Control | Robots continuously correct errors via feedback loops — stability depends on sensor quality and latency |
+| Models-as-Approximations | Robotics, Vision & Control | All robot models simplify physics — sim-to-real gap must be acknowledged and bridged |
+| Reality-Check Process (5-step) | Robotics, Vision & Control | Sensing assumptions → estimation method → control dependencies → environmental constraints → failure modes |
+| Vendor Evaluation Question Battery | Robotics, Vision & Control | Structured questions across sensing, planning, control, integration, and failure modes |
+| Deployment Risk Scan (4-question) | Robotics, Vision & Control | Lighting changes → geometry changes → timing/latency → sensor failure — stress test before deployment |
+| Human-in-the-Loop Architecture | Robotics, Vision & Control | Map robot-handles vs. human-handles for every task category — the realistic near-term path |
+| Capability Bounding | Robotics, Vision & Control | Force every claim into conditions + limits: "Under X, with Y error, at Z speed" |
+| Failure-Mode Disclosure | Robotics, Vision & Control | Proactively state where the robot fails — builds trust by acknowledging limitations |
+| Autonomy Envelope | Robotics, Vision & Control | Conditions under which the system operates without human intervention — everything outside requires fallback |
+| Minimum Viable Robotic Dealer | Robotics, Vision & Control | Threshold requirements: hands/hr, double-deal rate, damage rate, detection rate, recovery time, shift duration |
+| Rationality Stack (11-layer) | Robotics, Vision & Control | Layers 0-9 + Layer 10: Robotics Reality Filter — ground all claims in physics, translate marketing to math |
 
 ---
 
 ## All Tags
 
-`1-on-1` `action-bias` `antifragility` `asymmetry` `barbell-strategy` `base-rates` `Bayesian-reasoning` `Bayesian-updating` `behavioral-economics` `bias-detection` `black-swan` `blame` `Brier-score` `business-strategy` `calibration` `career-development` `checklists` `circle-of-competence` `clear-thinking` `coaching` `cognitive-bias` `communication` `competitive-advantage` `confirmation-bias` `conflict-resolution` `contribution` `convexity` `de-escalation` `debiasing` `decision-making` `difficult-conversations` `epistemology` `extremistan` `falsifiability` `fat-tails` `feelings` `feedback` `Fermi-estimation` `field-guide` `forecasting` `fox-vs-hedgehog` `fragility` `heuristics` `hormesis` `identity` `incentives` `intellectual-honesty` `intent-vs-impact` `investing` `inversion` `leadership` `learning-conversation` `lindy-effect` `lollapalooza` `loss-aversion` `management` `margin-of-safety` `mediocristan` `mental-models` `misjudgment` `moats` `motivated-reasoning` `multidisciplinary-thinking` `naive-interventionism` `negotiation` `optionality` `overconfidence` `partnerships` `performance` `poker` `position-sizing` `prediction` `probability` `psychology` `radical-candor` `rationality` `reasoning-errors` `redundancy` `risk` `risk-management` `robustness` `ruin-avoidance` `scout-mindset` `skin-in-the-game` `sunk-cost` `survivorship-bias` `System-1` `System-2` `tail-risk` `team-culture` `third-story` `three-conversations` `updating` `via-negativa`
+`1-on-1` `action-bias` `antifragility` `asymmetry` `automation` `barbell-strategy` `base-rates` `Bayesian-reasoning` `Bayesian-updating` `behavioral-economics` `bias-detection` `black-swan` `blame` `Brier-score` `business-strategy` `calibration` `career-development` `casino-automation` `checklists` `circle-of-competence` `clear-thinking` `coaching` `cognitive-bias` `communication` `competitive-advantage` `compliance` `computer-vision` `confirmation-bias` `conflict-resolution` `contribution` `control-systems` `convexity` `de-escalation` `debiasing` `decision-making` `deployment-risk` `difficult-conversations` `end-effectors` `epistemology` `extremistan` `failure-modes` `falsifiability` `fat-tails` `feedback-loops` `feelings` `feedback` `Fermi-estimation` `field-guide` `forecasting` `fox-vs-hedgehog` `fragility` `heuristics` `hormesis` `human-in-the-loop` `identity` `incentives` `intellectual-honesty` `intent-vs-impact` `investing` `inversion` `leadership` `learning-conversation` `lindy-effect` `lollapalooza` `loss-aversion` `management` `manipulation` `margin-of-safety` `mediocristan` `mental-models` `misjudgment` `moats` `motivated-reasoning` `multidisciplinary-thinking` `naive-interventionism` `negotiation` `optionality` `overconfidence` `partnerships` `perception` `performance` `poker` `position-sizing` `prediction` `probability` `psychology` `radical-candor` `rationality` `reasoning-errors` `redundancy` `risk` `risk-management` `robotics` `robustness` `ruin-avoidance` `scout-mindset` `sense-plan-act` `sensors` `sim-to-real` `skin-in-the-game` `state-estimation` `sunk-cost` `survivorship-bias` `System-1` `System-2` `tail-risk` `team-culture` `third-story` `three-conversations` `updating` `vendor-evaluation` `via-negativa`
 
 ---
 
@@ -360,9 +396,10 @@ skills/
 ├── black-swan.md               # Extreme events, fragility & robustness under uncertainty (Taleb)
 ├── antifragile.md              # Systems that gain from disorder, via negativa & convex positioning (Taleb)
 ├── radical-candor.md           # Honest feedback, caring leadership & communication (Scott)
-└── difficult-conversations.md  # Navigating high-stakes talks across all three layers (Stone, Patton & Heen)
+├── difficult-conversations.md  # Navigating high-stakes talks across all three layers (Stone, Patton & Heen)
+└── robotics-vision-control.md  # Robotics evaluation, vision limits & vendor reality filter (Corke)
 ```
 
 ---
 
-*Last updated: 2026-02-20 | Total skills: 10 | Total frameworks: 105 | Total tags: 92*
+*Last updated: 2026-02-20 | Total skills: 11 | Total frameworks: 120 | Total tags: 106*
