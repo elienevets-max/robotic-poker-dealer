@@ -1,6 +1,6 @@
 # Vision Skill Map — Robotic Poker Dealer
 
-Derived from 17 Roboflow video transcripts. Every skill listed below was demonstrated in at least one transcript and has been translated to the poker dealing domain.
+Derived from 20 Roboflow video transcripts. Every skill listed below was demonstrated in at least one transcript and has been translated to the poker dealing domain.
 
 ---
 
@@ -199,3 +199,51 @@ Derived from 17 Roboflow video transcripts. Every skill listed below was demonst
 | Heartbeat + remote diagnostics | T12 | Detect and respond to table-level failures before players notice |
 | State persistence across restarts (Redis) | T9 | Resume mid-hand after system restart without losing game state |
 | Human-in-the-loop escalation | Skills/robotics-vision-control.md | Sub-threshold confidence → alert human dealer for verification |
+
+---
+
+## 7. PIPELINE ARCHITECTURE — Patterns from Production Systems
+
+### 7.1 Multi-Model Pipeline Design
+**What it solves**: Coordinating many specialized models into a coherent, reliable system.
+**Why it matters for poker**: A poker vision system requires 10+ models. Without principled pipeline design, errors compound and debugging becomes impossible.
+**Failure scenario**: 15-model pipeline fails silently. One model routes frames incorrectly and every downstream model produces wrong outputs. No error log. No alarm.
+
+| Skill | Source Transcript | Poker Application |
+|---|---|---|
+| Classification-first routing (frame type → pipeline branch) | T20 (Blueprint Pro AI) | Classify frame as deal/betting/showdown before running any detection model |
+| Task decomposition into specialized models (Blueprint Pro: 29 models) | T20 | Separate models for card detection, chip detection, player presence, card rank, chip denomination |
+| Keypoint model repurposed for non-human geometric graphs | T20 | Encode card positional relationships (burn→community, flop cluster) as keypoint skeleton |
+| Augmentation strategy by architecture type (OD vs segmentation) | T20 | 90° rotations for YOLO detectors; 5° rotations for instance segmentation masks |
+| DPI/resolution matching between training and inference | T20 | Fix camera resolution at session start; assert it matches training resolution at pipeline init |
+| Model version naming (API endpoint = dataset version number) | T20 | Every model in the pipeline carries its dataset version; mismatches are immediately visible |
+| Domain expert as task decomposition partner, not just labeler | T20 | Poker expert defines what game states and edge cases matter; CV engineer implements them |
+| Custom tiling inference when SAHI doesn't generalize | T20 | Build tile overlap strategy tuned to poker table geometry; don't assume SAHI defaults work |
+| VLM as localized text extractor on detected region crops | T20 | After detecting pot zone, query VLM on the crop to extract chip denomination text |
+
+### 7.2 Spatial Reasoning Patterns
+**What it solves**: Determining relationships between objects (is this chip in the pot? is this seat occupied?) without requiring a dedicated classification model for every spatial query.
+**Why it matters for poker**: Spatial relationships (chip in zone, card in seat, player at table) are the game state. Getting them right is the whole job.
+**Failure scenario**: Proximity detection fails. Chip resting on zone boundary is not counted. Pot total is wrong by one chip's denomination. Player disputes.
+
+| Skill | Source Transcript | Poker Application |
+|---|---|---|
+| Set-difference occupancy (all zones − occupied zones = empty zones) | T19 (Smart Parking) | all_seats − player_detected_seats = empty_seats; empty is never a trained class |
+| Bounding box padding as proximity heuristic | T19 | Expand chip bbox horizontally to test overlap with zone boundary; tune padding as config constant |
+| Non-class-aware detection consensus for set-difference deduplication | T19 | When merging renamed detection sets across a set-difference operation, disable class-awareness to prevent duplicate boxes |
+| Static infrastructure from calibration, not real-time detection | T19 | Table zones, seat positions, pot area defined once at calibration; never re-detected per frame |
+| OCR preprocessing pipeline order (contrast → rotation → crop → read) | T19 | For card rank/suit OCR: contrast stretch first, then deskew, then pass to classifier |
+| Schema-first output design (typed, versioned JSON contract) | T19 | Define game-state output schema before writing pipeline; breaking the schema is a breaking change |
+
+### 7.3 Production Reliability Patterns
+**What it solves**: Building systems that degrade gracefully and learn from real-world failures.
+**Why it matters for poker**: Casino deployment is not a demo. 8-12 hours continuous, real money, regulatory scrutiny.
+**Failure scenario**: System detects correctly but downstream logic calculates wrong pot. No external validator catches it because nobody built one.
+
+| Skill | Source Transcript | Poker Application |
+|---|---|---|
+| Expected-count validation (game-logic oracle compares vision output against known constraints) | T18 (PlayVision) | active_players + community_cards + burn_cards + stub_count must always sum to 52; violations halt dealing |
+| Value transformation chain (boxes → geometry → events → statistics → decisions) | T18 | Never deliver bounding boxes as output; deliver structured game state |
+| Controlled failure harvesting (version 1 = data collection event) | T18 | Instrument production deployment to capture every correction; that corpus becomes the retraining dataset |
+| Threshold-based active learning routing | T20 | When human corrections exceed N per processed blueprint/hand, pre-annotate and route to reviewer queue |
+| Detection stabilizer for video jitter before state machine events | T19 | Run temporal stabilization on all zone-membership decisions before triggering any game-state change |

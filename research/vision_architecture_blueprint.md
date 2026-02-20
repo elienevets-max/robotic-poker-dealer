@@ -2,6 +2,8 @@
 
 A modular perception pipeline for a casino poker table. Each layer is an independent subsystem with defined inputs, outputs, and failure modes. No layer trusts the layer above it — every handoff includes confidence scores and fallback paths.
 
+*Updated to reflect learnings from 20 transcripts, including T18 (PlayVision), T19 (Smart Parking), T20 (Blueprint Pro AI).*
+
 ---
 
 ## System Overview
@@ -13,6 +15,15 @@ A modular perception pipeline for a casino poker table. Each layer is an indepen
 └──────────────┬──────────────────────────────────┬───────────────────┘
                │                                  │
                ▼                                  ▼
+┌──────────────────────────────────────────────────────────────────┐
+│              FRAME CLASSIFIER / PIPELINE ROUTER (L0b)            │
+│  Classifies each frame: deal · betting · showdown · idle         │
+│  Routes to appropriate detection sub-pipeline                    │
+│  Low-confidence routing → run full pipeline as fallback          │
+└──────────────────────────┬───────────────────────────────────────┘
+                           │
+               ┌───────────┴───────────┐
+               ▼                       ▼
 ┌──────────────────────────┐    ┌──────────────────────────────────┐
 │  DETECTION ENGINE (L1)   │    │  SPATIAL CALIBRATION (L1b)       │
 │  RF-DETR-S @ 640         │    │  Keypoint model → Homography     │
@@ -34,6 +45,17 @@ A modular perception pipeline for a casino poker table. Each layer is an indepen
 │  Card Reader: SmallVLM2 fine-tuned (constrained to 52 outputs)   │
 │  Chip Reader: SigLIP embeddings → KMeans per casino chip set     │
 │  Multi-frame consensus: 3 agreeing frames before identity lock   │
+└──────────────────────────┬───────────────────────────────────────┘
+                           │
+                           ▼
+┌──────────────────────────────────────────────────────────────────┐
+│                    GAME-LOGIC ORACLE (L3b)                        │
+│  Constraint engine — validates every frame's vision output:      │
+│  • active_players + community + burns + stub = 52                │
+│  • pot = Σ(all confirmed bets this hand)                         │
+│  • no duplicate cards in detected set                            │
+│  • zone counts consistent with hand phase                        │
+│  Constraint violation → HALT DEALING, emit alert, log frame      │
 └──────────────────────────┬───────────────────────────────────────┘
                            │
                            ▼
@@ -383,3 +405,106 @@ Regulatory requirement (Deployment Bible Section 12). Minimum 30-day retention.
 5. Heartbeat monitoring begins → ops center dashboard
 6. Model updates pushed during 4 AM maintenance window
 ```
+
+---
+
+## Layer 0b: Frame Classifier / Pipeline Router
+*(Added from T20 — Blueprint Pro AI)*
+
+### Purpose
+The frame classifier runs before any detection model. It classifies the current game state from the frame and routes processing to the appropriate sub-pipeline. Without this, every model runs on every frame — expensive, slow, and noisy.
+
+### Classes
+| Frame Type | Description | Sub-Pipeline |
+|---|---|---|
+| `deal` | Cards leaving deck, in-flight, or arriving at seats | Card tracking pipeline (SAM 2 active) |
+| `betting` | Chips moving, players acting | Chip tracking pipeline (ByteTrack active) |
+| `showdown` | Cards face-up, winner determination | High-res classification pipeline (1024 input) |
+| `idle` | Table between hands, shuffle in progress | Minimal pipeline (zone verification only) |
+| `community` | Burn + flop/turn/river placement | Community card pipeline |
+
+### Routing Logic
+```python
+route = classifier.predict(frame)  # one of 5 classes
+if route.confidence < 0.7:
+    route = "full"  # conservative fallback: run all pipelines
+pipeline = PIPELINES[route]
+pipeline.process(frame)
+```
+
+### Design Note (from T20)
+Blueprint Pro AI's 29-model pipeline ONLY works because the classification-first router prevents wrong models from processing wrong inputs. The router's errors are visible (logged per frame) and auditable. Without routing, errors are silent.
+
+---
+
+## Layer 3b: Game-Logic Oracle
+*(Added from T18 — PlayVision; T19 — Smart Parking)*
+
+### Purpose
+The game-logic oracle is NOT a vision model. It is a constraint engine that validates every frame's aggregated vision output against known domain rules. It runs after all vision models have produced outputs for a frame, before any state machine update or actuation command.
+
+### Constraints Checked Per Frame
+```python
+constraints = [
+    # Card accounting
+    len(all_cards_detected) <= 52,
+    len(set(card_ids)) == len(card_ids),          # no duplicates
+    active_cards + burn_pile + stub_count == 52,   # full deck integrity
+
+    # Pot accounting
+    pot_total == sum(confirmed_bets_this_hand),
+
+    # Phase consistency
+    len(community_cards) in VALID_COUNTS[current_phase],
+
+    # Player consistency
+    active_player_count >= 2,
+    active_player_count <= 9
+]
+
+if not all(constraints):
+    HALT_DEALING()
+    emit_alert(violated_constraints)
+    log_frame_with_evidence()
+```
+
+### Constraint Violation Response
+1. **Halt dealing** immediately — robot arm freezes mid-action if necessary
+2. **Log the frame** with all detection outputs and confidence scores
+3. **Emit alert** to floor supervisor
+4. **Do not advance** the state machine
+5. **Wait for human clearance** before resuming
+
+### Why This Layer Is Non-Negotiable
+T18 (PlayVision) demonstrated that confidence scores alone cannot catch all errors — expected-count deviations require a domain oracle. T19 (Smart Parking) demonstrated set-difference logic: the oracle knows how many objects should exist and validates against that knowledge. No vision model generates this knowledge; it must be programmed from domain rules.
+
+---
+
+## Output Schema
+*(Added from T19 — Smart Parking; T18 — PlayVision)*
+
+The pipeline's terminal output is a typed, versioned JSON schema. Every downstream consumer (actuator, display, audit log, regulatory report) depends on this contract. Breaking the schema is a breaking change.
+
+```json
+{
+  "schema_version": "2.1",
+  "hand_id": "uuid-v4",
+  "timestamp_ms": 1700000000000,
+  "street": "flop",
+  "community_cards": ["Ah", "Kd", "2c"],
+  "burn_cards_confirmed": 1,
+  "pot_total": 250,
+  "side_pots": [],
+  "active_seats": [1, 3, 4, 6],
+  "player_stacks": {"1": 1200, "3": 800, "4": 2400, "6": 600},
+  "current_action_seat": 3,
+  "current_bet": 50,
+  "confidence_floor": 0.97,
+  "constraint_violations": [],
+  "flags": [],
+  "model_versions": {
+    "detector": "rf-detr-v21",
+    "card_classifier": "smallvlm2-v14",
+    "chip_classifier": "siglip-v3"
+  }
+}

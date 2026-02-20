@@ -1,6 +1,6 @@
 # Failure Taxonomy — Top 20 Perception Failures in Casino Poker
 
-Every failure is ranked by severity (how bad it is when it happens) and frequency (how often it will happen). Failures are ordered by **risk score** = severity × frequency.
+Derived from 20 Roboflow video transcripts. Every failure is ranked by severity (how bad it is when it happens) and frequency (how often it will happen). Failures are ordered by **risk score** = severity × frequency.
 
 Severity scale: 1 (cosmetic) → 5 (catastrophic — regulatory violation or financial loss)
 Frequency scale: 1 (rare edge case) → 5 (every session)
@@ -224,3 +224,75 @@ Frequency scale: 1 (rare edge case) → 5 (every session)
 **Roboflow tooling helps**: Active learning loop (T10) catches low-confidence samples. Fleet monitoring (T12) tracks performance metrics.
 **Roboflow tooling fails**: No transcript demonstrates automated drift detection or model retraining triggers.
 **Hardening**: Monitor mean confidence per class per day. If 7-day rolling average drops 5%+, trigger recalibration pipeline: (1) collect 500 new frames, (2) run model-assisted labeling, (3) human review, (4) fine-tune, (5) A/B deploy. Automate this cycle.
+
+---
+
+## Additional Failures from Transcripts 18–20
+
+These failures were surfaced by the PlayVision interview (T18), Smart Parking system (T19), and Blueprint Pro AI case study (T20). They are architectural failures that the original 17 transcripts didn't surface.
+
+---
+
+## Rank 21: Game-Logic Oracle Absent
+**Risk: 25 (Severity 5 × Frequency 5)**
+
+**What happens**: Vision system counts the wrong number of chips, misses a card, or loses track of a player — and no external layer catches it. Game proceeds on corrupted state. Pot is calculated wrong. Player is shorted.
+**Why it happens**: Every model in the transcripts is evaluated on its own accuracy. None describe a validator that checks whether all model outputs are consistent with known domain constraints.
+**Roboflow tooling helps**: Nothing directly. Zone counting (T3, T6) gets you the raw numbers.
+**Roboflow tooling fails**: Raw numbers without constraint checking are not safe for casino operations.
+**Hardening**: Build a game-logic oracle as a mandatory layer between perception and actuation. The oracle knows: active_players + community_cards + burn_cards + stub_count = 52 always. pot = sum(all_bets_this_hand) always. Any frame where vision output violates these constraints must halt dealing and emit an alert — not continue silently.
+
+---
+
+## Rank 22: Pipeline Router Failure
+**Risk: 20 (Severity 5 × Frequency 4)**
+
+**What happens**: The classification model that routes frames (deal/betting/showdown) misclassifies a frame type. All downstream models receive input they weren't designed to process. Wrong models run on wrong frames. Outputs are garbage. No error fires.
+**Why it happens**: T20 (Blueprint Pro AI) showed that without a classification-first routing layer, wrong models run on wrong inputs. But the routing model itself can fail. A "deal" frame classified as "idle" means the deal is never detected.
+**Roboflow tooling helps**: Classifier training (T1, T2, T5). Low-confidence threshold triggering (T10).
+**Roboflow tooling fails**: No transcript discusses testing the classifier's failure modes or designing fallback behavior when routing fails.
+**Hardening**: Log the routing decision for every frame. If the same frame type is classified differently across 3 consecutive frames, trigger a review flag. Build a "conservative" fallback: when routing confidence is below 0.7, run the full pipeline (all branches) rather than only the routed branch. Expensive but safe.
+
+---
+
+## Rank 23: Zone Polygon Staleness After Camera Shift
+**Risk: 16 (Severity 4 × Frequency 4)**
+
+**What happens**: Camera is bumped, cleaning crew adjusts the camera mount, or the table is moved. Zone polygon definitions (seat zones, pot zone) no longer align with actual table regions. All spatial zone logic silently produces wrong results — detections are checked against the wrong zones.
+**Why it happens**: T19 surfaced this pattern: zones are defined at calibration time. They are stable as long as the camera doesn't move. But casino environments involve human traffic around the table.
+**Roboflow tooling helps**: Keypoint model for homography (T17) can detect when landmark positions shift.
+**Roboflow tooling fails**: No transcript discusses automated zone validity checking.
+**Hardening**: Include known table landmark keypoints in the calibration. Run a daily (or per-session) landmark verification check. If detected landmark positions deviate from calibration by more than 5 pixels, halt operation and trigger recalibration. Do not allow dealing to proceed on stale zones.
+
+---
+
+## Rank 24: Augmentation Mismatch Between Detection and Segmentation Models
+**Risk: 12 (Severity 4 × Frequency 3)**
+
+**What happens**: Instance segmentation model trained with object-detection augmentation settings (large 90° rotations, aggressive noise) produces degraded pixel-level masks in production. Card boundary masks bleed into adjacent zones. Zone membership calculations are wrong.
+**Why it happens**: T20 explicitly states that object detection and instance segmentation require different augmentation strategies. Small rotations (5°) for segmentation vs large rotations (90°) for detection. Copy-pasting augmentation settings from one architecture to another is a common shortcut that degrades mask quality.
+**Roboflow tooling helps**: Roboflow's version system (T10) stores augmentation settings per version — at least makes settings auditable.
+**Roboflow tooling fails**: Nothing prevents you from using the wrong settings. No validation checks augmentation–architecture compatibility.
+**Hardening**: Treat augmentation settings as architecture-specific configuration, not as a single pipeline-wide config. Separate config blocks per model type. Validate mask quality with pixel-level IoU metric during training — if mask edges are systematically blurry, augmentation is likely the cause.
+
+---
+
+## Rank 25: VLM OCR in Per-Frame Loop
+**Risk: 12 (Severity 3 × Frequency 4)**
+
+**What happens**: Card rank/suit identification is implemented using a cloud VLM (GPT-4o or similar) queried per detected card per frame. At 60 FPS with 5 face-up cards, this generates 300 API calls/second. System falls behind, cards are misidentified because stale API responses arrive out-of-order.
+**Why it happens**: T19 demonstrated this exact pattern for license plate OCR: it worked for static parking lots because there were few stalls and no real-time requirement. T17 showed SmallVLM2 fine-tuned to 86% accuracy — still below casino requirements but faster. The temptation to use a powerful cloud VLM and call it "solved" is real.
+**Roboflow tooling helps**: Local SmallVLM2 deployment (T17). Event-triggered rather than per-frame inference.
+**Roboflow tooling fails**: No transcript demonstrates real-time VLM inference at card-dealing speeds on edge hardware.
+**Hardening**: Never use a cloud VLM in a per-frame inference loop. For card identification: use a fine-tuned lightweight classifier (RF-DETR + crop pipeline) for real-time reads. Reserve VLM for event-triggered verification (showdown re-scan) only. If a VLM is used at showdown, it runs once per card per hand — not per frame.
+
+---
+
+## Rank 26: Model Version Mismatch in Production
+**Risk: 9 (Severity 3 × Frequency 3)**
+
+**What happens**: A model is retrained with improved accuracy (e.g., after adding worn-card examples to training data), but the inference endpoint is not updated. Production continues running the old model. Performance improvement is never realized. Worse: if a critical bug was fixed in the new model, the bug persists in production indefinitely.
+**Why it happens**: T20 identified this as a real operational problem. Without explicit version-matched API naming, there is no way to know which model version is live in production.
+**Roboflow tooling helps**: Roboflow's versioning system (T10, T20). Fleet management (T12) shows deployed models.
+**Roboflow tooling fails**: Nothing enforces version matching if the deployment step is manual.
+**Hardening**: Name every inference API endpoint to match its training dataset version (Blueprint Pro AI's pattern from T20). Assert version at pipeline startup: if deployed version ≠ expected version, halt and alert. Automate the version bump as part of the training pipeline — a new training run automatically stages a new endpoint version for deployment approval.

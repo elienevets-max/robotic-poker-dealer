@@ -1,4 +1,4 @@
-# Design Principles — Non-Obvious Lessons from 17 Roboflow Transcripts
+# Design Principles — Non-Obvious Lessons from 20 Roboflow Transcripts
 
 These are not summaries of what the videos teach. These are the principles you WOULDN'T know unless you built the systems the videos describe, applied them to poker, and discovered where the assumptions break.
 
@@ -159,3 +159,53 @@ This collapses months of annotation work into days.
 - Table geometry is fixed. Zone boundaries are constant. No dynamic scene understanding needed.
 
 Open-world CV is hard. Closed-world CV with domain constraints is dramatically easier. Every poker-specific constraint you encode is a free accuracy boost that requires zero additional training data.
+
+---
+
+## Principle 13: The Deliverable Is Never a Bounding Box
+
+**The intuition**: Build a good detector, output the detections, let the application consume them.
+
+**The reality**: Bounding boxes are the rawest, most error-prone, least useful output a vision system can produce. Every production system demonstrated in the transcripts transforms detections through multiple layers before the output is usable: detection → zone assignment → event → count → statistic → decision. PlayVision (T18) made this explicit: the product is coaching analytics, not player bounding boxes. Blueprint Pro AI (T20) outputs a material quantity list, not detected wall polygons.
+
+**Poker implication**: Define the output schema before writing the pipeline. The game-state schema — `{hand_id, street, community_cards, pot, active_seats, current_action}` — is the product. Every model, every tracker, every zone counter exists to produce that schema accurately. If a model can't contribute to that schema, it's the wrong model.
+
+---
+
+## Principle 14: Empty Is Not a Class — It's the Absence of Occupancy
+
+**The intuition**: Train a model to detect empty seats, empty pot zones, empty card positions.
+
+**The reality**: Training an "empty" class creates a labeling problem without a solution: how do you annotate the absence of something? What does an "empty seat" look like vs a "seat about to be occupied"? The Smart Parking transcript (T19) made this concrete: the system never trains an "empty stall" class. It detects cars, subtracts occupied stalls from all known stalls, and derives empty as the residual.
+
+**Poker implication**: Never train an "empty" class for any zone. Define all zones at calibration (they're static). Detect objects. Zone state = detected objects within zone boundaries. Empty = no detections. This eliminates an entire category of labeling ambiguity and training data cost.
+
+---
+
+## Principle 15: Give the Model an Easy Task
+
+**The intuition**: One large, powerful model handles everything better than many small specialized models.
+
+**The reality**: Blueprint Pro AI (T20) arrived at 29 models not by design but by necessity. Each time a new object category was added (walls, windows, plumbing, electrical), a new specialized model was required. The CTO stated the design principle explicitly: "give the model an easy task and your success rate of keeping consistency will increase." Models trained to do one thing well produce more reliable, debuggable outputs than multi-task models.
+
+**Poker implication**: Don't try to train one model that detects cards AND counts chips AND identifies players AND reads denominations. Each task is visually distinct. Each has different error consequences. Each has different accuracy requirements. Decompose into: card detector, chip detector, player detector, card classifier, chip denomination classifier. Test and improve each independently. The integration is your engineering challenge — but the models themselves should each be easy.
+
+---
+
+## Principle 16: Match Training Resolution to Inference Resolution
+
+**The intuition**: Train on available data at whatever resolution is convenient. Resize at inference.
+
+**The reality**: Blueprint Pro AI (T20) controls the DPI at which PDFs are rasterized and uses the exact same DPI for both training and inference. This eliminates training-inference distribution mismatch at the source. The Audi car manual app (mentioned in T20) failed initially because DSLR-trained models deployed to phone cameras — same mismatch, different cause. Resolution is not a free variable.
+
+**Poker implication**: Fix your camera resolution, focal length, and mounting height before generating training data. All training frames must be captured from the same camera configuration that will run in production. If you must use a different camera during development, calibrate the pixel-per-mm ratio and assert it matches at inference time. A resolution mismatch degrades every model in the pipeline simultaneously with no obvious error signal.
+
+---
+
+## Principle 17: The First Production Deployment Is a Data Collection Event
+
+**The intuition**: Build the best possible system, then deploy it. Fix bugs as they appear.
+
+**The reality**: PlayVision's Marc Zoghby (T18) stated it directly: "your first product's encounter with reality is probably not going to go well — that's how you learn the most." The failure cases that production reveals are the most valuable training data you will ever collect. They are more diverse, more realistic, and more representative than anything you can simulate or collect in a lab.
+
+**Poker implication**: Design the logging infrastructure before the model. Every production inference run should capture: the raw frame, the detection outputs, the confidence scores, any human override, and the final ground truth (which player actually won). A production deployment without comprehensive logging is burning the most valuable data you will ever see. The first pilot table is not where you prove the system works. It is where you collect the data that makes the system work on the second table.
