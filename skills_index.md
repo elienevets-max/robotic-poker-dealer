@@ -19,6 +19,7 @@ A searchable catalog of skills and knowledge modules relevant to the Robotic Pok
 | 9 | Radical Candor | Leadership & Feedback | [`skills/radical-candor.md`](skills/radical-candor.md) | How do I give honest feedback without damaging the relationship? |
 | 10 | Difficult Conversations | Conflict Resolution & Hard Talks | [`skills/difficult-conversations.md`](skills/difficult-conversations.md) | How do I navigate a high-stakes conversation without it going sideways? |
 | 11 | Robotics, Vision and Control | Robotics Evaluation & Technical Literacy | [`skills/robotics-vision-control.md`](skills/robotics-vision-control.md) | What can this robot actually do vs. what the vendor claims? |
+| 12 | Introduction to Autonomous Robots | Systems Integration & Autonomy Evaluation | [`skills/autonomous-robots.md`](skills/autonomous-robots.md) | How do subsystem errors compound into system-level failures? |
 
 ---
 
@@ -141,6 +142,13 @@ The reality filter for robotic system evaluation — understanding what robots c
 - **Key Concepts:** Compounding error through pipeline stages, vision as bottleneck, speed-precision tradeoff (physics-level), open vs closed-loop control, compliance and force control, error accumulation over time, thin flexible object manipulation (cards), tactile feedback gap, demo vs deployment gap, last 5% costs 95%, autonomy vs automation distinction, sim-to-real gap, minimum viable robotic dealer requirements
 - **Tags:** `robotics` `computer-vision` `control-systems` `automation` `state-estimation` `feedback-loops` `manipulation` `sensors` `vendor-evaluation` `deployment-risk` `failure-modes` `human-in-the-loop` `poker` `casino-automation` `sense-plan-act` `sim-to-real` `calibration` `perception` `end-effectors` `compliance`
 
+#### 12. Introduction to Autonomous Robots
+- **File:** [`skills/autonomous-robots.md`](skills/autonomous-robots.md)
+- **Source:** Nikolaus Correll — *Introduction to Autonomous Robots* (adapted for domain consultants evaluating integrated robotic systems)
+- **Core Frameworks:** Sense-Plan-Act Loop (systems integration view), Error Propagation Analysis, Layer Coupling Model, Environment Assumptions as Hidden Dependencies, Decentralized vs Centralized Control, Autonomy Levels (4-tier), Failure Mode Taxonomy (6 categories), Systems Integration Checklist, Vendor Autonomy Decomposition (5-step), Deployment Environment Fit Check
+- **Key Concepts:** System performance = weakest subsystem, error compounding through pipeline, integration failures invisible in component testing, supervised autonomy as realistic near-term architecture, graceful degradation vs catastrophic failure, continuous operation reveals failures demos hide, maintenance cycle determined by shortest-lived component, autonomy scales by reducing coupling not adding intelligence, environment assumptions define autonomy limits, integration risk dominates algorithm risk
+- **Tags:** `robotics` `autonomous-systems` `systems-integration` `error-propagation` `autonomy-levels` `failure-modes` `sense-plan-act` `deployment-architecture` `graceful-degradation` `vendor-evaluation` `subsystem-coupling` `human-in-the-loop` `poker` `casino-automation` `supervised-autonomy` `environmental-assumptions` `operational-endurance`
+
 ---
 
 ## By Situation
@@ -228,6 +236,16 @@ The reality filter for robotic system evaluation — understanding what robots c
 | "What are the failure modes I should worry about?" | `robotics-vision-control.md` | `black-swan.md` |
 | "Is this 'AI-powered' robot claim real or marketing?" | `robotics-vision-control.md` | `rationality.md` |
 | "How do I talk to engineers about robotics without losing credibility?" | `robotics-vision-control.md` | `scout-mindset.md` |
+| "How do subsystem errors compound into system-level failures?" | `autonomous-robots.md` | `robotics-vision-control.md` |
+| "What autonomy level is realistic for this deployment?" | `autonomous-robots.md` | `superforecasting.md` |
+| "Where is the weakest link in this robot's pipeline?" | `autonomous-robots.md` | `robotics-vision-control.md` |
+| "How do I stress-test integration between subsystems?" | `autonomous-robots.md` | `antifragile.md` |
+| "What happens when the robot encounters something it wasn't designed for?" | `autonomous-robots.md` | `black-swan.md` |
+| "Can this system operate for 8 hours without degradation?" | `autonomous-robots.md` | `robotics-vision-control.md` |
+| "Is this vendor claiming full autonomy when they mean supervised autonomy?" | `autonomous-robots.md` | `rationality.md` |
+| "What's the right human-in-the-loop architecture for poker dealing?" | `autonomous-robots.md` | `robotics-vision-control.md` |
+| "How do I evaluate end-to-end performance vs component-level claims?" | `autonomous-robots.md` | `thinking-clearly.md` |
+| "Will this robot degrade gracefully or fail catastrophically?" | `autonomous-robots.md` | `antifragile.md` |
 | "How do I give difficult feedback without damaging the relationship?" | `radical-candor.md` | `scout-mindset.md` |
 | "Why isn't my team giving me honest information?" | `radical-candor.md` | `scout-mindset.md` |
 | "I'm avoiding a hard conversation I know I need to have" | `radical-candor.md` | `antifragile.md` |
@@ -374,12 +392,22 @@ The reality filter for robotic system evaluation — understanding what robots c
 | Autonomy Envelope | Robotics, Vision & Control | Conditions under which the system operates without human intervention — everything outside requires fallback |
 | Minimum Viable Robotic Dealer | Robotics, Vision & Control | Threshold requirements: hands/hr, double-deal rate, damage rate, detection rate, recovery time, shift duration |
 | Rationality Stack (11-layer) | Robotics, Vision & Control | Layers 0-9 + Layer 10: Robotics Reality Filter — ground all claims in physics, translate marketing to math |
+| Sense-Plan-Act Loop (Integration View) | Introduction to Autonomous Robots | Autonomy as a closed loop: sensors observe → planners decide → actuators execute — not a single "AI brain" |
+| Error Propagation Analysis | Introduction to Autonomous Robots | Errors compound through pipeline stages — end-to-end accuracy is always worse than component accuracy |
+| Layer Coupling Model | Introduction to Autonomous Robots | Sensing errors → planning errors → control errors → feedback errors — trace failures backwards to find amplification points |
+| Environment Assumptions as Hidden Dependencies | Introduction to Autonomous Robots | Every autonomy stack assumes environmental structure — list, stress, and verify each assumption |
+| Autonomy Levels (4-tier) | Introduction to Autonomous Robots | Teleoperation → Shared Control → Supervised Autonomy → Full Autonomy — classify before deploying |
+| Failure Mode Taxonomy (6 categories) | Introduction to Autonomous Robots | Sensor, perception, planning, actuation, integration, environmental — for each: detection, recovery, degradation profile |
+| Systems Integration Checklist | Introduction to Autonomous Robots | Subsystem performance → error management → failure handling → environmental robustness → operational endurance |
+| Vendor Autonomy Decomposition (5-step) | Introduction to Autonomous Robots | Decompose claims → identify assumptions → identify interfaces → map failure propagation → find human intervention points |
+| Deployment Environment Fit Check | Introduction to Autonomous Robots | What changes dynamically? What is unmodeled? What agents are unpredictable? What happens when timing slips? |
+| Decentralized vs Centralized Control | Introduction to Autonomous Robots | Reactive/local vs deliberative/global decisions — mixing them poorly causes latency, oscillation, and indecision |
 
 ---
 
 ## All Tags
 
-`1-on-1` `action-bias` `antifragility` `asymmetry` `automation` `barbell-strategy` `base-rates` `Bayesian-reasoning` `Bayesian-updating` `behavioral-economics` `bias-detection` `black-swan` `blame` `Brier-score` `business-strategy` `calibration` `career-development` `casino-automation` `checklists` `circle-of-competence` `clear-thinking` `coaching` `cognitive-bias` `communication` `competitive-advantage` `compliance` `computer-vision` `confirmation-bias` `conflict-resolution` `contribution` `control-systems` `convexity` `de-escalation` `debiasing` `decision-making` `deployment-risk` `difficult-conversations` `end-effectors` `epistemology` `extremistan` `failure-modes` `falsifiability` `fat-tails` `feedback-loops` `feelings` `feedback` `Fermi-estimation` `field-guide` `forecasting` `fox-vs-hedgehog` `fragility` `heuristics` `hormesis` `human-in-the-loop` `identity` `incentives` `intellectual-honesty` `intent-vs-impact` `investing` `inversion` `leadership` `learning-conversation` `lindy-effect` `lollapalooza` `loss-aversion` `management` `manipulation` `margin-of-safety` `mediocristan` `mental-models` `misjudgment` `moats` `motivated-reasoning` `multidisciplinary-thinking` `naive-interventionism` `negotiation` `optionality` `overconfidence` `partnerships` `perception` `performance` `poker` `position-sizing` `prediction` `probability` `psychology` `radical-candor` `rationality` `reasoning-errors` `redundancy` `risk` `risk-management` `robotics` `robustness` `ruin-avoidance` `scout-mindset` `sense-plan-act` `sensors` `sim-to-real` `skin-in-the-game` `state-estimation` `sunk-cost` `survivorship-bias` `System-1` `System-2` `tail-risk` `team-culture` `third-story` `three-conversations` `updating` `vendor-evaluation` `via-negativa`
+`1-on-1` `action-bias` `antifragility` `asymmetry` `automation` `autonomous-systems` `autonomy-levels` `barbell-strategy` `base-rates` `Bayesian-reasoning` `Bayesian-updating` `behavioral-economics` `bias-detection` `black-swan` `blame` `Brier-score` `business-strategy` `calibration` `career-development` `casino-automation` `checklists` `circle-of-competence` `clear-thinking` `coaching` `cognitive-bias` `communication` `competitive-advantage` `compliance` `computer-vision` `confirmation-bias` `conflict-resolution` `contribution` `control-systems` `convexity` `de-escalation` `debiasing` `decision-making` `deployment-architecture` `deployment-risk` `difficult-conversations` `end-effectors` `environmental-assumptions` `epistemology` `error-propagation` `extremistan` `failure-modes` `falsifiability` `fat-tails` `feedback-loops` `feelings` `feedback` `Fermi-estimation` `field-guide` `forecasting` `fox-vs-hedgehog` `fragility` `graceful-degradation` `heuristics` `hormesis` `human-in-the-loop` `identity` `incentives` `intellectual-honesty` `intent-vs-impact` `investing` `inversion` `leadership` `learning-conversation` `lindy-effect` `lollapalooza` `loss-aversion` `management` `manipulation` `margin-of-safety` `mediocristan` `mental-models` `misjudgment` `moats` `motivated-reasoning` `multidisciplinary-thinking` `naive-interventionism` `negotiation` `operational-endurance` `optionality` `overconfidence` `partnerships` `perception` `performance` `poker` `position-sizing` `prediction` `probability` `psychology` `radical-candor` `rationality` `reasoning-errors` `redundancy` `risk` `risk-management` `robotics` `robustness` `ruin-avoidance` `scout-mindset` `sense-plan-act` `sensors` `sim-to-real` `skin-in-the-game` `state-estimation` `subsystem-coupling` `sunk-cost` `supervised-autonomy` `survivorship-bias` `System-1` `System-2` `systems-integration` `tail-risk` `team-culture` `third-story` `three-conversations` `updating` `vendor-evaluation` `via-negativa`
 
 ---
 
