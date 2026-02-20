@@ -17,6 +17,7 @@ A searchable catalog of skills and knowledge modules relevant to the Robotic Pok
 | 7 | The Black Swan | Extreme Events & Robustness | [`skills/black-swan.md`](skills/black-swan.md) | Am I positioned to survive the worst and benefit from the best? |
 | 8 | Antifragile | Systems That Gain From Disorder | [`skills/antifragile.md`](skills/antifragile.md) | How do I build systems that improve from volatility and stress? |
 | 9 | Radical Candor | Leadership & Feedback | [`skills/radical-candor.md`](skills/radical-candor.md) | How do I give honest feedback without damaging the relationship? |
+| 10 | Difficult Conversations | Conflict Resolution & Hard Talks | [`skills/difficult-conversations.md`](skills/difficult-conversations.md) | How do I navigate a high-stakes conversation without it going sideways? |
 
 ---
 
@@ -121,6 +122,13 @@ The human interface layer — how to communicate honestly, give and receive feed
 - **Key Concepts:** Care personally + challenge directly, Ruinous Empathy as the most common and dangerous failure mode, soliciting criticism before giving it, specificity as kindness, praise in public / criticize in private, feedback sandwich anti-pattern, behavior vs. character, the make-or-break moment (response to first criticism), rockstars (stability/mastery) vs. superstars (growth/challenge), two-minute correction, upward feedback delivery
 - **Tags:** `radical-candor` `feedback` `leadership` `management` `communication` `team-culture` `1-on-1` `performance` `coaching` `career-development` `poker` `investing`
 
+#### 10. Difficult Conversations
+- **File:** [`skills/difficult-conversations.md`](skills/difficult-conversations.md)
+- **Source:** Douglas Stone, Bruce Patton & Sheila Heen — *Difficult Conversations: How to Discuss What Matters Most* (1999, updated 2010)
+- **Core Frameworks:** Three Conversations Model (What Happened, Feelings, Identity), Third Story Opening, Contribution vs. Blame Mapping, Intent vs. Impact Distinction, Learning Conversation, AND Stance, Full Preparation Protocol (8-step), Real-Time Navigation (10-step), Conversation Reset Protocol, Avoidance Breaking Protocol
+- **Key Concepts:** Three simultaneous conversation layers, Third Story (neutral observer opening), contribution mapping (systemic, forward-looking) vs. blame (individual, backward-looking), intent vs. impact gap, learning conversation (curiosity over certainty), AND stance (holding contradictory truths), acknowledging feelings before problem-solving, identity management in conflict, meta-communication (naming the dynamic), the cost of avoidance
+- **Tags:** `difficult-conversations` `conflict-resolution` `three-conversations` `feelings` `identity` `contribution` `third-story` `learning-conversation` `blame` `intent-vs-impact` `de-escalation` `poker` `investing` `partnerships` `negotiation`
+
 ---
 
 ## By Situation
@@ -211,6 +219,18 @@ The human interface layer — how to communicate honestly, give and receive feed
 | "How do I fire someone and handle it with both honesty and care?" | `radical-candor.md` | `munger-mental-models.md` |
 | "Why do I keep holding back feedback to be nice?" | `radical-candor.md` | `thinking-fast-and-slow.md` |
 | "How do I receive feedback without getting defensive?" | `radical-candor.md` | `scout-mindset.md` |
+| "I need to have a hard conversation and don't know how to start" | `difficult-conversations.md` | `radical-candor.md` |
+| "We keep arguing in circles without resolution" | `difficult-conversations.md` | `scout-mindset.md` |
+| "I'm avoiding a conversation I know I need to have" | `difficult-conversations.md` | `radical-candor.md` |
+| "How do I deliver bad news without destroying the relationship?" | `difficult-conversations.md` | `radical-candor.md` |
+| "A staking conversation has gone sideways — how do I reset?" | `difficult-conversations.md` | `antifragile.md` |
+| "How do I navigate a co-founder or partnership disagreement?" | `difficult-conversations.md` | `munger-mental-models.md` |
+| "Both sides think they're right and progress has stalled" | `difficult-conversations.md` | `rationality.md` |
+| "How do I raise a sensitive issue without damaging the relationship?" | `difficult-conversations.md` | `radical-candor.md` |
+| "Why does this conversation feel harder than it should?" | `difficult-conversations.md` | `thinking-fast-and-slow.md` |
+| "How do I address a broken agreement without making it adversarial?" | `difficult-conversations.md` | `radical-candor.md` |
+| "How do I end a staking deal or partnership gracefully?" | `difficult-conversations.md` | `radical-candor.md` |
+| "Emotions are running high and getting in the way of resolution" | `difficult-conversations.md` | `scout-mindset.md` |
 
 ---
 
@@ -308,12 +328,22 @@ The human interface layer — how to communicate honestly, give and receive feed
 | Rockstars vs. Superstars | Radical Candor | Two types of high performers: rockstars (mastery, stability) vs. superstars (growth, challenge) — different management required |
 | Feedback Culture Building (8-step) | Radical Candor | Go first → solicit before giving → respond well → make structural → praise candor → never punish honesty → name Ruinous Empathy → hire for candor |
 | Career Conversation Framework | Radical Candor | Understanding each person's trajectory and managing rockstars vs. superstars accordingly |
+| Three Conversations Model | Difficult Conversations | Every hard talk has three layers: What Happened (facts/stories), Feelings (emotions), Identity (self-concept) |
+| Third Story Opening | Difficult Conversations | Open from a neutral observer's perspective — "We seem to see this differently" — rather than from your side or theirs |
+| Contribution vs. Blame Mapping | Difficult Conversations | Replace "Whose fault?" with "How did each of us contribute?" — systemic, forward-looking analysis including your own role |
+| Intent vs. Impact Distinction | Difficult Conversations | You know your intent, they know your impact — both are real; acknowledge impact without defending intent |
+| Learning Conversation | Difficult Conversations | Shift from "I'm right and need to convince you" to "We both have perspectives and I want to understand yours" |
+| AND Stance | Difficult Conversations | Hold contradictory truths simultaneously — "I'm competent AND I made this mistake" — antidote to all-or-nothing thinking |
+| Full Preparation Protocol (8-step) | Difficult Conversations | Map three layers → list feelings → identify identity stakes → map contributions → craft Third Story → define purpose → prepare for reaction |
+| Real-Time Navigation (10-step) | Difficult Conversations | Third Story → explore their story → listen actively → acknowledge feelings → share your story → share contribution → find overlap → problem-solve → next steps → follow-up |
+| Conversation Reset Protocol | Difficult Conversations | Name the dynamic → acknowledge difficulty → reset to Third Story → check for unaddressed feelings → check identity threat → re-enter learning stance |
+| Avoidance Breaking Protocol | Difficult Conversations | Name avoidance → calculate cost → identify fear layer → prepare → schedule within 48 hours → remember anticipated > actual |
 
 ---
 
 ## All Tags
 
-`1-on-1` `action-bias` `antifragility` `asymmetry` `barbell-strategy` `base-rates` `Bayesian-reasoning` `Bayesian-updating` `behavioral-economics` `bias-detection` `black-swan` `Brier-score` `business-strategy` `calibration` `career-development` `checklists` `circle-of-competence` `clear-thinking` `coaching` `cognitive-bias` `communication` `competitive-advantage` `confirmation-bias` `convexity` `debiasing` `decision-making` `epistemology` `extremistan` `falsifiability` `fat-tails` `feedback` `Fermi-estimation` `field-guide` `forecasting` `fox-vs-hedgehog` `fragility` `heuristics` `hormesis` `identity` `incentives` `intellectual-honesty` `investing` `inversion` `leadership` `lindy-effect` `lollapalooza` `loss-aversion` `management` `margin-of-safety` `mediocristan` `mental-models` `misjudgment` `moats` `motivated-reasoning` `multidisciplinary-thinking` `naive-interventionism` `optionality` `overconfidence` `performance` `poker` `position-sizing` `prediction` `probability` `psychology` `radical-candor` `rationality` `reasoning-errors` `redundancy` `risk` `risk-management` `robustness` `ruin-avoidance` `scout-mindset` `skin-in-the-game` `sunk-cost` `survivorship-bias` `System-1` `System-2` `tail-risk` `team-culture` `updating` `via-negativa`
+`1-on-1` `action-bias` `antifragility` `asymmetry` `barbell-strategy` `base-rates` `Bayesian-reasoning` `Bayesian-updating` `behavioral-economics` `bias-detection` `black-swan` `blame` `Brier-score` `business-strategy` `calibration` `career-development` `checklists` `circle-of-competence` `clear-thinking` `coaching` `cognitive-bias` `communication` `competitive-advantage` `confirmation-bias` `conflict-resolution` `contribution` `convexity` `de-escalation` `debiasing` `decision-making` `difficult-conversations` `epistemology` `extremistan` `falsifiability` `fat-tails` `feelings` `feedback` `Fermi-estimation` `field-guide` `forecasting` `fox-vs-hedgehog` `fragility` `heuristics` `hormesis` `identity` `incentives` `intellectual-honesty` `intent-vs-impact` `investing` `inversion` `leadership` `learning-conversation` `lindy-effect` `lollapalooza` `loss-aversion` `management` `margin-of-safety` `mediocristan` `mental-models` `misjudgment` `moats` `motivated-reasoning` `multidisciplinary-thinking` `naive-interventionism` `negotiation` `optionality` `overconfidence` `partnerships` `performance` `poker` `position-sizing` `prediction` `probability` `psychology` `radical-candor` `rationality` `reasoning-errors` `redundancy` `risk` `risk-management` `robustness` `ruin-avoidance` `scout-mindset` `skin-in-the-game` `sunk-cost` `survivorship-bias` `System-1` `System-2` `tail-risk` `team-culture` `third-story` `three-conversations` `updating` `via-negativa`
 
 ---
 
@@ -329,9 +359,10 @@ skills/
 ├── thinking-clearly.md         # Rapid bias detection & reasoning error field guide (Dobelli)
 ├── black-swan.md               # Extreme events, fragility & robustness under uncertainty (Taleb)
 ├── antifragile.md              # Systems that gain from disorder, via negativa & convex positioning (Taleb)
-└── radical-candor.md           # Honest feedback, caring leadership & communication (Scott)
+├── radical-candor.md           # Honest feedback, caring leadership & communication (Scott)
+└── difficult-conversations.md  # Navigating high-stakes talks across all three layers (Stone, Patton & Heen)
 ```
 
 ---
 
-*Last updated: 2026-02-20 | Total skills: 9 | Total frameworks: 94 | Total tags: 81*
+*Last updated: 2026-02-20 | Total skills: 10 | Total frameworks: 105 | Total tags: 92*
