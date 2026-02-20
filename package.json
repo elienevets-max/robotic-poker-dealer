@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "docx": "^9.5.3"
+    "docx": "^9.5.3",
+    "youtube-transcript": "^1.2.1"
   }
 }
