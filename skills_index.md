@@ -13,6 +13,7 @@ A searchable catalog of skills and knowledge modules relevant to the Robotic Pok
 | 3 | Rationality | Epistemology & Clear Thinking | [`skills/rationality.md`](skills/rationality.md) | Am I rationalizing or actually reasoning? |
 | 4 | The Scout Mindset | Intellectual Honesty & Identity | [`skills/scout-mindset.md`](skills/scout-mindset.md) | Am I defending this belief because it's true or because it's mine? |
 | 5 | Munger Mental Models | Multidisciplinary Decision-Making | [`skills/munger-mental-models.md`](skills/munger-mental-models.md) | What mental models apply and what would guarantee failure? |
+| 6 | The Art of Thinking Clearly | Bias Detection & Field Guide | [`skills/thinking-clearly.md`](skills/thinking-clearly.md) | Which specific reasoning error is operating right now? |
 
 ---
 
@@ -73,6 +74,17 @@ The integrating layer — connects models from psychology, economics, biology, p
 - **Key Concepts:** 25 Tendencies of Human Misjudgment, circle of competence, lollapalooza effects (multiplicative convergence), incentive super-response, structural vs operational moats, inversion as default problem-solving, patience as competitive advantage, checklist discipline, compounding knowledge, multi-causal thinking, "show me the incentive," margin of safety, defense beats offense
 - **Tags:** `mental-models` `inversion` `incentives` `lollapalooza` `circle-of-competence` `margin-of-safety` `multidisciplinary-thinking` `checklists` `moats` `competitive-advantage` `misjudgment` `psychology` `decision-making` `risk` `investing` `poker` `business-strategy`
 
+### Rapid Bias Detection & Reasoning Errors
+
+The field guide layer — quick-scan pattern recognition for naming and neutralizing specific cognitive biases in real-time. Organized by situation, not academic category.
+
+#### 6. The Art of Thinking Clearly
+- **File:** [`skills/thinking-clearly.md`](skills/thinking-clearly.md)
+- **Source:** Rolf Dobelli — *The Art of Thinking Clearly*
+- **Core Frameworks:** 6-Situation Rapid Bias Detection System, Master Pre-Flight Checklist (24-point), Bias-First Analysis, Luck Audit, Counter-Anchoring, Kill-the-Idea Drill, Quick Bias Scan (2-min), Post-Decision Review, "Would I Start Today?" Test, Rationality Stack (6-layer positioning)
+- **Key Concepts:** Survivorship bias, swimmer's body illusion (selection vs causation), action bias, domain dependence, information bias (research as procrastination), clustering illusion, effort justification, social comparison bias, contrast effect, conjunction fallacy, zero-risk bias, hot hand fallacy, decoy effect, endowment effect, framing effect, not-invented-here syndrome
+- **Tags:** `cognitive-bias` `decision-making` `bias-detection` `reasoning-errors` `checklists` `survivorship-bias` `confirmation-bias` `action-bias` `risk` `psychology` `poker` `investing` `field-guide`
+
 ---
 
 ## By Situation
@@ -118,6 +130,16 @@ The integrating layer — connects models from psychology, economics, biology, p
 | "How do I stress-test a major decision?" | `munger-mental-models.md` | `rationality.md` |
 | "Does my strategy have enough margin of safety?" | `munger-mental-models.md` | `thinking-fast-and-slow.md` |
 | "How do I apply Munger's checklist to poker bankroll decisions?" | `munger-mental-models.md` | `superforecasting.md` |
+| "Something feels off about this decision but I can't name what" | `thinking-clearly.md` | `thinking-fast-and-slow.md` |
+| "I need a quick bias check before committing" | `thinking-clearly.md` | `munger-mental-models.md` |
+| "Is this success story trustworthy or just survivorship bias?" | `thinking-clearly.md` | `superforecasting.md` |
+| "Am I acting because it's right or because doing nothing feels wrong?" | `thinking-clearly.md` | `scout-mindset.md` |
+| "Is this a real pattern or random noise?" | `thinking-clearly.md` | `superforecasting.md` |
+| "Am I still in this because of sunk costs?" | `thinking-clearly.md` | `scout-mindset.md` |
+| "Which specific bias is operating in this poker session?" | `thinking-clearly.md` | `thinking-fast-and-slow.md` |
+| "Do I need more information or am I procrastinating by researching?" | `thinking-clearly.md` | `rationality.md` |
+| "Is the group driving this conclusion or the evidence?" | `thinking-clearly.md` | `scout-mindset.md` |
+| "What went wrong with that decision?" | `thinking-clearly.md` | `rationality.md` |
 
 ---
 
@@ -172,12 +194,22 @@ The integrating layer — connects models from psychology, economics, biology, p
 | Margin of Safety Gate | Munger Mental Models | Numeric buffer required — if 1-2 assumptions can be wrong and outcome is still acceptable, proceed |
 | 25 Tendencies of Human Misjudgment | Munger Mental Models | Practitioner's catalog of systematic psychological errors — check incentives, denial, social proof first |
 | Circle of Competence | Munger Mental Models | Boundary of genuine understanding — the edge is where the biggest mistakes happen |
+| 6-Situation Rapid Bias Detection | The Art of Thinking Clearly | Organized by situation: evaluating success, committing resources, group settings, processing info, assessing risk, comparing options |
+| Master Pre-Flight Checklist (24-point) | The Art of Thinking Clearly | Evidence quality → reasoning → motivations → social influences → risk assessment — run before any major decision |
+| Bias-First Analysis | The Art of Thinking Clearly | Assume bias is present; identify WHICH bias, not WHETHER bias exists; neutralize before deciding |
+| Luck Audit | The Art of Thinking Clearly | Separate outcome from decision quality — "Would I repeat this decision with the same info?" |
+| Counter-Anchoring | The Art of Thinking Clearly | Generate your own estimate before seeing others' numbers; write it down privately first |
+| Kill-the-Idea Drill | The Art of Thinking Clearly | Actively try to disprove your preferred option — "What evidence would force me to abandon this?" |
+| Quick Bias Scan (2-min) | The Art of Thinking Clearly | Name the situation → check the top bias → ask one diagnostic question → decide |
+| Post-Decision Review | The Art of Thinking Clearly | Decision quality independent of outcome → biases active → structural safeguard for next time |
+| "Would I Start Today?" Test | The Art of Thinking Clearly | Ignore past investment — if you wouldn't start today, sunk cost is keeping you in |
+| Rationality Stack (6-layer) | The Art of Thinking Clearly | Detection (Dobelli) → Science (Kahneman) → Epistemology (Yudkowsky) → Motivation (Galef) → Integration (Munger) → Measurement (Tetlock) |
 
 ---
 
 ## All Tags
 
-`base-rates` `Bayesian-reasoning` `Bayesian-updating` `behavioral-economics` `Brier-score` `business-strategy` `calibration` `checklists` `circle-of-competence` `clear-thinking` `cognitive-bias` `competitive-advantage` `debiasing` `decision-making` `epistemology` `falsifiability` `Fermi-estimation` `forecasting` `fox-vs-hedgehog` `heuristics` `identity` `incentives` `intellectual-honesty` `investing` `inversion` `lollapalooza` `loss-aversion` `margin-of-safety` `mental-models` `misjudgment` `moats` `motivated-reasoning` `multidisciplinary-thinking` `overconfidence` `poker` `prediction` `probability` `psychology` `rationality` `risk` `scout-mindset` `sunk-cost` `System-1` `System-2` `team-culture` `updating`
+`action-bias` `base-rates` `Bayesian-reasoning` `Bayesian-updating` `behavioral-economics` `bias-detection` `Brier-score` `business-strategy` `calibration` `checklists` `circle-of-competence` `clear-thinking` `cognitive-bias` `competitive-advantage` `confirmation-bias` `debiasing` `decision-making` `epistemology` `falsifiability` `Fermi-estimation` `field-guide` `forecasting` `fox-vs-hedgehog` `heuristics` `identity` `incentives` `intellectual-honesty` `investing` `inversion` `lollapalooza` `loss-aversion` `margin-of-safety` `mental-models` `misjudgment` `moats` `motivated-reasoning` `multidisciplinary-thinking` `overconfidence` `poker` `prediction` `probability` `psychology` `rationality` `reasoning-errors` `risk` `scout-mindset` `sunk-cost` `survivorship-bias` `System-1` `System-2` `team-culture` `updating`
 
 ---
 
@@ -189,9 +221,10 @@ skills/
 ├── superforecasting.md         # Prediction, calibration & forecasting (Tetlock)
 ├── rationality.md              # Epistemology, clear thinking & debiasing (Yudkowsky)
 ├── scout-mindset.md            # Intellectual honesty, identity & motivated reasoning (Galef)
-└── munger-mental-models.md     # Latticework of mental models, inversion & multidisciplinary thinking (Munger)
+├── munger-mental-models.md     # Latticework of mental models, inversion & multidisciplinary thinking (Munger)
+└── thinking-clearly.md         # Rapid bias detection & reasoning error field guide (Dobelli)
 ```
 
 ---
 
-*Last updated: 2026-02-20 | Total skills: 5 | Total frameworks: 48 | Total tags: 47*
+*Last updated: 2026-02-20 | Total skills: 6 | Total frameworks: 59 | Total tags: 53*
