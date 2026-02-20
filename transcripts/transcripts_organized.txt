@@ -616,3 +616,49 @@ Critical quotes from Mark Shumaker:
 - On asking questions: "It's okay to go into a mix game or a game that you haven't seen before and ask a couple questions."
 - On PLO being relaxing: "I found pot limit Omaha to be the most relaxing game that I dealt because I didn't have to worry about making change and I didn't have to worry about the rake."
 
+## DEUCE_TO_SEVEN_DRAW
+
+Source: TruePokerDealer Mixed Games Lesson 7 of 10 - "2 to Seven Triple Draw Lowball (Limit) and 2 to Seven Single Draw (NL)"
+Type: MEMBERS_ONLY transcript (full access obtained)
+Length: ~47,000 characters
+
+Key topics covered:
+- Deuce-to-Seven Triple Draw Lowball: limit (and pot-limit), six-max, five cards per player
+- Best hand is 7-5-4-3-2 (non-suited) — straights and flushes COUNT against you, aces are HIGH
+- Limit version: no ante, small blind + big blind, four betting rounds (small/small/big/big)
+- Pot-limit version adds an ante for tournament play
+- Standard limit raises: bet and three raises per round
+- Cash game: pitch cards to players for draws; Tournament: push-pull delivery only (never pitch)
+- Push-pull: place cards face-down, slide to player, slide discards back — cards never leave felt
+- Discard procedure: all players place discards in positional order, dealer announces counts, burn, deliver
+- Announcement is BINDING — prevents any player from changing discard count after announcement
+- Burn card before EVERY draw round, even if all players stand pat
+- Burn cards = game state markers (count burns = know which round you're on)
+- Burn cards NEVER mixed with muck for reshuffle, NEVER prematurely mucked
+- Burn cards stay on table under chips until pot is pushed
+- Discard pile is separate from muck — slide discards into muck after all draws complete for that round
+- Player can discard entire hand (all 5 cards) — receive all 5 consecutively from deck
+- Exposed card during initial deal: 1st = replace with burn card; 2nd = misdeal (same as Hold'em)
+- Exposed cards during draws in cash games ("live action"): all exposed cards must be replaced
+- Deuce-to-Seven Single Draw (No Limit): seven-max, single draw, two betting rounds
+- Single draw: ante may be introduced later in tournament (like NL Hold'em structure)
+- Optional rule: first player in may be required to open for double big blind (verify with TD)
+- Positional advantage in single draw: seeing opponents' discard counts before your own decision
+- Mixed game table size: if >6 players for triple draw, use absent button on UTG seat(s)
+- Stub depletion: deal all except last card, combine last card with muck (not current discards), shuffle, continue without burning again
+- If player needs 2 cards but only 1 remains on stub: give them 1 card, reshuffle, then give remaining
+- Mark deals 3+ complete sample hands (2 limit triple draw, 1+ NL single draw)
+- Mark forgets to burn before first draw delivery — demonstrates the instinct error and correction
+
+Critical quotes from Mark Shumaker:
+- On best hand: "The best hand you can have in deuce to seven is the worst hand in regular Texas Hold'em."
+- On aces: "Ace is high in this game."
+- On burn importance: "One of the absolute most important things in this game is you have to burn a card before you pitch. That's how you know what street you're on."
+- On burn and pat: "If all players stand pat, one card is still burned to designate the round."
+- On push-pull: "In tournament you will almost never pitch the cards to the player. They go with the push-pull method."
+- On WSOP announcement rule: "This announcement prevents a change of the number of discards being drawn by any of the players in the hand."
+- On dealing unfamiliar games: "As long as you understand the core of how to deal draw games, you can figure it out. You can have the balls to go and say 'yeah I can do it.'"
+- On mistakes: "It's okay to forget a little detail here and there. It's not a big deal. You call floor."
+- On burn cards and muck: "Burn cards are never mixed with the muck for a reshuffle."
+- On discards into muck: "Slid, not lifted from the table and air mailed."
+
