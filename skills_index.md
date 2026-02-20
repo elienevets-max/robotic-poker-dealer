@@ -16,6 +16,7 @@ A searchable catalog of skills and knowledge modules relevant to the Robotic Pok
 | 6 | The Art of Thinking Clearly | Bias Detection & Field Guide | [`skills/thinking-clearly.md`](skills/thinking-clearly.md) | Which specific reasoning error is operating right now? |
 | 7 | The Black Swan | Extreme Events & Robustness | [`skills/black-swan.md`](skills/black-swan.md) | Am I positioned to survive the worst and benefit from the best? |
 | 8 | Antifragile | Systems That Gain From Disorder | [`skills/antifragile.md`](skills/antifragile.md) | How do I build systems that improve from volatility and stress? |
+| 9 | Radical Candor | Leadership & Feedback | [`skills/radical-candor.md`](skills/radical-candor.md) | How do I give honest feedback without damaging the relationship? |
 
 ---
 
@@ -109,6 +110,17 @@ The operational endpoint — how to design systems that don't merely survive sho
 - **Key Concepts:** Fragile-robust-antifragile triad, via negativa (subtract before you add), skin in the game (accountability as quality mechanism), Lindy Effect (time-tested = trustworthy), hormesis (right dose of stress builds strength), optionality and convexity (bounded downside, unlimited upside), naive interventionism (first do no harm), efficiency as fragility, small failures prevent catastrophic failures, redundancy as insurance not waste, Taleb's razor (one reason or don't do it)
 - **Tags:** `antifragility` `via-negativa` `skin-in-the-game` `lindy-effect` `hormesis` `optionality` `convexity` `fragility` `robustness` `redundancy` `barbell-strategy` `risk-management` `ruin-avoidance` `asymmetry` `naive-interventionism` `decision-making` `poker` `investing` `business-strategy`
 
+### Leadership, Feedback & People
+
+The human interface layer — how to communicate honestly, give and receive feedback that drives growth, manage performance, and build teams where truth moves fast. Determines whether insights from all other skills actually produce results in team contexts.
+
+#### 9. Radical Candor
+- **File:** [`skills/radical-candor.md`](skills/radical-candor.md)
+- **Source:** Kim Scott — *Radical Candor: Be a Kick-Ass Boss Without Losing Your Humanity* (2017)
+- **Core Frameworks:** Radical Candor Matrix (Care Personally × Challenge Directly), Four Feedback Quadrants (Radical Candor, Ruinous Empathy, Obnoxious Aggression, Manipulative Insincerity), HHIPP (Humble, Helpful, Immediate, In Person, Private), SBI (Situation-Behavior-Impact), Soliciting Criticism Process, Rockstars vs. Superstars, Feedback Culture Building (8-step), Career Conversation Framework
+- **Key Concepts:** Care personally + challenge directly, Ruinous Empathy as the most common and dangerous failure mode, soliciting criticism before giving it, specificity as kindness, praise in public / criticize in private, feedback sandwich anti-pattern, behavior vs. character, the make-or-break moment (response to first criticism), rockstars (stability/mastery) vs. superstars (growth/challenge), two-minute correction, upward feedback delivery
+- **Tags:** `radical-candor` `feedback` `leadership` `management` `communication` `team-culture` `1-on-1` `performance` `coaching` `career-development` `poker` `investing`
+
 ---
 
 ## By Situation
@@ -186,6 +198,19 @@ The operational endpoint — how to design systems that don't merely survive sho
 | "Am I avoiding necessary stress out of comfort-seeking?" | `antifragile.md` | `scout-mindset.md` |
 | "Is this approach time-tested or just trendy?" | `antifragile.md` | `superforecasting.md` |
 | "How do I design my poker career to get stronger from variance?" | `antifragile.md` | `black-swan.md` |
+| "How do I give difficult feedback without damaging the relationship?" | `radical-candor.md` | `scout-mindset.md` |
+| "Why isn't my team giving me honest information?" | `radical-candor.md` | `scout-mindset.md` |
+| "I'm avoiding a hard conversation I know I need to have" | `radical-candor.md` | `antifragile.md` |
+| "Am I being too nice or too harsh with feedback?" | `radical-candor.md` | `thinking-fast-and-slow.md` |
+| "How do I build a culture of honest feedback in my team?" | `radical-candor.md` | `scout-mindset.md` |
+| "How do I handle an underperformer on my team?" | `radical-candor.md` | `munger-mental-models.md` |
+| "How do I give feedback to someone more senior than me?" | `radical-candor.md` | `scout-mindset.md` |
+| "How do I praise someone effectively, not just 'good job'?" | `radical-candor.md` | — |
+| "How do I coach a poker student without sugarcoating their leaks?" | `radical-candor.md` | `scout-mindset.md` |
+| "How do I have a staking conversation about declining results?" | `radical-candor.md` | `antifragile.md` |
+| "How do I fire someone and handle it with both honesty and care?" | `radical-candor.md` | `munger-mental-models.md` |
+| "Why do I keep holding back feedback to be nice?" | `radical-candor.md` | `thinking-fast-and-slow.md` |
+| "How do I receive feedback without getting defensive?" | `radical-candor.md` | `scout-mindset.md` |
 
 ---
 
@@ -275,12 +300,20 @@ The operational endpoint — how to design systems that don't merely survive sho
 | Via Negativa Sprint | Antifragile | Quarterly elimination exercise: list everything → "if gone, better/worse/same?" → eliminate "better/same" items |
 | Taleb's Razor | Antifragile | If you need more than one reason to justify a decision, don't do it — multiple justifications = rationalization |
 | Rationality Stack (8-layer, with Antifragile) | Antifragile | Layer 0 (Structural/Black Swan) → Layers 1-6 (tools) → Layer 7 (Antifragile: the operational endpoint) |
+| Radical Candor Matrix | Radical Candor | Two-axis framework: Care Personally × Challenge Directly → four quadrants of feedback behavior |
+| Four Feedback Quadrants | Radical Candor | Radical Candor (care + challenge), Ruinous Empathy (care without challenge), Obnoxious Aggression (challenge without care), Manipulative Insincerity (neither) |
+| HHIPP (Feedback Delivery) | Radical Candor | Humble, Helpful, Immediate, In Person, Private — checklist for delivering critical feedback |
+| SBI (Situation-Behavior-Impact) | Radical Candor | Anchor to specific moment → describe observed behavior → describe consequence — structure for specific, actionable feedback |
+| Soliciting Criticism Process | Radical Candor | Ask specific questions → listen without defending → act on it → close the loop — earning the right to challenge by inviting challenge first |
+| Rockstars vs. Superstars | Radical Candor | Two types of high performers: rockstars (mastery, stability) vs. superstars (growth, challenge) — different management required |
+| Feedback Culture Building (8-step) | Radical Candor | Go first → solicit before giving → respond well → make structural → praise candor → never punish honesty → name Ruinous Empathy → hire for candor |
+| Career Conversation Framework | Radical Candor | Understanding each person's trajectory and managing rockstars vs. superstars accordingly |
 
 ---
 
 ## All Tags
 
-`action-bias` `antifragility` `asymmetry` `barbell-strategy` `base-rates` `Bayesian-reasoning` `Bayesian-updating` `behavioral-economics` `bias-detection` `black-swan` `Brier-score` `business-strategy` `calibration` `checklists` `circle-of-competence` `clear-thinking` `cognitive-bias` `competitive-advantage` `confirmation-bias` `convexity` `debiasing` `decision-making` `epistemology` `extremistan` `falsifiability` `fat-tails` `Fermi-estimation` `field-guide` `forecasting` `fox-vs-hedgehog` `fragility` `heuristics` `hormesis` `identity` `incentives` `intellectual-honesty` `investing` `inversion` `lindy-effect` `lollapalooza` `loss-aversion` `margin-of-safety` `mediocristan` `mental-models` `misjudgment` `moats` `motivated-reasoning` `multidisciplinary-thinking` `naive-interventionism` `optionality` `overconfidence` `poker` `position-sizing` `prediction` `probability` `psychology` `rationality` `reasoning-errors` `redundancy` `risk` `risk-management` `robustness` `ruin-avoidance` `scout-mindset` `skin-in-the-game` `sunk-cost` `survivorship-bias` `System-1` `System-2` `tail-risk` `team-culture` `updating` `via-negativa`
+`1-on-1` `action-bias` `antifragility` `asymmetry` `barbell-strategy` `base-rates` `Bayesian-reasoning` `Bayesian-updating` `behavioral-economics` `bias-detection` `black-swan` `Brier-score` `business-strategy` `calibration` `career-development` `checklists` `circle-of-competence` `clear-thinking` `coaching` `cognitive-bias` `communication` `competitive-advantage` `confirmation-bias` `convexity` `debiasing` `decision-making` `epistemology` `extremistan` `falsifiability` `fat-tails` `feedback` `Fermi-estimation` `field-guide` `forecasting` `fox-vs-hedgehog` `fragility` `heuristics` `hormesis` `identity` `incentives` `intellectual-honesty` `investing` `inversion` `leadership` `lindy-effect` `lollapalooza` `loss-aversion` `management` `margin-of-safety` `mediocristan` `mental-models` `misjudgment` `moats` `motivated-reasoning` `multidisciplinary-thinking` `naive-interventionism` `optionality` `overconfidence` `performance` `poker` `position-sizing` `prediction` `probability` `psychology` `radical-candor` `rationality` `reasoning-errors` `redundancy` `risk` `risk-management` `robustness` `ruin-avoidance` `scout-mindset` `skin-in-the-game` `sunk-cost` `survivorship-bias` `System-1` `System-2` `tail-risk` `team-culture` `updating` `via-negativa`
 
 ---
 
@@ -295,9 +328,10 @@ skills/
 ├── munger-mental-models.md     # Latticework of mental models, inversion & multidisciplinary thinking (Munger)
 ├── thinking-clearly.md         # Rapid bias detection & reasoning error field guide (Dobelli)
 ├── black-swan.md               # Extreme events, fragility & robustness under uncertainty (Taleb)
-└── antifragile.md              # Systems that gain from disorder, via negativa & convex positioning (Taleb)
+├── antifragile.md              # Systems that gain from disorder, via negativa & convex positioning (Taleb)
+└── radical-candor.md           # Honest feedback, caring leadership & communication (Scott)
 ```
 
 ---
 
-*Last updated: 2026-02-20 | Total skills: 8 | Total frameworks: 85 | Total tags: 72*
+*Last updated: 2026-02-20 | Total skills: 9 | Total frameworks: 94 | Total tags: 81*
