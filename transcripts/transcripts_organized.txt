@@ -685,3 +685,56 @@ Key topics covered:
 - Cash vs tournament chip handling: cash = fingertips only (security); tournament = full grip allowed
 - Mark demonstrates systematic evaluation of multiple board types with player hands
 
+=== SEVEN_CARD_STUD_VARIANTS ===
+Source: TruePokerDealer Mixed Games Lesson 6 of 10 — "Seven Card Stud, Seven Card Razz, Stud Hi-Lo 8 or Better, Stud Hi-Lo Regular"
+Type: MEMBERS_ONLY (extracted from user-provided transcript)
+
+Key topics covered:
+- WSOP audition structure: NL Hold'em hand → one flop game → one seven-card game → one mixed game hand
+- Eight-player max for all stud games: 8 × 7 = 56 cards needed but only 52 in deck
+- Card dealing pattern: 2 down, 1 up (3rd street), up cards for 4th-6th street, final down card (7th street)
+- Three Seventh Street stub management scenarios: (1) enough cards → deal normally, (2) add burn cards and mini-shuffle → deal normally, (3) not enough even with burns → deal single face-up community card
+- Stub count formula: 2 + number of remaining players = cards needed
+- Up-card pitch technique: push off deck, flip in hand, pitch — don't pause to look before pitching
+- Burn card discipline: Hold'em dealers forget burns in stud because no community cards trigger the reflex
+- Ante collection: go in one direction, miss = miss hand, no makeup required
+- Exposed card on initial deal: WSOP now considers this a misdeal (used to allow as up-card)
+
+Seven Card Stud High:
+- Low card by suit brings it in (deuce of clubs always lowest)
+- Suit rankings: Spades > Hearts > Diamonds > Clubs (reverse alphabetical by first letter)
+- Complete ($4 in 4/8) does NOT count as a raise — bet + 3 raises still allowed after
+- Open pair on 4th street: ANY player may change to higher limit ($8) — unique to stud high only
+- Once changed to $8, stays $8 for rest of that betting round
+- High hand acts first from 4th street onward
+- Tie for high: WSOP uses left of dealer; TDA uses suit ranking
+- Showdown if all check: highest board shows first
+- Odd chip in split: high card by rank and suit
+- WSOP requires reading every tabled hand
+
+Seven Card Stud Hi-Lo 8 or Better:
+- Half pot to high, half to low (8-or-better qualifier)
+- Same bring-in rules: low card by suit
+- NO open pair double-bet option (only in stud high)
+- Qualifying low: five different rank cards all 8 or below; straights/flushes don't count against low
+- No qualifying low = high scoops
+- Pot stacking: WSOP says stack after 7th street, not during hand
+- Heads-up on river in split pot: leave bets in front of players
+- Odd chip between high and low goes to high hand
+
+Seven Card Razz:
+- Lowest hand wins, no qualifier
+- Ace ALWAYS low; straights/flushes don't count; pairs DO count against
+- Best hand: 5-4-3-2-A (wheel)
+- HIGH card by suit brings it in (king of spades always first)
+- Low hand acts first from 4th street onward
+- Showdown: lowest board shows first
+
+Seven Card Stud Hi-Lo Regular (No Qualifier):
+- High hand gets half, best Razz hand gets half — every pot always splits
+- High card by suit brings it in (follows Razz convention)
+- Low hand acts first from 4th street (follows Razz convention)
+- Showdown: lowest board shows first
+- Community card on 7th street more likely (players stay longer for split pot chances)
+- Mark deals sample hands of all four variants demonstrating full procedures
+
