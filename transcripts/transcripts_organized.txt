@@ -229,3 +229,566 @@ Length: 2360 chars
 
 hello everybody and welcome to true poker dealer com my name is Mark Shum scre in this video is our introduction to what true poker dealer is true poker dealer is a series of videos that goes over how to deal poker and it goes over everything and it's from a casino industry standard I've been in the industry since 2007 and I've been playing poker and casinos since 2002 and I'm the type of guy that asks a lot of questions and for me not having there be anything that's out on the internet that's readily available has always been very frustrating and one day I decided you know what I'm going to do it I'm going to put the information out there how to deal poker for anyone that wants to learn and make it so that anybody has access to it some of the topics that I cover are how to shuffle how to pitch how to deal with the bank how to open and close a table how to do a Phil the rules of Limit Texas Hold'em the rules of No Limit Texas Hold'em the rules of Omaha pot limit high-low seven card stud stud eight rags all of those games are something that I'm going to be teaching and you have access to the videos for and you can watch them again and again and again in case you miss stuff now a couple of things before you get into it it's really really helpful for you to know before you start taking on this task but learning to deal is difficult it takes a lot of practice and a lot of patience and it's always a little bit easier to do when you've got someone there to show you know know you're doing this slightly differently you're doing this slightly differently so really Zone in and pay attention if you're here to just learn how to deal start to finish which you can do similarly a lot of people will use these videos to brush up on a lot of the things that they've learned and maybe they forgot because when you get told a whole bunch of stuff in a dealer school well that can be overwhelming and it's inevitable that you're going to forget something here there I hope that you enjoy all these videos and I hope that you take advantage of them to the fullest and if you're just a poker player that wants to know is this the way that it works what is the dealer supposed to do what am I supposed to do then that's great too and you can find all of that here I really hope that you enjoy once again i'm marc jump-scare this is true poker dealer calm
 
+
+================================================================================
+CATEGORY: SIDE_POTS_AND_MULTI_WAY_ALL_INS (Members-Only Content)
+================================================================================
+
+
+--- Side Pots and Multi-Way All Ins - Newly Edited! - Lesson 32 of 38 ---
+Video ID: members-only
+Length: ~45000 chars
+Source: Members-only content, Lesson 32 of TruePokerDealer curriculum
+
+Key topics covered in this lesson:
+- The core principle: a player can only win from each opponent an amount equal to what they put in
+- Why side pots exist (preventing forfeiture when a player runs out of chips)
+- Cherry picking method: taking the short stack amount from each player individually
+- Doing the math method: calculating totals mentally for faster pot building
+- Inside-out shortcut method: starting with the winner for experienced dealers
+- Three-way all-in basic example with step-by-step pot building
+- All-in for less during active betting (flop all-in with continuing action on turn/river)
+- Multiple all-ins across multiple streets
+- Nine-way all-in extreme scenario with full pot building demonstration
+- Pot tracking with chip markers (angled toward eligible player, stacked for pot number)
+- Space management during multi-way all-ins
+- Hands must stay in front of players (never gather to center)
+- Showdown resolution order: outside pots first, work inward to main pot
+- Limit hold'em side pots (incremental all-ins across streets, rake tracking)
+- All-in for less than the blind in tournaments
+- Table communication techniques for player confidence
+- Handling skeptical/aggressive players during pot construction
+- When to call a floor supervisor proactively
+- Rake management during complex side pot scenarios
+- Color-up during pot construction
+- Running it twice with multi-pot eligibility
+- Tipping psychology after large multi-way pots
+- Why auditioners test side pot skills heavily (worst possible floor call scenario)
+- Practice recommendations: nine-way all-in practice at home, recording yourself
+
+Critical quotes from Mark Shumaker:
+- "If there is one thing that you learn as a dealer before you go to that audition and you get absolutely right, make it this. Make sure the money is always right."
+- "You need to take your time especially when you're new and make sure you get everything right. Do not feel the pressure that the players will put on you to speed up."
+- "The reason that auditioners will not hire a dealer that are not very good at this is because if they did, the floor calls that they would have to deal with on the tables in their poker rooms would be insane."
+- On the inside-out shortcut: "I am warning you. If you are not an experienced dealer who already knows the standard method flawlessly, do not attempt this."
+- On handling skeptical players: "I totally understand that dealers make mistakes. I'm going to talk my game the entire time. You're gonna know what it is that I'm doing the whole time. I invite you to watch with me. I invite you to ask questions."
+- On tipping: "If you build a tip expectation into your head as a poker dealer you're going to tilt yourself... you create a negative freeroll for yourself."
+
+
+================================================================================
+CATEGORY: TOURNAMENT_PROCEDURES (Members-Only Content)
+================================================================================
+
+
+--- Texas Hold 'Em Tournaments - Lesson 35 of 38 ---
+Video ID: members-only
+Length: ~45000 chars
+Source: Members-only content, Lesson 35 of TruePokerDealer curriculum
+
+Key topics covered in this lesson:
+- How tournaments work: buy-in structure, prize pool distribution, blind escalation
+- Player entry procedure: ticket verification, starting stack distribution, table/seat verification
+- Tournament management software (Bravo, Poker Atlas): seat release strategy, progressive table filling
+- Dealing to empty seats and absent players (all stacks get dealt to)
+- TDA Rule 30: hand killed if player not at seat when last card dealt
+- Tournament clock and blind level timing: riffle determines which blind level applies
+- Traditional antes vs big blind ante format (modern standard since ~2017)
+- Short stack with big blind ante: ante posted first, big blind second
+- Seating cards: ordering, placement when player eliminated, verification on tap-in
+- Announcing eliminations: "seat open" vs "player down" etiquette
+- Re-entry vs rebuy vs add-on: procedural and financial differences
+- Button assignment: deal for button, same starting seat all tables
+- Dead button in tournaments (TDA standard): implications for seating new players
+- Color-up and race-off: buying up small chips, one card per odd chip, highest card wins, suit tiebreakers
+- Table breaks: high card for seating assignment, chip transport in racks, TDA Rule 63 (chips out of view)
+- Table balancing: within 2 for 3+ tables, within 1 for final 2 tables
+- Bounty tournaments: bounty chip = all-in declaration, split bounties, redemption procedures
+- Breaks: suiting decks, verifying seating cards, signing down cards, color-up timing
+- Down cards: the only way to ensure proper tournament tip pool distribution
+- Penalties (TDA Rule 71): escalation from warnings to missed hands to disqualification
+- Common penalty triggers: exposed cards, soft play, foreign language, action out of turn, behavior
+- Player responsibilities (TDA Rule 2): speak up if mistake seen, protect hand, follow action
+- Accepted action (TDA Rule 49): caller responsible for correct bet amount regardless of stated amount
+- Face-up for all-ins (TDA Rule 16): all hands must be tabled when all-in action complete
+- Chips out of play (TDA Rules 62-64): hidden chips, chips in transit, lost and found
+- Chop negotiations: one player says no = conversation over, dealer stays neutral
+- ICM chop procedure: counting down all stacks for supervisor calculation
+- Hand-for-hand play: synchronized dealing, TDA RP 8 (deduct 2 min per hand from clock)
+- Making change in tournaments (no dealer bank): asking players politely
+- Tips in tournaments: pool distribution vs individual (promotion tips only)
+- Electronic devices (TDA Rule 5): phones, apps, strategy charts not allowed with live hands
+- Final table: redraw for seats and button, RFID cards, broadcast pace
+- Sit-and-go format: no clock display, dealer uses timer, same dealer start to finish
+- Rotation and table breaks: managing dealer expectations when tournament table breaks
+
+Critical quotes from Mark Shumaker:
+- "Tournaments are so different that they might as well be called another game."
+- On seating cards: "One of the most common mistakes that I see by tournament dealers is when a player gets knocked out they get distracted and they forget to put the seating card out."
+- On down cards: "That little card in most poker rooms is the only way that you get paid."
+- On rotation frustration: "That one expectation of getting to a certain table can literally break you as a dealer."
+- On player responsibility: "If you see a mistake, speak up. It's literally in the rules."
+
+========================================
+DEALER_PROCEDURES_AND_CAREER
+========================================
+
+Lesson 36 of 38: Things I missed (Members-Only, ~3 hours)
+Source: TruePokerDealer YouTube Channel (Mark Shumaker)
+Content: Comprehensive review of everything not covered in previous 35 lessons, drawn from the official dealer procedure manual
+
+Key topics covered:
+- Dealer procedure manual: 100% responsibility to read and know, no exceptions
+- Players cards: critical revenue tool, advertising value, comp systems ($0.40-$3.00/hour), how to get reluctant players to accept them
+- Interview preparation: five key questions (availability, experience, good dealer qualities, 5-year plan, difficult customers)
+- Audition format: 6-15 candidates, one in the box while others play, behavioral observation of all candidates
+- Experience hierarchy: casino dealer > dealer school > hospitality > poker player (avoid ego)
+- Constant observation: everything gets back to the poker director, informal channels, break room behavior matters
+- Professional conduct on floor: one negative experience can lose a customer for life
+- Representing the casino: applies at all times, including at competing properties; never tell players to go elsewhere
+- Companywide meetings: mandatory, minimum wage on day off, attendance tracked and judged
+- Valuing guest relationships: networking opportunities, private games ($2,000+ tips), career advancement
+- Moonlighting policy: many rooms forbid outside dealing (other rooms, cruises, home games, charity events), terminable offense
+- Do not handle chips unnecessarily: no shuffling pot chips during action, no fidgeting with equipment
+- Tribal/Indian casino experiences: Seminole Hard Rock sovereign nation, Noocksack tribe, promotion preferences, cultural sensitivity, formal trial before termination
+- Attendance policies: point systems (typical 8 points over rolling year), holiday blackout days, double points for holidays, reputation damage from calling out
+- Smoking policies: poker rooms almost universally smoke-free, unlike table games floors
+- Aprons: required but rarely cover dealer pockets, source of industry-wide bemusement
+- EO (early out) list: useful but creates reputation of not wanting to work, no guaranteed end time
+- Cell phones on floor: absolutely forbidden for dealers, no exceptions
+- Badges: must be visible at all times on gaming floor
+- Never give players advice: no remarks on method of play, skill level, luck, or "good luck all-in"
+- Cross-firing: never yell across to other tables, wildly unprofessional
+- Never argue with a guest: call a floor instead, every time
+- Hand clearing procedures: after touching chips/money, before touching body, state fines possible (Florida: $50-$100 per violation)
+- Never take anything from a player's hand: items go on the felt first, then dealer picks up
+- Seat cushions: sweaty dealers must use them out of courtesy to rotation
+- Buy-in rules: adding on below minimum when already in game (with at least a big blind remaining)
+- Texas tip chips: separate chips purchased at cashier, cannot be wagered, can be traded between players
+- TCH (Texas Card House): Dallas room opening, regulatory loophole
+- Unprotected hands / fouled hands: cards touching muck = floor call, every player must have chance to protect
+- Player responsibility to speak up: about main pots, incorrect bets, procedural errors
+- Rabbit hunting: never allowed, slows hands per hour, creates cascading requests
+- Deck position: parallel to felt at all times, angling allows card exposure, rolling deck can drop cards on muck
+- Collusion: house has right to separate suspected colluding players, shift manager can request to see hands
+- English-only rule: one official language at table, prevents information sharing in foreign languages
+- Spectator rules: cannot sit at playing table, can be repositioned, no disruption allowed
+- Never look at face-down cards: no peeking at muck, stub, or folded cards under any circumstances
+- Odd chip in split pots: goes to worst position (closest to button, meaning first to act)
+- Dead spreads: part of the industry, accept them, good opportunity for rest and guest interaction
+- Floor calls for troublemakers: proactively notify supervisor when known problem player enters room
+- Panhandling: report to supervisor immediately, uncomfortable for players, drives away customers
+- Never be ashamed to call the floor: if you think you might need to, you should
+- Base pay for dealers: $3/hour to state minimum wage, tips are majority of income
+- Tips and taxes: varies by state, affects mortgage eligibility, PTO doesn't include tip rate
+- Financial literacy: dealers suddenly making more money than before, risk of developing gambling habits
+- Break procedures: check in with supervisor, go directly to break room, don't linger on floor
+
+Critical quotes from Mark Shumaker:
+- "It is required without exception that a dealer reads and knows everything in the dealer procedure manual."
+- On players cards: "Every single time you can get a player card into a poker player's hands, they are going to be advertised to by it."
+- On interviews: "The number one thing that will get a qualified person out of a job is the appearance of arrogance or an ego of any type."
+- On observation: "Everything gets back to the poker director. Everything."
+- On one negative experience: "The number one reason that somebody does not come back to a casino is having one negative experience with one employee."
+- On moonlighting: "If moonlighting is not allowed, that means they don't allow it in other rooms, cruises, home games, bar poker, charity."
+- On "good luck all-in": "The hallmark of an unprofessional room is dealers that say good luck all-in."
+- On calling the floor: "Do not ever, no matter what, be ashamed to call the floor."
+- On dead spreads: "It's your own fault if you end up going to deal poker and you have an issue with dead spreads."
+- On attendance: "Bad attendance is the number one thing that affects dealers from not getting things that they want."
+- On the big blind ante: "It used to take forever to collect antes from every single player. The big blind ante eliminates that."
+
+========================================
+MIXED_GAMES_ADVANCED_PROCEDURES
+========================================
+
+Mixed Games Lesson 10 of 10: Everything I Missed in the Previous Lessons (Members-Only, ~3 hours)
+Source: TruePokerDealer YouTube Channel (Mark Shumaker)
+Content: Comprehensive review of missed details from mixed game series, drawn from TDA recommended procedures, WSOP rules, and procedure manual notes
+
+Key topics covered:
+- Pot-limit pot count entitlement: TDA says players are entitled to pot count in pot-limit only (not NL or limit)
+- Pot-limit short all-in blind calculation: if player is all-in for less than blind amount, pot calculation still uses full blind value
+- Seven-card stud: picking up up-cards while facing action = dead hand (but enforcement is inconsistent)
+- Stud bring-in with short stacks: all-in for ante player can't bring in, action passes left to first player with chips
+- Stud matching high hands: TDA recommends suit tiebreaker (Spades > Hearts > Diamonds > Clubs, reverse alphabetical)
+- Stud Fourth Street pair showing: WSOP allows big bet option; TDA recommends removing it (Barry Greenstein feedback)
+- Stud exposed card on initial deal: WSOP = misdeal; TDA = continue, exposed card becomes up-card, player eligible for bring-in
+- Stud exposed card on Seventh Street: TDA = set aside, wash/shuffle stub, redeal; WSOP = player keeps or declares all-in
+- Stud dealing to absent players: WSOP deals phantom card to preserve order; TDA recommends skipping (random card theory)
+- Stud premature card on later streets: set aside cards, deal extras, allow skipped player to act, wash/shuffle stub on Seventh Street
+- Random card theory: TDA framework - cards should be random from correct pool, order preservation not important
+- Online poker precedent: Full Tilt drew random cards from pool (not 52-card deck), game was fair
+- TDA recommended procedures: implemented as suggestions, not rules; rooms adopt at own pace, observe results
+- "I put you all in" phrasing: always a floor call, player cannot force another player to bet
+- Chip pull-back: player with enough to call who pulls chip back must raise or it's a floor call
+- Minimum raise with incomplete all-ins: two competing schools (add min raise to call vs. add total faced raise)
+- Draw games (2-7, A-5, Badugi, 5-card draw): all-in tournament procedure preserves draw secrecy
+- Draw game all-in procedure: have players declare draw amounts, deal draws, THEN show hands; dealer protects muck
+- Odd chip in hi-lo split: WSOP says high card by suit even in Raz/low games; some rooms use low card by suit
+- Equal split shortcut in hi-lo: if same two players split both high and low, can just split whole pot (Neil Johnson/PokerStars)
+- Bounty chip thrown alone = all-in declaration; mixed in with bet = floor call
+- Asking to see a hand at showdown: always call supervisor, no TDA consensus on who can request
+- Blind level changes: TDA says on announcement, not on clock expiration
+- Chip stacking: experienced floor should be able to estimate count in seconds; if not, reorganize
+- Big blind ante short stack: most rooms say ante comes first (player only eligible for ante amounts); WSOP treats as both
+- Dodging blinds: intentional delay at table breaks or with tickets = penalty; dealer should report to supervisor
+- Two-motion raises: TDA no longer permits in tournaments
+- Final table chop protection: if player says no, conversation must stop; continued pressure = call floor
+- Women in poker: Katie Stone TDA presentation; 10-20% of casino players vs 50%+ of home game players
+- Behavioral barrier: abuse tolerated because of tipping dynamics; dealers should call floor for any confrontation
+- Historical abuse examples: cigarette burns, harassment tolerated in 1980s; culture improved but not eliminated
+- TDA vs. WSOP key differences: documented across stud exposed cards, Fourth Street pair, absent players, two-motion raises
+- Split pot rule supported by Neil Johnson: two players splitting both high and low evenly = just split the whole pot
+
+Critical quotes from Mark Shumaker:
+- On pot-limit: "In pot-limit games, players are entitled to a pot count. That is not the case in no-limit or limit."
+- On random card theory: "The cards that are eligible to come should all have an opportunity to come. That creates a fair game."
+- On TDA recommended procedures: "It's much better for them to start coming up with things that they think make sense but not forcing anybody to do it."
+- On "I put you all in": "Your job is easy. Floor. That's all you have to do."
+- On minimum raises: "It's all over the place. Just call a floor anytime you're confused about what the minimum raise is."
+- On women in poker: "The biggest customers out there that are not being tapped right now are women in poker."
+- On calling the floor: "On your first day as a poker dealer you may have 10 things come up that you're just like I have never been taught that."
+- On stud up-cards: "In stud poker, if a player picks up the up cards while facing action, the hand is dead."
+
+========================================
+BADUGI_BADACY_BADUCY
+========================================
+
+Mixed Games Lesson 9 of 10: Badugi, Baducy, and Badacy (Members-Only, ~3 hours)
+Source: TruePokerDealer YouTube Channel (Mark Shumaker)
+Content: Complete dealing procedures for three four-card/five-card draw variants used in WSOP mixed game tournaments
+
+Key topics covered:
+- Badugi fundamentals: four-card poker variant, limit triple draw, no ante
+- Badugi hand rankings: four different suits, four different ranks, lowest wins; aces low
+- Best badugi hand: A-2-3-4 (all different suits) = "perfect badugi"
+- Four-card badugi beats all three-card badugies, which beat all two-card badugies
+- When suits or ranks duplicate: higher duplicate card discarded for evaluation
+- Badugi dealing: eight-max in tournaments, four cards per player, three draw rounds, four betting rounds
+- Tournament card delivery: placed on table and slid to player, not pitched
+- Discard pile kept separate from muck and burn cards (critical for stub depletion)
+- Badacy (Badugi + Ace-to-Five): split pot game, half to best badugi, half to best A-5 lowball
+- Badacy dealing: five cards per player, six-max, no ante, no qualifier
+- Aces low in badacy for both halves
+- Players can use different card combinations for badugi vs A-5 evaluation
+- Baducy (Badugi + Deuce-to-Seven): split pot game, half to best badugi, half to best 2-7 hand
+- CRITICAL: Aces are HIGH in baducy for BOTH badugi and 2-7 evaluations
+- Best baduci badugi: 5-4-3-2 (not A-2-3-4, because aces are high)
+- Discard announcement procedure: go around table, each player states number, dealer announces all, then deals
+- Forward motion of placing discards is binding (can swap which cards but not the count)
+- Stub depletion procedure: deal until one card remains, combine last card with muck (NOT current discards), wash/shuffle, continue
+- Current round's discards never shuffled back in (information protection)
+- Multiple stub depletions possible in a single hand with aggressive drawing
+- Pot stacking: WSOP procedure begins after last discard of final draw round; stack by denomination, largest first
+- Split-pot showdown: evaluate badugi half first, push pot, then evaluate lowball half, push pot
+- After pushing badugi half, muck winning badugi hand unless same player also wins lowball
+- Multi-way all-in with side pots: split evaluation performed independently for each pot
+- New dealer advice: don't expect first day to go well, 10+ unfamiliar situations guaranteed
+- Never apologize for mistakes — admit them and call the floor
+- Don't try to fix your own mistakes (quickest way to get fired)
+- Focus on accuracy over speed for first few shifts
+- Use breaks to ask questions; use other dealers as resources
+- "One player per hand" and "card speak" are the two fundamental rules for decision-making
+
+Critical quotes from Mark Shumaker:
+- On badugi rarity: "It's hard to see a perfect badugi even though it's a triple draw game."
+- On aces in baducy: "Ace is considered high in all games, all versions of baducy."
+- On new dealers: "Brand new dealers that deal their very first day, possibly their first two to three days, it's like a lot of learning."
+- On calling the floor: "The table games dealers usually have an easier time because they're used to calling the floor already."
+- On mistakes: "Do not try to fix your own mistakes. Just say 'I made a mistake, let's get the supervisor over here.'"
+- On speed: "Nobody is expecting you to be fast yet. Focus on accuracy."
+- On stub depletion: "Deal as many cards as possible without dealing the last card on the stub."
+
+## ACE_TO_FIVE_AND_FIVE_CARD_DRAW
+
+Source: TruePokerDealer Mixed Games Lesson 8 of 10 - "Ace to 5 Triple Draw Lowball and 5 Card Draw High (No Limit)"
+Type: MEMBERS_ONLY transcript (full access obtained)
+Length: ~47,000 characters
+
+Key topics covered:
+- Ace-to-Five Triple Draw Lowball: limit-only (per WSOP manual), six-max, five cards per player
+- Straights and flushes do NOT count against the hand in A-5 (unlike Deuce-to-Seven)
+- Best hand is A-2-3-4-5 (the wheel) — same low rankings as Razz and Omaha Hi-Lo low half
+- No ante in A-5 — small blind and big blind only
+- A-5 is not a split-pot game — lowest hand wins entire pot (no qualifier needed)
+- Discard procedure: wait for all players, announce counts, burn, pitch replacements one at a time, pull discards to separate pile before moving to next player, then muck discards after all dealt
+- Burn card tracking: number of burns on table = which draw round you are on (critical for game state)
+- "Pat" = standing/keeping all cards — player taps table or says "pat"
+- Five-Card Draw High (No Limit): seven-max, single draw, high hand wins, standard poker rankings
+- Exposed card during initial pitch: one card = show to all, becomes burn card, deal replacement; two cards = misdeal
+- Short-dealt player (4 cards): if not yet acted, floor call allows 5th card; if already acted, hand is dead
+- Common Hold'em instinct error: accidentally burning and dealing a flop in a draw game — floor call
+- Already burned before discards: announce "we've already burned" and continue without burning again
+- Speed management: slow down when switching game types, Hold'em muscle memory causes errors
+- Stub depletion reminder: deal all except last card, mix last card with muck (not current discards), shuffle, continue
+- Mark accidentally burns and starts to deal a flop during the lesson — demonstrates real-world error and recovery
+
+Critical quotes from Mark Shumaker:
+- On A-5 vs 2-7: "Ace to five is built almost the exact same as deuce to seven. The difference is that straights and flushes don't affect the hand ranking."
+- On limit only: "According to the WSOP, deuce to seven lowball can either be limit or pot limit. Ace to five according to the WSOP manual is not dealt pot limit. It's only dealt limit."
+- On Hold'em instinct: "If you deal Hold'em, it can be easy as soon as you bring the pot in to just go and bring a flop. If you do that, that's a floor call."
+- On premature burn: "If you've already burned in this game, you announce 'we've already burned' and then you continue."
+- On short-dealt player: "If this player who has not yet acted on their hand... it's okay for this player to notify the dealer... they can ask for a fifth card. You would call a floor for this."
+- On speed: "There's this desire as a dealer especially a dealer who's used to dealing Hold'em fast to just keep the pace up. You don't need to do that."
+- On mistakes: "One of the nice things about being a dealer, all you have to do when you mess up is call the floor."
+- On slowing down: "If I had just slowed down and not felt the pressure trying to go fast, it would have helped me a tremendous amount."
+
+## BIG_O_AND_OMAHA_ADVANCED
+
+Source: TruePokerDealer Mixed Games Lesson 5 of 10 - "Big O Sample Hands and Some Additional Omaha Info"
+Type: MEMBERS_ONLY transcript (full access obtained)
+Length: ~47,000 characters
+
+Key topics covered:
+- Big O = Five-Card Omaha, "big" = five hole cards instead of four
+- Tournament format: pot-limit, eight or better, high-low split (per WSOP manual)
+- Seven-max (seven players per table) due to increased card consumption
+- Pot-limit calculation reinforcement: 3× previous bet + trail + pot; small blind counts as big blind in cash
+- No limpers = 4× big blind; one limper = 5× big blind for pot-sized raise
+- Dealer must track running pot total mentally (e.g., 160 → 640 → 2,560 escalation)
+- Split-pot showdown procedure: kill losing hands, frame high hand first, push high half, lock up high, frame low hand, push low half
+- Pot stacking: begin after river is dealt; direct action first, then stack while paying attention
+- Stack by denomination (largest closest to dealer) for quick readability
+- Three-way chop: high gets half, two low winners split remaining half; odd chip to player nearest button
+- Dirty stack detection: wrong-denomination chip mixed in — dealer error and surveillance flag
+- Verify five cards on every muck (easy to miscount with unusual hand size)
+- Big O Double Barrel: variant with two boards, but NOT per-board split — best hand across either board wins high/low
+- Exposed card during Big O pitch: same rules as Hold'em (one = replace, two = misdeal)
+- Accidentally pulling extra card (burn card) during pitch: can put it back if not exposed
+- No rabbit hunting in any game — reiterated
+- Mark deals four complete sample hands demonstrating pot-limit calculation, split-pot evaluation, and three-way chops
+
+Critical quotes from Mark Shumaker:
+- On Big O definition: "Big Omaha, which the big just stands for five card Omaha."
+- On tournament format: "The general rule of thumb for Big O is that in tournament, this game is played as pot limit eight or better."
+- On table size: "Because there's five cards per player instead of four, we can't deal as many people in. So, we only deal to seven players max."
+- On pot tracking: "Before I bring this whole pot together, this is really important as a dealer. Before I bring this whole pot together, I want to know that number."
+- On stacking timing: "The WSOP suggests that we wait until the river is out to start stacking."
+- On action priority: "We don't want people waiting on us stacking the pot to start acting."
+- On dirty stacks: "You want to be real careful to stack it in a way where you can see any dirty stacks."
+- On three of a kind in Big O: "Three of a kind either in Omaha or Big O, never that good. You're just completely wasting a card. It's like you're playing four on five basketball."
+
+## POT_LIMIT_OMAHA_CALCULATION
+
+Source: TruePokerDealer Mixed Games Lesson 4 of 10 - "Pot Limit Omaha"
+Type: MEMBERS_ONLY transcript (full access obtained)
+Length: ~47,000 characters
+
+Key topics covered:
+- Pot-limit calculation: the conceptual method (call first, then raise by the completed pot)
+- The dealer formula: 3× the previous bet + the trail + the pot
+- Trail definition: all active bets in current round in front of players NOT in action
+- Critical rule: trail does NOT include money in front of the active player
+- Pre-flop shortcuts: 4× big blind with no limpers, +1× per limper (5×, 6×, 7×...)
+- Same-amount shortcut: when all bets are equal, multiply count × amount
+- All-in for less: does NOT count as "previous bet" — skip it, use last complete bet; all-in becomes trail
+- Cash game rule: small blind counts as full big blind for pot-limit calculations
+- Tournament rule: small blind counts as actual amount (different from cash)
+- Pot-limit allows unlimited raises (no cap on number of raises, only on size of each raise)
+- "Talking your game": calculating out loud is acceptable ("75, 100, 125 — pot, 125")
+- Pre-calculating: figure out pot amount while player is thinking, then answer instantly
+- Verbal announcement: player says "pot" → dealer repeats "pot" + amount; "pot" replaces "raise"
+- Player puts out exact pot amount silently → dealer recognizes and announces "pot"
+- Player puts out too much → dealer corrects to pot maximum, returns excess
+- Player declares amount over pot → dealer corrects: "pot, [correct amount]"
+- NEVER count down the pot physically — call the floor if you've lost track
+- Keep dead money separate from pot until ready to add — acceptable practice
+- Figure out pot total BEFORE merging bets into center pot
+- PLO is usually time-raked (not per-hand), making it more relaxing for dealers
+- Memorization: common amounts repeat hand after hand, become automatic (like craps payouts)
+- Dealing with difficult players: some deliberately put out ambiguous amounts to test dealers
+- Own mistakes without apologizing: "I made a mistake. I'm going to call the floor."
+- Social pressure from other players is more effective than dealer confrontation
+- Ask questions when sitting down at unfamiliar PLO table: verify structure during tap-out
+- 1/2 PLO can be messy; some rooms use $5 increments to simplify
+- Dead ante structures (e.g., 50/100 with dead 100) change the first raise calculation
+- Mark deals 5+ complete sample hands demonstrating calculation at every stage
+- Mark loses track of the pot while teaching, demonstrating how easy it is to forget
+
+Critical quotes from Mark Shumaker:
+- On the formula: "Three times the previous bet plus the trail plus the pot. That is the formula that will always give you the correct amount."
+- On calculating out loud: "Instead of saying 395, I allowed myself to figure it out. So I said 225, 300, 375, 395. That's actually totally acceptable."
+- On trail rule: "It's really important for you as the dealer to know that if a amount of money is in front of this player, it does not count as a part of the trail."
+- On all-in for less: "An all-in for less counts as a part of the trail. It does not count as the previous bet."
+- On never counting the pot: "If you ever need to count down how much is in the pot, call a supervisor. The last thing you want is to create the habit of counting the pot down."
+- On merging bets: "It's really important that before you meld that pot, you know how much is in it."
+- On memorization: "The more you deal this game, the easier stuff like this gets."
+- On dealing with challenges: "You say 'I made a mistake. I'm going to call the floor. The floor is going to fix it.'"
+- On asking questions: "It's okay to go into a mix game or a game that you haven't seen before and ask a couple questions."
+- On PLO being relaxing: "I found pot limit Omaha to be the most relaxing game that I dealt because I didn't have to worry about making change and I didn't have to worry about the rake."
+
+## DEUCE_TO_SEVEN_DRAW
+
+Source: TruePokerDealer Mixed Games Lesson 7 of 10 - "2 to Seven Triple Draw Lowball (Limit) and 2 to Seven Single Draw (NL)"
+Type: MEMBERS_ONLY transcript (full access obtained)
+Length: ~47,000 characters
+
+Key topics covered:
+- Deuce-to-Seven Triple Draw Lowball: limit (and pot-limit), six-max, five cards per player
+- Best hand is 7-5-4-3-2 (non-suited) — straights and flushes COUNT against you, aces are HIGH
+- Limit version: no ante, small blind + big blind, four betting rounds (small/small/big/big)
+- Pot-limit version adds an ante for tournament play
+- Standard limit raises: bet and three raises per round
+- Cash game: pitch cards to players for draws; Tournament: push-pull delivery only (never pitch)
+- Push-pull: place cards face-down, slide to player, slide discards back — cards never leave felt
+- Discard procedure: all players place discards in positional order, dealer announces counts, burn, deliver
+- Announcement is BINDING — prevents any player from changing discard count after announcement
+- Burn card before EVERY draw round, even if all players stand pat
+- Burn cards = game state markers (count burns = know which round you're on)
+- Burn cards NEVER mixed with muck for reshuffle, NEVER prematurely mucked
+- Burn cards stay on table under chips until pot is pushed
+- Discard pile is separate from muck — slide discards into muck after all draws complete for that round
+- Player can discard entire hand (all 5 cards) — receive all 5 consecutively from deck
+- Exposed card during initial deal: 1st = replace with burn card; 2nd = misdeal (same as Hold'em)
+- Exposed cards during draws in cash games ("live action"): all exposed cards must be replaced
+- Deuce-to-Seven Single Draw (No Limit): seven-max, single draw, two betting rounds
+- Single draw: ante may be introduced later in tournament (like NL Hold'em structure)
+- Optional rule: first player in may be required to open for double big blind (verify with TD)
+- Positional advantage in single draw: seeing opponents' discard counts before your own decision
+- Mixed game table size: if >6 players for triple draw, use absent button on UTG seat(s)
+- Stub depletion: deal all except last card, combine last card with muck (not current discards), shuffle, continue without burning again
+- If player needs 2 cards but only 1 remains on stub: give them 1 card, reshuffle, then give remaining
+- Mark deals 3+ complete sample hands (2 limit triple draw, 1+ NL single draw)
+- Mark forgets to burn before first draw delivery — demonstrates the instinct error and correction
+
+Critical quotes from Mark Shumaker:
+- On best hand: "The best hand you can have in deuce to seven is the worst hand in regular Texas Hold'em."
+- On aces: "Ace is high in this game."
+- On burn importance: "One of the absolute most important things in this game is you have to burn a card before you pitch. That's how you know what street you're on."
+- On burn and pat: "If all players stand pat, one card is still burned to designate the round."
+- On push-pull: "In tournament you will almost never pitch the cards to the player. They go with the push-pull method."
+- On WSOP announcement rule: "This announcement prevents a change of the number of discards being drawn by any of the players in the hand."
+- On dealing unfamiliar games: "As long as you understand the core of how to deal draw games, you can figure it out. You can have the balls to go and say 'yeah I can do it.'"
+- On mistakes: "It's okay to forget a little detail here and there. It's not a big deal. You call floor."
+- On burn cards and muck: "Burn cards are never mixed with the muck for a reshuffle."
+- On discards into muck: "Slid, not lifted from the table and air mailed."
+
+=== OMAHA_HAND_READING_AND_SPLIT_POT_PROCEDURES ===
+Source: TruePokerDealer Mixed Games Lesson 3 of 10 — "The Omaha Lesson That Will Finally Have You Feel Comfortable Dealing Omaha"
+Type: MEMBERS_ONLY (extracted from user-provided transcript)
+
+Key topics covered:
+- Systematic board reading methodology: read the board FIRST, classify by type, evaluate from highest possible hand downward
+- Board type classification: unpaired/no flush/no straight, straight-possible, four-straight, five-straight, flush-possible, four-flush, five-flush, paired board, two-pair board, three-of-a-kind board
+- Hand hierarchy for each board type: four of a kind → full house → flush → straight → trips → two pair → pair → high card
+- The "exactly 2 from hand, 3 from board" rule — most common Omaha showdown error
+- Framing technique: physically separating the 2 hole cards and 3 board cards to verify hands
+- Low hand reading in Omaha Hi-Lo: qualifying low requires five unpaired cards 8 or below
+- Nut low identification: read from bottom up (ace first), compare from top down (highest card first)
+- Four-to-a-low boards: player still needs TWO qualifying low cards from hand, not just one
+- Split pot showdown procedure: push high first → kill high hand → push low → kill low hand
+- Odd chip rules: high ALWAYS gets the odd chip between halves (direction-based, not position-based)
+- Odd chip within tied lows: worst position (closest to receiving button next)
+- Three-way low chop: divide low half into three, two odd chips go to two worst-position players
+- Pot stacking: largest denomination closest to dealer; stack for easy halving
+- Cash vs tournament stacking timing: cash can stack during hand; tournament (WSOP) waits until river
+- Stub counting in Omaha: 4 cards × 10 players = 40 + 3 burns + 5 board = 48 dealt, only 4 remaining
+- Cash vs tournament chip handling: cash = fingertips only (security); tournament = full grip allowed
+- Mark demonstrates systematic evaluation of multiple board types with player hands
+
+=== SEVEN_CARD_STUD_VARIANTS ===
+Source: TruePokerDealer Mixed Games Lesson 6 of 10 — "Seven Card Stud, Seven Card Razz, Stud Hi-Lo 8 or Better, Stud Hi-Lo Regular"
+Type: MEMBERS_ONLY (extracted from user-provided transcript)
+
+Key topics covered:
+- WSOP audition structure: NL Hold'em hand → one flop game → one seven-card game → one mixed game hand
+- Eight-player max for all stud games: 8 × 7 = 56 cards needed but only 52 in deck
+- Card dealing pattern: 2 down, 1 up (3rd street), up cards for 4th-6th street, final down card (7th street)
+- Three Seventh Street stub management scenarios: (1) enough cards → deal normally, (2) add burn cards and mini-shuffle → deal normally, (3) not enough even with burns → deal single face-up community card
+- Stub count formula: 2 + number of remaining players = cards needed
+- Up-card pitch technique: push off deck, flip in hand, pitch — don't pause to look before pitching
+- Burn card discipline: Hold'em dealers forget burns in stud because no community cards trigger the reflex
+- Ante collection: go in one direction, miss = miss hand, no makeup required
+- Exposed card on initial deal: WSOP now considers this a misdeal (used to allow as up-card)
+
+Seven Card Stud High:
+- Low card by suit brings it in (deuce of clubs always lowest)
+- Suit rankings: Spades > Hearts > Diamonds > Clubs (reverse alphabetical by first letter)
+- Complete ($4 in 4/8) does NOT count as a raise — bet + 3 raises still allowed after
+- Open pair on 4th street: ANY player may change to higher limit ($8) — unique to stud high only
+- Once changed to $8, stays $8 for rest of that betting round
+- High hand acts first from 4th street onward
+- Tie for high: WSOP uses left of dealer; TDA uses suit ranking
+- Showdown if all check: highest board shows first
+- Odd chip in split: high card by rank and suit
+- WSOP requires reading every tabled hand
+
+Seven Card Stud Hi-Lo 8 or Better:
+- Half pot to high, half to low (8-or-better qualifier)
+- Same bring-in rules: low card by suit
+- NO open pair double-bet option (only in stud high)
+- Qualifying low: five different rank cards all 8 or below; straights/flushes don't count against low
+- No qualifying low = high scoops
+- Pot stacking: WSOP says stack after 7th street, not during hand
+- Heads-up on river in split pot: leave bets in front of players
+- Odd chip between high and low goes to high hand
+
+Seven Card Razz:
+- Lowest hand wins, no qualifier
+- Ace ALWAYS low; straights/flushes don't count; pairs DO count against
+- Best hand: 5-4-3-2-A (wheel)
+- HIGH card by suit brings it in (king of spades always first)
+- Low hand acts first from 4th street onward
+- Showdown: lowest board shows first
+
+Seven Card Stud Hi-Lo Regular (No Qualifier):
+- High hand gets half, best Razz hand gets half — every pot always splits
+- High card by suit brings it in (follows Razz convention)
+- Low hand acts first from 4th street (follows Razz convention)
+- Showdown: lowest board shows first
+- Community card on 7th street more likely (players stay longer for split pot chances)
+- Mark deals sample hands of all four variants demonstrating full procedures
+
+=== LIMIT_OMAHA_HIGH_AND_HI_LO ===
+Source: TruePokerDealer Mixed Games Lesson 2 of 10 — "Limit Omaha High and Limit Omaha Hi-Low Split 8 or Better Sample Hands"
+Type: MEMBERS_ONLY (extracted from user-provided transcript)
+
+Key topics covered:
+- WSOP audition game list: complete listing of all games required for dealer audition
+- Limit Omaha blind structure: big blind = lower limit (2/4 limit → 1/2 blinds)
+- Four-card muck verification: check every fold has exactly 4 cards (audition scoring point)
+- Framing protocol: frame ONLY as you improve — don't frame losing hands
+- WSOP requires reading every tabled hand in tournament play
+- Omaha hand reading: exactly 2 from hand, 3 from board — detailed examples with common mistakes
+- Three of a kind on board in Omaha: look for pocket pairs for full houses (you need 2 from hand)
+- Flush on board in Omaha: player needs TWO suited cards, not just one
+- Low hand evaluation: five different rank cards all 8 or below; A-2 is nut low when no board card below 3
+- Splitting pots: always evaluate high first, then low
+- Odd chip in Omaha high: goes to worst position (closest to button / first to act post-flop)
+- Odd chip in hi-lo: extra chip goes to high hand
+- Pot stacking in hi-lo: WSOP says stack at end; some casinos stack throughout
+- Always stack pot even when no low is possible — don't leak board information
+- 50% rule for all-in in limit: 50%+ of a raise creates new raise plateau; under 50% does not
+- Cascading raise plateau example: 8 → 14 (raise) → 16 (no raise) → 18 (re-raise) → 22 (cap)
+- Burn under a chip on every street
+- Side pot shortcut: calculate shortfall, take from all remaining players
+- Limit Omaha players have very high expectations — low patience for dealer errors
+- Rake procedure: max rake, making change, coloring up rake chips
+- Mark deals sample hands of Omaha high and Omaha hi-lo with full showdown reading
+
+=== AUDITION_PROCEDURES_AND_ERROR_RECOVERY ===
+Source: TruePokerDealer "Marc Auditions Himself"
+Type: MEMBERS_ONLY (extracted from user-provided transcript)
+
+Key topics covered:
+- Complete audition walkthrough: bank setup, chip placement, spacers, blind buttons
+- Audition structure: 2/4 limit hand → 1/2 NL hand → 5/10 limit Omaha hi-lo → 5/5 PLO
+- Audition scoring systems: casinos use numerical scoring (legal defense against discrimination)
+- Video auditions: increasingly common, can be sent to hiring managers
+- Mini wash: do it in auditions, probably won't be noticed if you forget
+- Making change from the bank: auditioners specifically test this
+- Talk your game constantly: "raise to 10", "four players", announce everything
+- Rake calculation on the fly: track pot size mentally, take at correct thresholds
+- Reading hands at showdown: frame winning hand, kill losing hands
+- Side pot construction with shortcuts: leaving bets out, counting down, talking through math
+- "How much to pot?" test: auditioners test PLO pot calculation immediately (3× previous bet + trail + pot)
+- Hi-lo showdown error: forgetting it's hi-lo and mucking hands with qualifying lows
+- Snowball effect: one mistake leads to another during panic — stop and call floor
+- Floor call discipline: NEVER fix your own errors — call floor and explain
+- Audition recovery: each hand is a fresh chance; never give up
+- Active button system: when player busts, two big blinds posted, small on button until normal rotation resumes
+- Dead button vs active button: active button always in front of live player
+- Exposed card during shuffle: acknowledge it, reshuffle, no big deal
+- Pitch speed: accuracy > speed; speed comes with time
+- Limit Omaha players expect the world — reinforced again
+- Four-card muck verification mentioned during Omaha dealing
+
