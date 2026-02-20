@@ -17,6 +17,7 @@ A searchable catalog of skills and knowledge modules relevant to the Robotic Pok
 | 7 | The Black Swan | Extreme Events & Robustness | [`skills/black-swan.md`](skills/black-swan.md) | Am I positioned to survive the worst and benefit from the best? |
 | 8 | Antifragile | Systems That Gain From Disorder | [`skills/antifragile.md`](skills/antifragile.md) | How do I build systems that improve from volatility and stress? |
 | 9 | Radical Candor | Leadership & Feedback | [`skills/radical-candor.md`](skills/radical-candor.md) | How do I give honest feedback without damaging the relationship? |
+| 10 | Thanks for the Feedback | Receiving Feedback & Growth | [`skills/thanks-for-the-feedback.md`](skills/thanks-for-the-feedback.md) | How do I receive feedback without getting defensive and extract value from any criticism? |
 
 ---
 
@@ -121,6 +122,13 @@ The human interface layer — how to communicate honestly, give and receive feed
 - **Key Concepts:** Care personally + challenge directly, Ruinous Empathy as the most common and dangerous failure mode, soliciting criticism before giving it, specificity as kindness, praise in public / criticize in private, feedback sandwich anti-pattern, behavior vs. character, the make-or-break moment (response to first criticism), rockstars (stability/mastery) vs. superstars (growth/challenge), two-minute correction, upward feedback delivery
 - **Tags:** `radical-candor` `feedback` `leadership` `management` `communication` `team-culture` `1-on-1` `performance` `coaching` `career-development` `poker` `investing`
 
+#### 10. Thanks for the Feedback
+- **File:** [`skills/thanks-for-the-feedback.md`](skills/thanks-for-the-feedback.md)
+- **Source:** Douglas Stone & Sheila Heen — *Thanks for the Feedback: The Science and Art of Receiving Feedback Well* (2014)
+- **Core Frameworks:** Three Feedback Triggers (Truth, Relationship, Identity), Three Feedback Types (Appreciation, Coaching, Evaluation), Wrong Spotting vs. Right Finding, Intentions vs. Impact, Feedback Footprint (Baseline, Swing, Sustain/Recovery), The Second Look (24-48 Hour Re-evaluation), Switchtracking Detection, Feedback Receiving Checklist, Feedback-Receptive Reputation Building
+- **Key Concepts:** Receiver as bottleneck (not giver), truth triggers (content seems wrong), relationship triggers (source seems wrong), identity triggers (self-concept threatened), wrong spotting as confirmation bias, right finding override, intentions vs. impact gap, feedback type mismatch (appreciation/coaching/evaluation), feedback footprint mapping, the Second Look practice, switchtracking (counter-criticizing instead of processing), blind spots as unknown unknowns, pattern recognition across sources, buying time before responding, growth identity vs. fixed identity
+- **Tags:** `feedback` `receiving-feedback` `triggers` `identity` `coaching` `evaluation` `appreciation` `defensiveness` `blind-spots` `growth` `self-awareness` `leadership` `communication` `poker` `investing`
+
 ---
 
 ## By Situation
@@ -210,7 +218,19 @@ The human interface layer — how to communicate honestly, give and receive feed
 | "How do I have a staking conversation about declining results?" | `radical-candor.md` | `antifragile.md` |
 | "How do I fire someone and handle it with both honesty and care?" | `radical-candor.md` | `munger-mental-models.md` |
 | "Why do I keep holding back feedback to be nice?" | `radical-candor.md` | `thinking-fast-and-slow.md` |
-| "How do I receive feedback without getting defensive?" | `radical-candor.md` | `scout-mindset.md` |
+| "How do I receive feedback without getting defensive?" | `radical-candor.md` | `thanks-for-the-feedback.md` |
+| "I got feedback that feels unfair — how do I process it?" | `thanks-for-the-feedback.md` | `scout-mindset.md` |
+| "Why do I shut down when criticized?" | `thanks-for-the-feedback.md` | `thinking-fast-and-slow.md` |
+| "I keep hearing the same feedback from multiple people" | `thanks-for-the-feedback.md` | `scout-mindset.md` |
+| "How do I stop getting defensive when I receive criticism?" | `thanks-for-the-feedback.md` | `radical-candor.md` |
+| "The feedback is wrong but I can't stop thinking about it" | `thanks-for-the-feedback.md` | `rationality.md` |
+| "I dismiss feedback from certain people — is that a problem?" | `thanks-for-the-feedback.md` | `scout-mindset.md` |
+| "How do I extract value from badly delivered feedback?" | `thanks-for-the-feedback.md` | `radical-candor.md` |
+| "Criticism makes me feel like a fraud" | `thanks-for-the-feedback.md` | `scout-mindset.md` |
+| "How do I separate useful feedback from noise?" | `thanks-for-the-feedback.md` | `rationality.md` |
+| "Why does feedback threaten my identity?" | `thanks-for-the-feedback.md` | `scout-mindset.md` |
+| "How do I process a bad session review without tilting?" | `thanks-for-the-feedback.md` | `thinking-fast-and-slow.md` |
+| "How do I build a reputation as someone who can handle honesty?" | `thanks-for-the-feedback.md` | `radical-candor.md` |
 
 ---
 
@@ -308,12 +328,22 @@ The human interface layer — how to communicate honestly, give and receive feed
 | Rockstars vs. Superstars | Radical Candor | Two types of high performers: rockstars (mastery, stability) vs. superstars (growth, challenge) — different management required |
 | Feedback Culture Building (8-step) | Radical Candor | Go first → solicit before giving → respond well → make structural → praise candor → never punish honesty → name Ruinous Empathy → hire for candor |
 | Career Conversation Framework | Radical Candor | Understanding each person's trajectory and managing rockstars vs. superstars accordingly |
+| Three Feedback Triggers | Thanks for the Feedback | Truth (content wrong), Relationship (source wrong), Identity (self-concept threatened) — name the trigger to create space |
+| Three Feedback Types | Thanks for the Feedback | Appreciation (recognition), Coaching (improvement), Evaluation (standing) — type mismatch is the silent killer |
+| Wrong Spotting vs. Right Finding | Thanks for the Feedback | Brain defaults to finding what's wrong; override by asking "What's right?" first |
+| Intentions vs. Impact | Thanks for the Feedback | You know intentions, they know impact — both are real; don't dismiss impact by explaining intention |
+| Feedback Footprint | Thanks for the Feedback | Baseline, swing, and sustain/recovery — your characteristic reaction pattern; don't decide at peak trigger |
+| The Second Look | Thanks for the Feedback | Structured 24-48 hour re-evaluation: name trigger → find what's right → neutral party test → pattern check → action plan |
+| Switchtracking Detection | Thanks for the Feedback | Counter-criticizing the giver instead of processing their feedback — kills both conversations |
+| Feedback Receiving Checklist | Thanks for the Feedback | Trigger management → content extraction → identity check → pattern recognition → response planning |
+| Feedback-Receptive Reputation | Thanks for the Feedback | Ask specifically → listen without defending → act visibly → close the loop → never punish honesty |
+| Rationality Stack (9-layer, with Feedback) | Thanks for the Feedback | Layers 0-7 (all tools) → Layer 8 (Thanks for the Feedback: the human reception layer) |
 
 ---
 
 ## All Tags
 
-`1-on-1` `action-bias` `antifragility` `asymmetry` `barbell-strategy` `base-rates` `Bayesian-reasoning` `Bayesian-updating` `behavioral-economics` `bias-detection` `black-swan` `Brier-score` `business-strategy` `calibration` `career-development` `checklists` `circle-of-competence` `clear-thinking` `coaching` `cognitive-bias` `communication` `competitive-advantage` `confirmation-bias` `convexity` `debiasing` `decision-making` `epistemology` `extremistan` `falsifiability` `fat-tails` `feedback` `Fermi-estimation` `field-guide` `forecasting` `fox-vs-hedgehog` `fragility` `heuristics` `hormesis` `identity` `incentives` `intellectual-honesty` `investing` `inversion` `leadership` `lindy-effect` `lollapalooza` `loss-aversion` `management` `margin-of-safety` `mediocristan` `mental-models` `misjudgment` `moats` `motivated-reasoning` `multidisciplinary-thinking` `naive-interventionism` `optionality` `overconfidence` `performance` `poker` `position-sizing` `prediction` `probability` `psychology` `radical-candor` `rationality` `reasoning-errors` `redundancy` `risk` `risk-management` `robustness` `ruin-avoidance` `scout-mindset` `skin-in-the-game` `sunk-cost` `survivorship-bias` `System-1` `System-2` `tail-risk` `team-culture` `updating` `via-negativa`
+`1-on-1` `action-bias` `antifragility` `appreciation` `asymmetry` `barbell-strategy` `base-rates` `Bayesian-reasoning` `Bayesian-updating` `behavioral-economics` `bias-detection` `black-swan` `blind-spots` `Brier-score` `business-strategy` `calibration` `career-development` `checklists` `circle-of-competence` `clear-thinking` `coaching` `cognitive-bias` `communication` `competitive-advantage` `confirmation-bias` `convexity` `debiasing` `decision-making` `defensiveness` `epistemology` `evaluation` `extremistan` `falsifiability` `fat-tails` `feedback` `Fermi-estimation` `field-guide` `forecasting` `fox-vs-hedgehog` `fragility` `growth` `heuristics` `hormesis` `identity` `incentives` `intellectual-honesty` `investing` `inversion` `leadership` `lindy-effect` `lollapalooza` `loss-aversion` `management` `margin-of-safety` `mediocristan` `mental-models` `misjudgment` `moats` `motivated-reasoning` `multidisciplinary-thinking` `naive-interventionism` `optionality` `overconfidence` `performance` `poker` `position-sizing` `prediction` `probability` `psychology` `radical-candor` `rationality` `reasoning-errors` `receiving-feedback` `redundancy` `risk` `risk-management` `robustness` `ruin-avoidance` `scout-mindset` `self-awareness` `skin-in-the-game` `sunk-cost` `survivorship-bias` `System-1` `System-2` `tail-risk` `team-culture` `triggers` `updating` `via-negativa`
 
 ---
 
@@ -321,17 +351,18 @@ The human interface layer — how to communicate honestly, give and receive feed
 
 ```
 skills/
-├── thinking-fast-and-slow.md   # Decision-making under uncertainty (Kahneman)
-├── superforecasting.md         # Prediction, calibration & forecasting (Tetlock)
-├── rationality.md              # Epistemology, clear thinking & debiasing (Yudkowsky)
-├── scout-mindset.md            # Intellectual honesty, identity & motivated reasoning (Galef)
-├── munger-mental-models.md     # Latticework of mental models, inversion & multidisciplinary thinking (Munger)
-├── thinking-clearly.md         # Rapid bias detection & reasoning error field guide (Dobelli)
-├── black-swan.md               # Extreme events, fragility & robustness under uncertainty (Taleb)
-├── antifragile.md              # Systems that gain from disorder, via negativa & convex positioning (Taleb)
-└── radical-candor.md           # Honest feedback, caring leadership & communication (Scott)
+├── thinking-fast-and-slow.md       # Decision-making under uncertainty (Kahneman)
+├── superforecasting.md             # Prediction, calibration & forecasting (Tetlock)
+├── rationality.md                  # Epistemology, clear thinking & debiasing (Yudkowsky)
+├── scout-mindset.md                # Intellectual honesty, identity & motivated reasoning (Galef)
+├── munger-mental-models.md         # Latticework of mental models, inversion & multidisciplinary thinking (Munger)
+├── thinking-clearly.md             # Rapid bias detection & reasoning error field guide (Dobelli)
+├── black-swan.md                   # Extreme events, fragility & robustness under uncertainty (Taleb)
+├── antifragile.md                  # Systems that gain from disorder, via negativa & convex positioning (Taleb)
+├── radical-candor.md               # Honest feedback, caring leadership & communication (Scott)
+└── thanks-for-the-feedback.md      # Receiving feedback, managing triggers & extracting value from criticism (Stone & Heen)
 ```
 
 ---
 
-*Last updated: 2026-02-20 | Total skills: 9 | Total frameworks: 94 | Total tags: 81*
+*Last updated: 2026-02-20 | Total skills: 10 | Total frameworks: 105 | Total tags: 88*
