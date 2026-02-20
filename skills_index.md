@@ -10,6 +10,7 @@ A searchable catalog of skills and knowledge modules relevant to the Robotic Pok
 |---|-------|----------|------|------------------------|
 | 1 | Thinking, Fast and Slow | Decision-Making | [`skills/thinking-fast-and-slow.md`](skills/thinking-fast-and-slow.md) | Why do I keep making bad decisions under pressure? |
 | 2 | Superforecasting | Prediction & Calibration | [`skills/superforecasting.md`](skills/superforecasting.md) | How do I make better predictions about uncertain outcomes? |
+| 3 | Rationality | Epistemology & Clear Thinking | [`skills/rationality.md`](skills/rationality.md) | Am I rationalizing or actually reasoning? |
 
 ---
 
@@ -37,26 +38,45 @@ The science and practice of accurate prediction — base rate reasoning, Bayesia
 - **Key Concepts:** Base rates (outside view), reference class forecasting, Brier Score, diagnosticity, incremental updating, dragonfly eye (multiple perspectives), perpetual beta, calibrated uncertainty, keeping score, vague-to-precise probability conversion
 - **Tags:** `prediction` `calibration` `Bayesian-updating` `Fermi-estimation` `base-rates` `forecasting` `decision-making` `probability` `Brier-score` `fox-vs-hedgehog` `poker` `investing` `risk`
 
+### Epistemology & Clear Thinking
+
+The meta-layer underneath all other skills — auditing the reasoning process itself for soundness before any domain-specific framework is applied.
+
+#### 3. Rationality
+- **File:** [`skills/rationality.md`](skills/rationality.md)
+- **Source:** Eliezer Yudkowsky — *Rationality: From AI to Zombies*
+- **Core Frameworks:** Map/Territory Distinction, Motivated Reasoning Detection, Making Beliefs Pay Rent, Bayesian Framework, Semantic Stopsign Detection, Cached Thought Identification, Privileging the Hypothesis Check, Belief Audit Playbook, Rationalist Taboo, Litany of Tarski
+- **Key Concepts:** Epistemic vs instrumental rationality, the bottom line was written first, beliefs paying rent in anticipated experiences, structural debiasing (not just knowledge), falsifiability, applause lights, fake utility functions, pre-commitment, one argument against an army, conservation of expected evidence
+- **Tags:** `rationality` `epistemology` `Bayesian-reasoning` `debiasing` `motivated-reasoning` `clear-thinking` `decision-making` `cognitive-bias` `falsifiability` `prediction` `poker` `investing`
+
 ---
 
 ## By Situation
 
 | Situation | Start Here | Then Read |
 |-----------|------------|-----------|
-| "Why do I keep making bad decisions under pressure?" | `thinking-fast-and-slow.md` | `superforecasting.md` |
+| "Why do I keep making bad decisions under pressure?" | `thinking-fast-and-slow.md` | `rationality.md` |
 | "How do I think more clearly about risk?" | `thinking-fast-and-slow.md` | `superforecasting.md` |
-| "Why does my gut feeling keep losing me money?" | `thinking-fast-and-slow.md` | `superforecasting.md` |
-| "How do I avoid cognitive biases in poker?" | `thinking-fast-and-slow.md` | `superforecasting.md` |
+| "Why does my gut feeling keep losing me money?" | `thinking-fast-and-slow.md` | `rationality.md` |
+| "How do I avoid cognitive biases in poker?" | `thinking-fast-and-slow.md` | `rationality.md` |
 | "When should I trust my poker instincts vs. math?" | `thinking-fast-and-slow.md` | `superforecasting.md` |
-| "Why do I play worse when I'm losing?" | `thinking-fast-and-slow.md` | — |
-| "How do I make better predictions?" | `superforecasting.md` | `thinking-fast-and-slow.md` |
-| "What's the probability this business idea will work?" | `superforecasting.md` | `thinking-fast-and-slow.md` |
+| "Why do I play worse when I'm losing?" | `thinking-fast-and-slow.md` | `rationality.md` |
+| "How do I make better predictions?" | `superforecasting.md` | `rationality.md` |
+| "What's the probability this business idea will work?" | `superforecasting.md` | `rationality.md` |
 | "How do I estimate the size of a market?" | `superforecasting.md` | — |
-| "Should I trust this analyst's forecast?" | `superforecasting.md` | `thinking-fast-and-slow.md` |
+| "Should I trust this analyst's forecast?" | `superforecasting.md` | `rationality.md` |
 | "How do I track and improve my prediction accuracy?" | `superforecasting.md` | — |
-| "How do I think about poker decisions probabilistically?" | `superforecasting.md` | `thinking-fast-and-slow.md` |
+| "How do I think about poker decisions probabilistically?" | `superforecasting.md` | `rationality.md` |
 | "How do I run a premortem before a big decision?" | `superforecasting.md` | `thinking-fast-and-slow.md` |
 | "How do I decompose a complex question into estimable parts?" | `superforecasting.md` | — |
+| "Am I rationalizing or actually reasoning?" | `rationality.md` | `thinking-fast-and-slow.md` |
+| "How do I check if my belief is grounded in evidence?" | `rationality.md` | `superforecasting.md` |
+| "Why do smart people believe wrong things?" | `rationality.md` | `thinking-fast-and-slow.md` |
+| "How do I detect motivated reasoning in myself?" | `rationality.md` | `thinking-fast-and-slow.md` |
+| "Is my business strategy actually testable or just applause lights?" | `rationality.md` | `superforecasting.md` |
+| "How do I improve group decision-making?" | `rationality.md` | `superforecasting.md` |
+| "What would change my mind about this belief?" | `rationality.md` | `superforecasting.md` |
+| "Am I defending a belief because it's true or because it's mine?" | `rationality.md` | `thinking-fast-and-slow.md` |
 
 ---
 
@@ -81,12 +101,22 @@ The science and practice of accurate prediction — base rate reasoning, Bayesia
 | Granularity Principle | Superforecasting | 73% beats "likely" — precision forces more careful thinking |
 | Prediction Journal Practice | Superforecasting | Log predictions with probability, date, reasoning; score quarterly; identify systematic biases |
 | Premortem (Superforecasting) | Superforecasting | Before any major bet, imagine failure and diagnose why — cheapest risk management available |
+| Map/Territory Distinction | Rationality | Your beliefs are a model of reality — when they diverge, update the model, not reality |
+| Motivated Reasoning / Bottom Line | Rationality | Your brain writes conclusions first, then constructs justifications — check which came first |
+| Making Beliefs Pay Rent | Rationality | Every belief must generate testable predictions or it contains no information about reality |
+| Bayesian Framework (Rationality) | Rationality | Update strength proportional to how diagnostic the evidence is — likely under hypothesis vs. alternatives |
+| Semantic Stopsign Detection | Rationality | Words that feel like explanations but terminate inquiry — push past them |
+| Cached Thought Identification | Rationality | Pre-formed conclusions retrieved from memory instead of generated through reasoning |
+| Privileging the Hypothesis | Rationality | Testing a specific hypothesis for non-evidential reasons — broaden the search |
+| Rationalist Taboo | Rationality | Replace vague terms with specific descriptions — if the argument collapses, it wasn't an argument |
+| Litany of Tarski | Rationality | Commitment device: "If X is true, I desire to believe X is true" — tests for motivated reasoning |
+| Belief Audit Playbook | Rationality | 7-step structured audit: state → pay rent → motivated → origin → privileging → falsifiability → cached |
 
 ---
 
 ## All Tags
 
-`base-rates` `Bayesian-updating` `behavioral-economics` `Brier-score` `calibration` `cognitive-bias` `decision-making` `Fermi-estimation` `forecasting` `fox-vs-hedgehog` `heuristics` `investing` `loss-aversion` `overconfidence` `poker` `prediction` `probability` `psychology` `risk` `System-1` `System-2`
+`base-rates` `Bayesian-reasoning` `Bayesian-updating` `behavioral-economics` `Brier-score` `calibration` `clear-thinking` `cognitive-bias` `debiasing` `decision-making` `epistemology` `falsifiability` `Fermi-estimation` `forecasting` `fox-vs-hedgehog` `heuristics` `investing` `loss-aversion` `motivated-reasoning` `overconfidence` `poker` `prediction` `probability` `psychology` `rationality` `risk` `System-1` `System-2`
 
 ---
 
@@ -95,9 +125,10 @@ The science and practice of accurate prediction — base rate reasoning, Bayesia
 ```
 skills/
 ├── thinking-fast-and-slow.md   # Decision-making under uncertainty (Kahneman)
-└── superforecasting.md         # Prediction, calibration & forecasting (Tetlock)
+├── superforecasting.md         # Prediction, calibration & forecasting (Tetlock)
+└── rationality.md              # Epistemology, clear thinking & debiasing (Yudkowsky)
 ```
 
 ---
 
-*Last updated: 2026-02-20 | Total skills: 2 | Total frameworks: 17 | Total tags: 21*
+*Last updated: 2026-02-20 | Total skills: 3 | Total frameworks: 27 | Total tags: 28*
