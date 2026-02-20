@@ -449,3 +449,52 @@ Critical quotes from Mark Shumaker:
 - On calling the floor: "On your first day as a poker dealer you may have 10 things come up that you're just like I have never been taught that."
 - On stud up-cards: "In stud poker, if a player picks up the up cards while facing action, the hand is dead."
 
+========================================
+BADUGI_BADACY_BADUCY
+========================================
+
+Mixed Games Lesson 9 of 10: Badugi, Baducy, and Badacy (Members-Only, ~3 hours)
+Source: TruePokerDealer YouTube Channel (Mark Shumaker)
+Content: Complete dealing procedures for three four-card/five-card draw variants used in WSOP mixed game tournaments
+
+Key topics covered:
+- Badugi fundamentals: four-card poker variant, limit triple draw, no ante
+- Badugi hand rankings: four different suits, four different ranks, lowest wins; aces low
+- Best badugi hand: A-2-3-4 (all different suits) = "perfect badugi"
+- Four-card badugi beats all three-card badugies, which beat all two-card badugies
+- When suits or ranks duplicate: higher duplicate card discarded for evaluation
+- Badugi dealing: eight-max in tournaments, four cards per player, three draw rounds, four betting rounds
+- Tournament card delivery: placed on table and slid to player, not pitched
+- Discard pile kept separate from muck and burn cards (critical for stub depletion)
+- Badacy (Badugi + Ace-to-Five): split pot game, half to best badugi, half to best A-5 lowball
+- Badacy dealing: five cards per player, six-max, no ante, no qualifier
+- Aces low in badacy for both halves
+- Players can use different card combinations for badugi vs A-5 evaluation
+- Baducy (Badugi + Deuce-to-Seven): split pot game, half to best badugi, half to best 2-7 hand
+- CRITICAL: Aces are HIGH in baducy for BOTH badugi and 2-7 evaluations
+- Best baduci badugi: 5-4-3-2 (not A-2-3-4, because aces are high)
+- Discard announcement procedure: go around table, each player states number, dealer announces all, then deals
+- Forward motion of placing discards is binding (can swap which cards but not the count)
+- Stub depletion procedure: deal until one card remains, combine last card with muck (NOT current discards), wash/shuffle, continue
+- Current round's discards never shuffled back in (information protection)
+- Multiple stub depletions possible in a single hand with aggressive drawing
+- Pot stacking: WSOP procedure begins after last discard of final draw round; stack by denomination, largest first
+- Split-pot showdown: evaluate badugi half first, push pot, then evaluate lowball half, push pot
+- After pushing badugi half, muck winning badugi hand unless same player also wins lowball
+- Multi-way all-in with side pots: split evaluation performed independently for each pot
+- New dealer advice: don't expect first day to go well, 10+ unfamiliar situations guaranteed
+- Never apologize for mistakes — admit them and call the floor
+- Don't try to fix your own mistakes (quickest way to get fired)
+- Focus on accuracy over speed for first few shifts
+- Use breaks to ask questions; use other dealers as resources
+- "One player per hand" and "card speak" are the two fundamental rules for decision-making
+
+Critical quotes from Mark Shumaker:
+- On badugi rarity: "It's hard to see a perfect badugi even though it's a triple draw game."
+- On aces in baducy: "Ace is considered high in all games, all versions of baducy."
+- On new dealers: "Brand new dealers that deal their very first day, possibly their first two to three days, it's like a lot of learning."
+- On calling the floor: "The table games dealers usually have an easier time because they're used to calling the floor already."
+- On mistakes: "Do not try to fix your own mistakes. Just say 'I made a mistake, let's get the supervisor over here.'"
+- On speed: "Nobody is expecting you to be fast yet. Focus on accuracy."
+- On stub depletion: "Deal as many cards as possible without dealing the last card on the stub."
+
