@@ -498,3 +498,37 @@ Critical quotes from Mark Shumaker:
 - On speed: "Nobody is expecting you to be fast yet. Focus on accuracy."
 - On stub depletion: "Deal as many cards as possible without dealing the last card on the stub."
 
+## ACE_TO_FIVE_AND_FIVE_CARD_DRAW
+
+Source: TruePokerDealer Mixed Games Lesson 8 of 10 - "Ace to 5 Triple Draw Lowball and 5 Card Draw High (No Limit)"
+Type: MEMBERS_ONLY transcript (full access obtained)
+Length: ~47,000 characters
+
+Key topics covered:
+- Ace-to-Five Triple Draw Lowball: limit-only (per WSOP manual), six-max, five cards per player
+- Straights and flushes do NOT count against the hand in A-5 (unlike Deuce-to-Seven)
+- Best hand is A-2-3-4-5 (the wheel) — same low rankings as Razz and Omaha Hi-Lo low half
+- No ante in A-5 — small blind and big blind only
+- A-5 is not a split-pot game — lowest hand wins entire pot (no qualifier needed)
+- Discard procedure: wait for all players, announce counts, burn, pitch replacements one at a time, pull discards to separate pile before moving to next player, then muck discards after all dealt
+- Burn card tracking: number of burns on table = which draw round you are on (critical for game state)
+- "Pat" = standing/keeping all cards — player taps table or says "pat"
+- Five-Card Draw High (No Limit): seven-max, single draw, high hand wins, standard poker rankings
+- Exposed card during initial pitch: one card = show to all, becomes burn card, deal replacement; two cards = misdeal
+- Short-dealt player (4 cards): if not yet acted, floor call allows 5th card; if already acted, hand is dead
+- Common Hold'em instinct error: accidentally burning and dealing a flop in a draw game — floor call
+- Already burned before discards: announce "we've already burned" and continue without burning again
+- Speed management: slow down when switching game types, Hold'em muscle memory causes errors
+- Stub depletion reminder: deal all except last card, mix last card with muck (not current discards), shuffle, continue
+- Mark accidentally burns and starts to deal a flop during the lesson — demonstrates real-world error and recovery
+
+Critical quotes from Mark Shumaker:
+- On A-5 vs 2-7: "Ace to five is built almost the exact same as deuce to seven. The difference is that straights and flushes don't affect the hand ranking."
+- On limit only: "According to the WSOP, deuce to seven lowball can either be limit or pot limit. Ace to five according to the WSOP manual is not dealt pot limit. It's only dealt limit."
+- On Hold'em instinct: "If you deal Hold'em, it can be easy as soon as you bring the pot in to just go and bring a flop. If you do that, that's a floor call."
+- On premature burn: "If you've already burned in this game, you announce 'we've already burned' and then you continue."
+- On short-dealt player: "If this player who has not yet acted on their hand... it's okay for this player to notify the dealer... they can ask for a fifth card. You would call a floor for this."
+- On speed: "There's this desire as a dealer especially a dealer who's used to dealing Hold'em fast to just keep the pace up. You don't need to do that."
+- On mistakes: "One of the nice things about being a dealer, all you have to do when you mess up is call the floor."
+- On slowing down: "If I had just slowed down and not felt the pressure trying to go fast, it would have helped me a tremendous amount."
+
