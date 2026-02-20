@@ -15,6 +15,7 @@ A searchable catalog of skills and knowledge modules relevant to the Robotic Pok
 | 5 | Munger Mental Models | Multidisciplinary Decision-Making | [`skills/munger-mental-models.md`](skills/munger-mental-models.md) | What mental models apply and what would guarantee failure? |
 | 6 | The Art of Thinking Clearly | Bias Detection & Field Guide | [`skills/thinking-clearly.md`](skills/thinking-clearly.md) | Which specific reasoning error is operating right now? |
 | 7 | The Black Swan | Extreme Events & Robustness | [`skills/black-swan.md`](skills/black-swan.md) | Am I positioned to survive the worst and benefit from the best? |
+| 8 | Antifragile | Systems That Gain From Disorder | [`skills/antifragile.md`](skills/antifragile.md) | How do I build systems that improve from volatility and stress? |
 
 ---
 
@@ -97,6 +98,17 @@ The boundary condition layer — defines where prediction works and where you mu
 - **Key Concepts:** Black Swan events (three properties), Mediocristan vs. Extremistan, narrative fallacy (Taleb's version), ludic fallacy, turkey problem, barbell strategy, optionality, antifragility, epistemic humility, skin in the game, positive vs. negative asymmetry, fat tails vs. bell curves, absence of evidence vs. evidence of absence, redundancy as insurance, stability as hidden fragility
 - **Tags:** `black-swan` `tail-risk` `fat-tails` `extremistan` `mediocristan` `barbell-strategy` `optionality` `antifragility` `ruin-avoidance` `asymmetry` `robustness` `fragility` `risk-management` `position-sizing` `poker` `investing` `decision-making`
 
+### Antifragility & System Design
+
+The operational endpoint — how to design systems that don't merely survive shocks but actively improve from volatility, stress, and disorder. The solution to the problem defined by The Black Swan.
+
+#### 8. Antifragile
+- **File:** [`skills/antifragile.md`](skills/antifragile.md)
+- **Source:** Nassim Nicholas Taleb — *Antifragile: Things That Gain from Disorder* (2012)
+- **Core Frameworks:** Fragile-Robust-Antifragile Triad, Via Negativa (Improvement by Subtraction), Skin in the Game Filter, Lindy Effect, Hormesis (Beneficial Stress), Convexity/Optionality Test, Naive Interventionism Checklist, Antifragility Audit (8-step), Designing for Convexity (6-step), Via Negativa Sprint, Taleb's Razor
+- **Key Concepts:** Fragile-robust-antifragile triad, via negativa (subtract before you add), skin in the game (accountability as quality mechanism), Lindy Effect (time-tested = trustworthy), hormesis (right dose of stress builds strength), optionality and convexity (bounded downside, unlimited upside), naive interventionism (first do no harm), efficiency as fragility, small failures prevent catastrophic failures, redundancy as insurance not waste, Taleb's razor (one reason or don't do it)
+- **Tags:** `antifragility` `via-negativa` `skin-in-the-game` `lindy-effect` `hormesis` `optionality` `convexity` `fragility` `robustness` `redundancy` `barbell-strategy` `risk-management` `ruin-avoidance` `asymmetry` `naive-interventionism` `decision-making` `poker` `investing` `business-strategy`
+
 ---
 
 ## By Situation
@@ -164,6 +176,16 @@ The boundary condition layer — defines where prediction works and where you mu
 | "Why do long periods of stability make me nervous?" | `black-swan.md` | `thinking-clearly.md` |
 | "How do I make many small bets instead of one big one?" | `black-swan.md` | `munger-mental-models.md` |
 | "What's the worst that could happen even if it's never happened before?" | `black-swan.md` | `rationality.md` |
+| "How do I build a system that improves from stress?" | `antifragile.md` | `black-swan.md` |
+| "Should I add something new or remove something bad?" | `antifragile.md` | `munger-mental-models.md` |
+| "Is this optimization actually increasing fragility?" | `antifragile.md` | `black-swan.md` |
+| "Does this advisor have skin in the game?" | `antifragile.md` | `rationality.md` |
+| "Should I intervene in this system or leave it alone?" | `antifragile.md` | `thinking-clearly.md` |
+| "Is my business fragile, robust, or antifragile?" | `antifragile.md` | `black-swan.md` |
+| "What should I eliminate before adding anything new?" | `antifragile.md` | `munger-mental-models.md` |
+| "Am I avoiding necessary stress out of comfort-seeking?" | `antifragile.md` | `scout-mindset.md` |
+| "Is this approach time-tested or just trendy?" | `antifragile.md` | `superforecasting.md` |
+| "How do I design my poker career to get stronger from variance?" | `antifragile.md` | `black-swan.md` |
 
 ---
 
@@ -241,12 +263,24 @@ The boundary condition layer — defines where prediction works and where you mu
 | Narrative Fallacy (Taleb) | The Black Swan | Post-hoc stories make the unpredictable feel predictable — ask "Could I tell an equally compelling opposite story?" |
 | Ludic Fallacy | The Black Swan | Game-like models (known rules, defined outcomes) misapplied to open-ended real-world situations |
 | Rationality Stack (7-layer, with Black Swan) | The Black Swan | Layer 0 (Structural/Taleb) → Layer 1 (Detection/Dobelli) → Layer 2 (Science/Kahneman) → Layer 3 (Epistemology/Yudkowsky) → Layer 4 (Motivation/Galef) → Layer 5 (Integration/Munger) → Layer 6 (Measurement/Tetlock) |
+| Fragile-Robust-Antifragile Triad | Antifragile | Three responses to volatility: breaks, survives, or improves — classify every system component |
+| Via Negativa (Improvement by Subtraction) | Antifragile | Remove bad things before adding good things — subtraction has known effects, addition has unknown side effects |
+| Skin in the Game Filter | Antifragile | Only trust advice from people who bear consequences of being wrong — accountability as quality mechanism |
+| Lindy Effect | Antifragile | For non-perishable things, expected remaining lifespan is proportional to current age — time-tested = trustworthy |
+| Hormesis (Beneficial Stress) | Antifragile | Small doses of stress trigger strengthening; too little = atrophy, too much = destruction — find the sweet spot |
+| Convexity/Optionality Test | Antifragile | Structure exposure for bounded downside and unlimited upside — the mathematical mechanism of antifragility |
+| Naive Interventionism Checklist | Antifragile | Before intervening in complex systems: is it broken? Could intervention make it worse? Can you subtract instead? |
+| Antifragility Audit (8-step) | Antifragile | Inventory → Classify → Map fragilities → Via negativa → Optionality → Ruin check → Skin in game → Prioritize |
+| Designing for Convexity (6-step) | Antifragile | Define bounds → Calculate ratio → Hidden downside → Hidden upside → Restructure → Allocate by convexity |
+| Via Negativa Sprint | Antifragile | Quarterly elimination exercise: list everything → "if gone, better/worse/same?" → eliminate "better/same" items |
+| Taleb's Razor | Antifragile | If you need more than one reason to justify a decision, don't do it — multiple justifications = rationalization |
+| Rationality Stack (8-layer, with Antifragile) | Antifragile | Layer 0 (Structural/Black Swan) → Layers 1-6 (tools) → Layer 7 (Antifragile: the operational endpoint) |
 
 ---
 
 ## All Tags
 
-`action-bias` `antifragility` `asymmetry` `barbell-strategy` `base-rates` `Bayesian-reasoning` `Bayesian-updating` `behavioral-economics` `bias-detection` `black-swan` `Brier-score` `business-strategy` `calibration` `checklists` `circle-of-competence` `clear-thinking` `cognitive-bias` `competitive-advantage` `confirmation-bias` `debiasing` `decision-making` `epistemology` `extremistan` `falsifiability` `fat-tails` `Fermi-estimation` `field-guide` `forecasting` `fox-vs-hedgehog` `fragility` `heuristics` `identity` `incentives` `intellectual-honesty` `investing` `inversion` `lollapalooza` `loss-aversion` `margin-of-safety` `mediocristan` `mental-models` `misjudgment` `moats` `motivated-reasoning` `multidisciplinary-thinking` `optionality` `overconfidence` `poker` `position-sizing` `prediction` `probability` `psychology` `rationality` `reasoning-errors` `risk` `risk-management` `robustness` `ruin-avoidance` `scout-mindset` `sunk-cost` `survivorship-bias` `System-1` `System-2` `tail-risk` `team-culture` `updating`
+`action-bias` `antifragility` `asymmetry` `barbell-strategy` `base-rates` `Bayesian-reasoning` `Bayesian-updating` `behavioral-economics` `bias-detection` `black-swan` `Brier-score` `business-strategy` `calibration` `checklists` `circle-of-competence` `clear-thinking` `cognitive-bias` `competitive-advantage` `confirmation-bias` `convexity` `debiasing` `decision-making` `epistemology` `extremistan` `falsifiability` `fat-tails` `Fermi-estimation` `field-guide` `forecasting` `fox-vs-hedgehog` `fragility` `heuristics` `hormesis` `identity` `incentives` `intellectual-honesty` `investing` `inversion` `lindy-effect` `lollapalooza` `loss-aversion` `margin-of-safety` `mediocristan` `mental-models` `misjudgment` `moats` `motivated-reasoning` `multidisciplinary-thinking` `naive-interventionism` `optionality` `overconfidence` `poker` `position-sizing` `prediction` `probability` `psychology` `rationality` `reasoning-errors` `redundancy` `risk` `risk-management` `robustness` `ruin-avoidance` `scout-mindset` `skin-in-the-game` `sunk-cost` `survivorship-bias` `System-1` `System-2` `tail-risk` `team-culture` `updating` `via-negativa`
 
 ---
 
@@ -260,9 +294,10 @@ skills/
 ├── scout-mindset.md            # Intellectual honesty, identity & motivated reasoning (Galef)
 ├── munger-mental-models.md     # Latticework of mental models, inversion & multidisciplinary thinking (Munger)
 ├── thinking-clearly.md         # Rapid bias detection & reasoning error field guide (Dobelli)
-└── black-swan.md               # Extreme events, fragility & robustness under uncertainty (Taleb)
+├── black-swan.md               # Extreme events, fragility & robustness under uncertainty (Taleb)
+└── antifragile.md              # Systems that gain from disorder, via negativa & convex positioning (Taleb)
 ```
 
 ---
 
-*Last updated: 2026-02-20 | Total skills: 7 | Total frameworks: 73 | Total tags: 66*
+*Last updated: 2026-02-20 | Total skills: 8 | Total frameworks: 85 | Total tags: 72*
