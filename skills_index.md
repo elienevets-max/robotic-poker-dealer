@@ -14,6 +14,7 @@ A searchable catalog of skills and knowledge modules relevant to the Robotic Pok
 | 4 | The Scout Mindset | Intellectual Honesty & Identity | [`skills/scout-mindset.md`](skills/scout-mindset.md) | Am I defending this belief because it's true or because it's mine? |
 | 5 | Munger Mental Models | Multidisciplinary Decision-Making | [`skills/munger-mental-models.md`](skills/munger-mental-models.md) | What mental models apply and what would guarantee failure? |
 | 6 | The Art of Thinking Clearly | Bias Detection & Field Guide | [`skills/thinking-clearly.md`](skills/thinking-clearly.md) | Which specific reasoning error is operating right now? |
+| 7 | The Black Swan | Extreme Events & Robustness | [`skills/black-swan.md`](skills/black-swan.md) | Am I positioned to survive the worst and benefit from the best? |
 
 ---
 
@@ -85,6 +86,17 @@ The field guide layer — quick-scan pattern recognition for naming and neutrali
 - **Key Concepts:** Survivorship bias, swimmer's body illusion (selection vs causation), action bias, domain dependence, information bias (research as procrastination), clustering illusion, effort justification, social comparison bias, contrast effect, conjunction fallacy, zero-risk bias, hot hand fallacy, decoy effect, endowment effect, framing effect, not-invented-here syndrome
 - **Tags:** `cognitive-bias` `decision-making` `bias-detection` `reasoning-errors` `checklists` `survivorship-bias` `confirmation-bias` `action-bias` `risk` `psychology` `poker` `investing` `field-guide`
 
+### Extreme Events, Fragility & Robustness
+
+The boundary condition layer — defines where prediction works and where you must replace prediction with positioning, robustness, and optionality. The essential counterweight to all prediction-focused skills.
+
+#### 7. The Black Swan
+- **File:** [`skills/black-swan.md`](skills/black-swan.md)
+- **Source:** Nassim Nicholas Taleb — *The Black Swan: The Impact of the Highly Improbable* (2007, 2nd ed. 2010)
+- **Core Frameworks:** Mediocristan vs. Extremistan Classification, Barbell Strategy, Black Swan Audit (8-step), Antifragile Business Design (10-principle), Position Sizing for Asymmetric Bets, Optionality Test, Ruin Filter, Convexity Check, Expert Discounting, Turkey Problem Diagnostic
+- **Key Concepts:** Black Swan events (three properties), Mediocristan vs. Extremistan, narrative fallacy (Taleb's version), ludic fallacy, turkey problem, barbell strategy, optionality, antifragility, epistemic humility, skin in the game, positive vs. negative asymmetry, fat tails vs. bell curves, absence of evidence vs. evidence of absence, redundancy as insurance, stability as hidden fragility
+- **Tags:** `black-swan` `tail-risk` `fat-tails` `extremistan` `mediocristan` `barbell-strategy` `optionality` `antifragility` `ruin-avoidance` `asymmetry` `robustness` `fragility` `risk-management` `position-sizing` `poker` `investing` `decision-making`
+
 ---
 
 ## By Situation
@@ -140,6 +152,18 @@ The field guide layer — quick-scan pattern recognition for naming and neutrali
 | "Do I need more information or am I procrastinating by researching?" | `thinking-clearly.md` | `rationality.md` |
 | "Is the group driving this conclusion or the evidence?" | `thinking-clearly.md` | `scout-mindset.md` |
 | "What went wrong with that decision?" | `thinking-clearly.md` | `rationality.md` |
+| "Could this decision wipe me out?" | `black-swan.md` | `munger-mental-models.md` |
+| "Am I in Mediocristan or Extremistan?" | `black-swan.md` | `superforecasting.md` |
+| "Is my upside capped while my downside is unlimited?" | `black-swan.md` | `munger-mental-models.md` |
+| "How do I structure this bet so I survive being wrong?" | `black-swan.md` | `superforecasting.md` |
+| "Why did this 'impossible' event just happen?" | `black-swan.md` | `thinking-fast-and-slow.md` |
+| "Is my portfolio/business/career hiding fragility?" | `black-swan.md` | `munger-mental-models.md` |
+| "How do I build a business that benefits from uncertainty?" | `black-swan.md` | `munger-mental-models.md` |
+| "Should I trust this model or forecast?" | `black-swan.md` | `superforecasting.md` |
+| "How do I size my poker bankroll for long-term survival?" | `black-swan.md` | `superforecasting.md` |
+| "Why do long periods of stability make me nervous?" | `black-swan.md` | `thinking-clearly.md` |
+| "How do I make many small bets instead of one big one?" | `black-swan.md` | `munger-mental-models.md` |
+| "What's the worst that could happen even if it's never happened before?" | `black-swan.md` | `rationality.md` |
 
 ---
 
@@ -204,12 +228,25 @@ The field guide layer — quick-scan pattern recognition for naming and neutrali
 | Post-Decision Review | The Art of Thinking Clearly | Decision quality independent of outcome → biases active → structural safeguard for next time |
 | "Would I Start Today?" Test | The Art of Thinking Clearly | Ignore past investment — if you wouldn't start today, sunk cost is keeping you in |
 | Rationality Stack (6-layer) | The Art of Thinking Clearly | Detection (Dobelli) → Science (Kahneman) → Epistemology (Yudkowsky) → Motivation (Galef) → Integration (Munger) → Measurement (Tetlock) |
+| Mediocristan vs. Extremistan | The Black Swan | Two fundamentally different environments: bounded/predictable vs. unbounded/unpredictable — determine which before using ANY tool |
+| Barbell Strategy | The Black Swan | 85-90% extremely safe + 10-15% extremely aggressive — nothing in the deceptive middle |
+| Black Swan Audit (8-step) | The Black Swan | Domain check → negative exposure → ruin check → positive exposure → single points of failure → leverage → stability → action |
+| Optionality Test | The Black Swan | Bounded downside + unlimited upside = good bet; opposite profile = walk away |
+| Turkey Problem Diagnostic | The Black Swan | Maximum confidence from historical data = maximum fragility to unprecedented events |
+| Ruin Filter | The Black Swan | "Can this decision permanently wipe me out?" If yes → don't do it, regardless of expected value |
+| Convexity Check | The Black Swan | Compare upside vs. downside asymmetry — bet only when upside/downside ratio > 5:1 |
+| Expert Discounting | The Black Swan | Heavily discount confident predictions — ask "What happens if they're wrong?" and check skin in the game |
+| Antifragile Business Design (10-principle) | The Black Swan | Diversify revenue, low fixed costs, cash reserves, owned channels, many experiments, kill losers/scale winners |
+| Position Sizing for Asymmetric Bets | The Black Swan | Ruin threshold → survival threshold → asymmetry ratio → allocation rules → monthly review |
+| Narrative Fallacy (Taleb) | The Black Swan | Post-hoc stories make the unpredictable feel predictable — ask "Could I tell an equally compelling opposite story?" |
+| Ludic Fallacy | The Black Swan | Game-like models (known rules, defined outcomes) misapplied to open-ended real-world situations |
+| Rationality Stack (7-layer, with Black Swan) | The Black Swan | Layer 0 (Structural/Taleb) → Layer 1 (Detection/Dobelli) → Layer 2 (Science/Kahneman) → Layer 3 (Epistemology/Yudkowsky) → Layer 4 (Motivation/Galef) → Layer 5 (Integration/Munger) → Layer 6 (Measurement/Tetlock) |
 
 ---
 
 ## All Tags
 
-`action-bias` `base-rates` `Bayesian-reasoning` `Bayesian-updating` `behavioral-economics` `bias-detection` `Brier-score` `business-strategy` `calibration` `checklists` `circle-of-competence` `clear-thinking` `cognitive-bias` `competitive-advantage` `confirmation-bias` `debiasing` `decision-making` `epistemology` `falsifiability` `Fermi-estimation` `field-guide` `forecasting` `fox-vs-hedgehog` `heuristics` `identity` `incentives` `intellectual-honesty` `investing` `inversion` `lollapalooza` `loss-aversion` `margin-of-safety` `mental-models` `misjudgment` `moats` `motivated-reasoning` `multidisciplinary-thinking` `overconfidence` `poker` `prediction` `probability` `psychology` `rationality` `reasoning-errors` `risk` `scout-mindset` `sunk-cost` `survivorship-bias` `System-1` `System-2` `team-culture` `updating`
+`action-bias` `antifragility` `asymmetry` `barbell-strategy` `base-rates` `Bayesian-reasoning` `Bayesian-updating` `behavioral-economics` `bias-detection` `black-swan` `Brier-score` `business-strategy` `calibration` `checklists` `circle-of-competence` `clear-thinking` `cognitive-bias` `competitive-advantage` `confirmation-bias` `debiasing` `decision-making` `epistemology` `extremistan` `falsifiability` `fat-tails` `Fermi-estimation` `field-guide` `forecasting` `fox-vs-hedgehog` `fragility` `heuristics` `identity` `incentives` `intellectual-honesty` `investing` `inversion` `lollapalooza` `loss-aversion` `margin-of-safety` `mediocristan` `mental-models` `misjudgment` `moats` `motivated-reasoning` `multidisciplinary-thinking` `optionality` `overconfidence` `poker` `position-sizing` `prediction` `probability` `psychology` `rationality` `reasoning-errors` `risk` `risk-management` `robustness` `ruin-avoidance` `scout-mindset` `sunk-cost` `survivorship-bias` `System-1` `System-2` `tail-risk` `team-culture` `updating`
 
 ---
 
@@ -222,9 +259,10 @@ skills/
 ├── rationality.md              # Epistemology, clear thinking & debiasing (Yudkowsky)
 ├── scout-mindset.md            # Intellectual honesty, identity & motivated reasoning (Galef)
 ├── munger-mental-models.md     # Latticework of mental models, inversion & multidisciplinary thinking (Munger)
-└── thinking-clearly.md         # Rapid bias detection & reasoning error field guide (Dobelli)
+├── thinking-clearly.md         # Rapid bias detection & reasoning error field guide (Dobelli)
+└── black-swan.md               # Extreme events, fragility & robustness under uncertainty (Taleb)
 ```
 
 ---
 
-*Last updated: 2026-02-20 | Total skills: 6 | Total frameworks: 59 | Total tags: 53*
+*Last updated: 2026-02-20 | Total skills: 7 | Total frameworks: 73 | Total tags: 66*
