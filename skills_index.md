@@ -11,6 +11,7 @@ A searchable catalog of skills and knowledge modules relevant to the Robotic Pok
 | 1 | Thinking, Fast and Slow | Decision-Making | [`skills/thinking-fast-and-slow.md`](skills/thinking-fast-and-slow.md) | Why do I keep making bad decisions under pressure? |
 | 2 | Superforecasting | Prediction & Calibration | [`skills/superforecasting.md`](skills/superforecasting.md) | How do I make better predictions about uncertain outcomes? |
 | 3 | Rationality | Epistemology & Clear Thinking | [`skills/rationality.md`](skills/rationality.md) | Am I rationalizing or actually reasoning? |
+| 4 | The Scout Mindset | Intellectual Honesty & Identity | [`skills/scout-mindset.md`](skills/scout-mindset.md) | Am I defending this belief because it's true or because it's mine? |
 
 ---
 
@@ -49,6 +50,17 @@ The meta-layer underneath all other skills — auditing the reasoning process it
 - **Key Concepts:** Epistemic vs instrumental rationality, the bottom line was written first, beliefs paying rent in anticipated experiences, structural debiasing (not just knowledge), falsifiability, applause lights, fake utility functions, pre-commitment, one argument against an army, conservation of expected evidence
 - **Tags:** `rationality` `epistemology` `Bayesian-reasoning` `debiasing` `motivated-reasoning` `clear-thinking` `decision-making` `cognitive-bias` `falsifiability` `prediction` `poker` `investing`
 
+### Intellectual Honesty & Identity
+
+The emotional and motivational layer of clear thinking — why knowing about biases isn't enough, how beliefs serve emotional functions, and how to build an identity where accuracy is the reward.
+
+#### 4. The Scout Mindset
+- **File:** [`skills/scout-mindset.md`](skills/scout-mindset.md)
+- **Source:** Julia Galef — *The Scout Mindset: Why Some People See Things Clearly and Others Don't* (2021)
+- **Core Frameworks:** Soldier vs. Scout Mindset, Five Emotional Functions of Beliefs, Identity Ratchet, Thought Experiment Battery (Double Standard, Outsider, Conformity, Selective Skeptic, Status Quo, Sunk Cost Tests), Update Process, Scout Culture Building
+- **Key Concepts:** Motivated reasoning as emotional protection, beliefs serving comfort/self-esteem/morale/belonging/persuasion, identity ratchet (beliefs hardening into identity), holding opinions loosely, provisional language, changing your mind as a power move, fastest updater wins, meeting emotional needs separately from beliefs
+- **Tags:** `scout-mindset` `motivated-reasoning` `intellectual-honesty` `identity` `decision-making` `updating` `sunk-cost` `team-culture` `poker` `investing`
+
 ---
 
 ## By Situation
@@ -58,9 +70,9 @@ The meta-layer underneath all other skills — auditing the reasoning process it
 | "Why do I keep making bad decisions under pressure?" | `thinking-fast-and-slow.md` | `rationality.md` |
 | "How do I think more clearly about risk?" | `thinking-fast-and-slow.md` | `superforecasting.md` |
 | "Why does my gut feeling keep losing me money?" | `thinking-fast-and-slow.md` | `rationality.md` |
-| "How do I avoid cognitive biases in poker?" | `thinking-fast-and-slow.md` | `rationality.md` |
+| "How do I avoid cognitive biases in poker?" | `thinking-fast-and-slow.md` | `scout-mindset.md` |
 | "When should I trust my poker instincts vs. math?" | `thinking-fast-and-slow.md` | `superforecasting.md` |
-| "Why do I play worse when I'm losing?" | `thinking-fast-and-slow.md` | `rationality.md` |
+| "Why do I play worse when I'm losing?" | `thinking-fast-and-slow.md` | `scout-mindset.md` |
 | "How do I make better predictions?" | `superforecasting.md` | `rationality.md` |
 | "What's the probability this business idea will work?" | `superforecasting.md` | `rationality.md` |
 | "How do I estimate the size of a market?" | `superforecasting.md` | — |
@@ -69,14 +81,19 @@ The meta-layer underneath all other skills — auditing the reasoning process it
 | "How do I think about poker decisions probabilistically?" | `superforecasting.md` | `rationality.md` |
 | "How do I run a premortem before a big decision?" | `superforecasting.md` | `thinking-fast-and-slow.md` |
 | "How do I decompose a complex question into estimable parts?" | `superforecasting.md` | — |
-| "Am I rationalizing or actually reasoning?" | `rationality.md` | `thinking-fast-and-slow.md` |
+| "Am I rationalizing or actually reasoning?" | `rationality.md` | `scout-mindset.md` |
 | "How do I check if my belief is grounded in evidence?" | `rationality.md` | `superforecasting.md` |
-| "Why do smart people believe wrong things?" | `rationality.md` | `thinking-fast-and-slow.md` |
-| "How do I detect motivated reasoning in myself?" | `rationality.md` | `thinking-fast-and-slow.md` |
+| "Why do smart people believe wrong things?" | `scout-mindset.md` | `rationality.md` |
+| "How do I detect motivated reasoning in myself?" | `scout-mindset.md` | `rationality.md` |
 | "Is my business strategy actually testable or just applause lights?" | `rationality.md` | `superforecasting.md` |
-| "How do I improve group decision-making?" | `rationality.md` | `superforecasting.md` |
-| "What would change my mind about this belief?" | `rationality.md` | `superforecasting.md` |
-| "Am I defending a belief because it's true or because it's mine?" | `rationality.md` | `thinking-fast-and-slow.md` |
+| "How do I improve group decision-making?" | `scout-mindset.md` | `rationality.md` |
+| "What would change my mind about this belief?" | `rationality.md` | `scout-mindset.md` |
+| "Am I defending a belief because it's true or because it's mine?" | `scout-mindset.md` | `rationality.md` |
+| "Should I pivot or am I just afraid to admit failure?" | `scout-mindset.md` | `superforecasting.md` |
+| "Why can't I change my mind even when the evidence is clear?" | `scout-mindset.md` | `rationality.md` |
+| "How do I build a team culture of honest feedback?" | `scout-mindset.md` | `rationality.md` |
+| "Am I continuing this because the evidence supports it, or because quitting feels like failure?" | `scout-mindset.md` | `thinking-fast-and-slow.md` |
+| "How do I separate my ego from my poker decisions?" | `scout-mindset.md` | `thinking-fast-and-slow.md` |
 
 ---
 
@@ -111,12 +128,18 @@ The meta-layer underneath all other skills — auditing the reasoning process it
 | Rationalist Taboo | Rationality | Replace vague terms with specific descriptions — if the argument collapses, it wasn't an argument |
 | Litany of Tarski | Rationality | Commitment device: "If X is true, I desire to believe X is true" — tests for motivated reasoning |
 | Belief Audit Playbook | Rationality | 7-step structured audit: state → pay rent → motivated → origin → privileging → falsifiability → cached |
+| Soldier vs. Scout Mindset | The Scout Mindset | Two modes of reasoning: soldier defends beliefs, scout tests them — notice which you're in |
+| Five Emotional Functions of Beliefs | The Scout Mindset | Beliefs serve comfort, self-esteem, morale, belonging, and persuasion — identify which is at stake |
+| Identity Ratchet | The Scout Mindset | Beliefs harden into identity through public commitment — use provisional language to prevent |
+| Thought Experiment Battery | The Scout Mindset | Six rapid self-diagnostic tests: Double Standard, Outsider, Conformity, Selective Skeptic, Status Quo, Sunk Cost |
+| Update Process | The Scout Mindset | Structured approach: notice resistance → name the stake → separate belief from identity → outsider test → smallest honest update → reward |
+| Scout Culture Building | The Scout Mindset | Leaders model updating, celebrate mind-changing, separate analysis from execution, track predictions |
 
 ---
 
 ## All Tags
 
-`base-rates` `Bayesian-reasoning` `Bayesian-updating` `behavioral-economics` `Brier-score` `calibration` `clear-thinking` `cognitive-bias` `debiasing` `decision-making` `epistemology` `falsifiability` `Fermi-estimation` `forecasting` `fox-vs-hedgehog` `heuristics` `investing` `loss-aversion` `motivated-reasoning` `overconfidence` `poker` `prediction` `probability` `psychology` `rationality` `risk` `System-1` `System-2`
+`base-rates` `Bayesian-reasoning` `Bayesian-updating` `behavioral-economics` `Brier-score` `calibration` `clear-thinking` `cognitive-bias` `debiasing` `decision-making` `epistemology` `falsifiability` `Fermi-estimation` `forecasting` `fox-vs-hedgehog` `heuristics` `identity` `intellectual-honesty` `investing` `loss-aversion` `motivated-reasoning` `overconfidence` `poker` `prediction` `probability` `psychology` `rationality` `risk` `scout-mindset` `sunk-cost` `System-1` `System-2` `team-culture` `updating`
 
 ---
 
@@ -126,9 +149,10 @@ The meta-layer underneath all other skills — auditing the reasoning process it
 skills/
 ├── thinking-fast-and-slow.md   # Decision-making under uncertainty (Kahneman)
 ├── superforecasting.md         # Prediction, calibration & forecasting (Tetlock)
-└── rationality.md              # Epistemology, clear thinking & debiasing (Yudkowsky)
+├── rationality.md              # Epistemology, clear thinking & debiasing (Yudkowsky)
+└── scout-mindset.md            # Intellectual honesty, identity & motivated reasoning (Galef)
 ```
 
 ---
 
-*Last updated: 2026-02-20 | Total skills: 3 | Total frameworks: 27 | Total tags: 28*
+*Last updated: 2026-02-20 | Total skills: 4 | Total frameworks: 33 | Total tags: 34*
