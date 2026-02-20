@@ -567,3 +567,52 @@ Critical quotes from Mark Shumaker:
 - On dirty stacks: "You want to be real careful to stack it in a way where you can see any dirty stacks."
 - On three of a kind in Big O: "Three of a kind either in Omaha or Big O, never that good. You're just completely wasting a card. It's like you're playing four on five basketball."
 
+## POT_LIMIT_OMAHA_CALCULATION
+
+Source: TruePokerDealer Mixed Games Lesson 4 of 10 - "Pot Limit Omaha"
+Type: MEMBERS_ONLY transcript (full access obtained)
+Length: ~47,000 characters
+
+Key topics covered:
+- Pot-limit calculation: the conceptual method (call first, then raise by the completed pot)
+- The dealer formula: 3× the previous bet + the trail + the pot
+- Trail definition: all active bets in current round in front of players NOT in action
+- Critical rule: trail does NOT include money in front of the active player
+- Pre-flop shortcuts: 4× big blind with no limpers, +1× per limper (5×, 6×, 7×...)
+- Same-amount shortcut: when all bets are equal, multiply count × amount
+- All-in for less: does NOT count as "previous bet" — skip it, use last complete bet; all-in becomes trail
+- Cash game rule: small blind counts as full big blind for pot-limit calculations
+- Tournament rule: small blind counts as actual amount (different from cash)
+- Pot-limit allows unlimited raises (no cap on number of raises, only on size of each raise)
+- "Talking your game": calculating out loud is acceptable ("75, 100, 125 — pot, 125")
+- Pre-calculating: figure out pot amount while player is thinking, then answer instantly
+- Verbal announcement: player says "pot" → dealer repeats "pot" + amount; "pot" replaces "raise"
+- Player puts out exact pot amount silently → dealer recognizes and announces "pot"
+- Player puts out too much → dealer corrects to pot maximum, returns excess
+- Player declares amount over pot → dealer corrects: "pot, [correct amount]"
+- NEVER count down the pot physically — call the floor if you've lost track
+- Keep dead money separate from pot until ready to add — acceptable practice
+- Figure out pot total BEFORE merging bets into center pot
+- PLO is usually time-raked (not per-hand), making it more relaxing for dealers
+- Memorization: common amounts repeat hand after hand, become automatic (like craps payouts)
+- Dealing with difficult players: some deliberately put out ambiguous amounts to test dealers
+- Own mistakes without apologizing: "I made a mistake. I'm going to call the floor."
+- Social pressure from other players is more effective than dealer confrontation
+- Ask questions when sitting down at unfamiliar PLO table: verify structure during tap-out
+- 1/2 PLO can be messy; some rooms use $5 increments to simplify
+- Dead ante structures (e.g., 50/100 with dead 100) change the first raise calculation
+- Mark deals 5+ complete sample hands demonstrating calculation at every stage
+- Mark loses track of the pot while teaching, demonstrating how easy it is to forget
+
+Critical quotes from Mark Shumaker:
+- On the formula: "Three times the previous bet plus the trail plus the pot. That is the formula that will always give you the correct amount."
+- On calculating out loud: "Instead of saying 395, I allowed myself to figure it out. So I said 225, 300, 375, 395. That's actually totally acceptable."
+- On trail rule: "It's really important for you as the dealer to know that if a amount of money is in front of this player, it does not count as a part of the trail."
+- On all-in for less: "An all-in for less counts as a part of the trail. It does not count as the previous bet."
+- On never counting the pot: "If you ever need to count down how much is in the pot, call a supervisor. The last thing you want is to create the habit of counting the pot down."
+- On merging bets: "It's really important that before you meld that pot, you know how much is in it."
+- On memorization: "The more you deal this game, the easier stuff like this gets."
+- On dealing with challenges: "You say 'I made a mistake. I'm going to call the floor. The floor is going to fix it.'"
+- On asking questions: "It's okay to go into a mix game or a game that you haven't seen before and ask a couple questions."
+- On PLO being relaxing: "I found pot limit Omaha to be the most relaxing game that I dealt because I didn't have to worry about making change and I didn't have to worry about the rake."
+
