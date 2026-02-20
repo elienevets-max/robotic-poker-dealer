@@ -12,6 +12,7 @@ A searchable catalog of skills and knowledge modules relevant to the Robotic Pok
 | 2 | Superforecasting | Prediction & Calibration | [`skills/superforecasting.md`](skills/superforecasting.md) | How do I make better predictions about uncertain outcomes? |
 | 3 | Rationality | Epistemology & Clear Thinking | [`skills/rationality.md`](skills/rationality.md) | Am I rationalizing or actually reasoning? |
 | 4 | The Scout Mindset | Intellectual Honesty & Identity | [`skills/scout-mindset.md`](skills/scout-mindset.md) | Am I defending this belief because it's true or because it's mine? |
+| 5 | Munger Mental Models | Multidisciplinary Decision-Making | [`skills/munger-mental-models.md`](skills/munger-mental-models.md) | What mental models apply and what would guarantee failure? |
 
 ---
 
@@ -61,6 +62,17 @@ The emotional and motivational layer of clear thinking — why knowing about bia
 - **Key Concepts:** Motivated reasoning as emotional protection, beliefs serving comfort/self-esteem/morale/belonging/persuasion, identity ratchet (beliefs hardening into identity), holding opinions loosely, provisional language, changing your mind as a power move, fastest updater wins, meeting emotional needs separately from beliefs
 - **Tags:** `scout-mindset` `motivated-reasoning` `intellectual-honesty` `identity` `decision-making` `updating` `sunk-cost` `team-culture` `poker` `investing`
 
+### Multidisciplinary Decision-Making & Mental Models
+
+The integrating layer — connects models from psychology, economics, biology, physics, and mathematics into a unified decision-making framework. Provides the meta-skill of knowing which model to apply when.
+
+#### 5. Munger Mental Models (Poor Charlie's Almanack)
+- **File:** [`skills/munger-mental-models.md`](skills/munger-mental-models.md)
+- **Source:** Charlie Munger — *Poor Charlie's Almanack*
+- **Core Frameworks:** Latticework of Mental Models, Inversion, Munger's Full Decision Checklist, Moat Assessment Framework, Incentive Audit, Business/Investment Evaluation Checklist, Anti-Stupidity Audit, Multi-Model Analysis, Lollapalooza Check, Act-or-Wait Framework, Disconfirming Evidence Drill, Margin of Safety Gate
+- **Key Concepts:** 25 Tendencies of Human Misjudgment, circle of competence, lollapalooza effects (multiplicative convergence), incentive super-response, structural vs operational moats, inversion as default problem-solving, patience as competitive advantage, checklist discipline, compounding knowledge, multi-causal thinking, "show me the incentive," margin of safety, defense beats offense
+- **Tags:** `mental-models` `inversion` `incentives` `lollapalooza` `circle-of-competence` `margin-of-safety` `multidisciplinary-thinking` `checklists` `moats` `competitive-advantage` `misjudgment` `psychology` `decision-making` `risk` `investing` `poker` `business-strategy`
+
 ---
 
 ## By Situation
@@ -94,6 +106,18 @@ The emotional and motivational layer of clear thinking — why knowing about bia
 | "How do I build a team culture of honest feedback?" | `scout-mindset.md` | `rationality.md` |
 | "Am I continuing this because the evidence supports it, or because quitting feels like failure?" | `scout-mindset.md` | `thinking-fast-and-slow.md` |
 | "How do I separate my ego from my poker decisions?" | `scout-mindset.md` | `thinking-fast-and-slow.md` |
+| "What mental models should I use for this decision?" | `munger-mental-models.md` | `thinking-fast-and-slow.md` |
+| "What would guarantee failure here?" | `munger-mental-models.md` | `rationality.md` |
+| "Why are smart people doing obviously dumb things?" | `munger-mental-models.md` | `scout-mindset.md` |
+| "How do I evaluate a business's competitive moat?" | `munger-mental-models.md` | `superforecasting.md` |
+| "What are the incentives driving this behavior?" | `munger-mental-models.md` | `rationality.md` |
+| "Am I operating inside my circle of competence?" | `munger-mental-models.md` | `scout-mindset.md` |
+| "Should I act now or wait for more clarity?" | `munger-mental-models.md` | `superforecasting.md` |
+| "How do I avoid catastrophic errors in investing?" | `munger-mental-models.md` | `thinking-fast-and-slow.md` |
+| "Why did this extreme outcome happen?" | `munger-mental-models.md` | `superforecasting.md` |
+| "How do I stress-test a major decision?" | `munger-mental-models.md` | `rationality.md` |
+| "Does my strategy have enough margin of safety?" | `munger-mental-models.md` | `thinking-fast-and-slow.md` |
+| "How do I apply Munger's checklist to poker bankroll decisions?" | `munger-mental-models.md` | `superforecasting.md` |
 
 ---
 
@@ -134,12 +158,26 @@ The emotional and motivational layer of clear thinking — why knowing about bia
 | Thought Experiment Battery | The Scout Mindset | Six rapid self-diagnostic tests: Double Standard, Outsider, Conformity, Selective Skeptic, Status Quo, Sunk Cost |
 | Update Process | The Scout Mindset | Structured approach: notice resistance → name the stake → separate belief from identity → outsider test → smallest honest update → reward |
 | Scout Culture Building | The Scout Mindset | Leaders model updating, celebrate mind-changing, separate analysis from execution, track predictions |
+| Latticework of Mental Models | Munger Mental Models | Network of big ideas from every discipline — applied together to stress-test decisions |
+| Inversion | Munger Mental Models | Solve problems backward — "what would guarantee failure?" then avoid those things |
+| Munger's Full Decision Checklist | Munger Mental Models | 8-step stress test: Models → Invert → Incentives → Psychology → Lollapalooza → Circle → Margin → Patience |
+| Moat Assessment Framework | Munger Mental Models | 5-step evaluation: What is the moat? How wide? Widening or narrowing? What destroys it? Management maintaining it? |
+| Incentive Audit | Munger Mental Models | Map compensation, hidden incentives, alignment — "show me the incentive and I'll show you the outcome" |
+| Business/Investment Evaluation Checklist | Munger Mental Models | 6 gates: Understand? Moat? Trustworthy people? Fair price? Tailwinds? Multi-model convergence? If any NO → pass |
+| Anti-Stupidity Audit | Munger Mental Models | Quarterly catastrophe scan: list risks → severity → defenses → convergence check → early warning → pre-commit |
+| Multi-Model Analysis | Munger Mental Models | 7 disciplinary lenses (psych, econ, math, bio, history, engineering) + synthesis for convergence |
+| Lollapalooza Check | Munger Mental Models | Hunt for 3+ independent forces combining — multiplicative effects create extreme outcomes |
+| Act-or-Wait Framework | Munger Mental Models | 6-step patience test — default to waiting; only act when clarity score ≥ 8/10 |
+| Disconfirming Evidence Drill | Munger Mental Models | 10-minute exercise: write strongest argument against your plan; steel-man the opposition |
+| Margin of Safety Gate | Munger Mental Models | Numeric buffer required — if 1-2 assumptions can be wrong and outcome is still acceptable, proceed |
+| 25 Tendencies of Human Misjudgment | Munger Mental Models | Practitioner's catalog of systematic psychological errors — check incentives, denial, social proof first |
+| Circle of Competence | Munger Mental Models | Boundary of genuine understanding — the edge is where the biggest mistakes happen |
 
 ---
 
 ## All Tags
 
-`base-rates` `Bayesian-reasoning` `Bayesian-updating` `behavioral-economics` `Brier-score` `calibration` `clear-thinking` `cognitive-bias` `debiasing` `decision-making` `epistemology` `falsifiability` `Fermi-estimation` `forecasting` `fox-vs-hedgehog` `heuristics` `identity` `intellectual-honesty` `investing` `loss-aversion` `motivated-reasoning` `overconfidence` `poker` `prediction` `probability` `psychology` `rationality` `risk` `scout-mindset` `sunk-cost` `System-1` `System-2` `team-culture` `updating`
+`base-rates` `Bayesian-reasoning` `Bayesian-updating` `behavioral-economics` `Brier-score` `business-strategy` `calibration` `checklists` `circle-of-competence` `clear-thinking` `cognitive-bias` `competitive-advantage` `debiasing` `decision-making` `epistemology` `falsifiability` `Fermi-estimation` `forecasting` `fox-vs-hedgehog` `heuristics` `identity` `incentives` `intellectual-honesty` `investing` `inversion` `lollapalooza` `loss-aversion` `margin-of-safety` `mental-models` `misjudgment` `moats` `motivated-reasoning` `multidisciplinary-thinking` `overconfidence` `poker` `prediction` `probability` `psychology` `rationality` `risk` `scout-mindset` `sunk-cost` `System-1` `System-2` `team-culture` `updating`
 
 ---
 
@@ -150,9 +188,10 @@ skills/
 ├── thinking-fast-and-slow.md   # Decision-making under uncertainty (Kahneman)
 ├── superforecasting.md         # Prediction, calibration & forecasting (Tetlock)
 ├── rationality.md              # Epistemology, clear thinking & debiasing (Yudkowsky)
-└── scout-mindset.md            # Intellectual honesty, identity & motivated reasoning (Galef)
+├── scout-mindset.md            # Intellectual honesty, identity & motivated reasoning (Galef)
+└── munger-mental-models.md     # Latticework of mental models, inversion & multidisciplinary thinking (Munger)
 ```
 
 ---
 
-*Last updated: 2026-02-20 | Total skills: 4 | Total frameworks: 33 | Total tags: 34*
+*Last updated: 2026-02-20 | Total skills: 5 | Total frameworks: 48 | Total tags: 47*
