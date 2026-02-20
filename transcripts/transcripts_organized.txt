@@ -662,3 +662,26 @@ Critical quotes from Mark Shumaker:
 - On burn cards and muck: "Burn cards are never mixed with the muck for a reshuffle."
 - On discards into muck: "Slid, not lifted from the table and air mailed."
 
+=== OMAHA_HAND_READING_AND_SPLIT_POT_PROCEDURES ===
+Source: TruePokerDealer Mixed Games Lesson 3 of 10 — "The Omaha Lesson That Will Finally Have You Feel Comfortable Dealing Omaha"
+Type: MEMBERS_ONLY (extracted from user-provided transcript)
+
+Key topics covered:
+- Systematic board reading methodology: read the board FIRST, classify by type, evaluate from highest possible hand downward
+- Board type classification: unpaired/no flush/no straight, straight-possible, four-straight, five-straight, flush-possible, four-flush, five-flush, paired board, two-pair board, three-of-a-kind board
+- Hand hierarchy for each board type: four of a kind → full house → flush → straight → trips → two pair → pair → high card
+- The "exactly 2 from hand, 3 from board" rule — most common Omaha showdown error
+- Framing technique: physically separating the 2 hole cards and 3 board cards to verify hands
+- Low hand reading in Omaha Hi-Lo: qualifying low requires five unpaired cards 8 or below
+- Nut low identification: read from bottom up (ace first), compare from top down (highest card first)
+- Four-to-a-low boards: player still needs TWO qualifying low cards from hand, not just one
+- Split pot showdown procedure: push high first → kill high hand → push low → kill low hand
+- Odd chip rules: high ALWAYS gets the odd chip between halves (direction-based, not position-based)
+- Odd chip within tied lows: worst position (closest to receiving button next)
+- Three-way low chop: divide low half into three, two odd chips go to two worst-position players
+- Pot stacking: largest denomination closest to dealer; stack for easy halving
+- Cash vs tournament stacking timing: cash can stack during hand; tournament (WSOP) waits until river
+- Stub counting in Omaha: 4 cards × 10 players = 40 + 3 burns + 5 board = 48 dealt, only 4 remaining
+- Cash vs tournament chip handling: cash = fingertips only (security); tournament = full grip allowed
+- Mark demonstrates systematic evaluation of multiple board types with player hands
+
