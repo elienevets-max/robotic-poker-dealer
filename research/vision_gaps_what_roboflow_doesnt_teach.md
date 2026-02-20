@@ -1,4 +1,5 @@
 # What the Roboflow Videos Do NOT Teach
+*Based on 20 transcripts*
 
 Gaps that require custom engineering beyond anything demonstrated in the 17 transcripts analyzed. These are the problems that would cause a regulator to reject the system, a casino to refuse deployment, or the robot to fail in its first live session.
 
@@ -266,6 +267,70 @@ Plus card pitching (Deployment Bible Section 3) with specific mechanics for:
 | No interaction | Player communication and management | LARGE |
 | No physical handling | Complete card/chip manipulation | ENORMOUS |
 
-The Roboflow video catalog provides approximately **30-40% of the knowledge needed** to build the perception layer of a robotic poker dealer. They provide 0% of the manipulation, interaction, compliance, and infrastructure integration layers. The perception layer itself has critical gaps (stacked object counting, sub-5mm OCR, multi-model real-time orchestration) that require custom R&D beyond anything the tutorials demonstrate.
+---
+
+## Gap 13: Domain Expert Partnership Model
+
+**What the tutorials show**: A solo developer or small team building a vision model for an object category they understand visually. The person annotating the data is usually the same person training the model.
+
+**What poker needs**: The domain knowledge required to build a dealer robot is not available in any tutorial, YouTube channel, or textbook. How burn cards work. Why side pots are calculated smallest-stack-first. What constitutes a string bet. What an exposed card procedure looks like. These are professional skills that take years to develop.
+
+**Why this matters**: Blueprint Pro AI (T20) solved this explicitly: the CTO (CV engineer) is NOT a blueprint expert. He hired a civil engineer (Nolan) whose job is to define what the system needs to do — which objects matter, what the edge cases are, what accuracy means in this domain. The CV engineer then selects the architecture. Neither can do the other's job.
+
+**What you must build yourself**:
+- A formal knowledge transfer protocol between the poker expert and the CV engineer
+- Session recordings (Elie explaining what "a card is properly mucked" means, what "a bet is confirmed" means)
+- Edge case documentation that becomes the test suite: "here are 50 ambiguous situations; here is the correct outcome for each"
+- A review process where the poker expert validates every state machine transition, not just the model's detection accuracy
+
+The domain expert defines what "correct" means. Without that definition, accuracy metrics are measuring the wrong thing.
+
+---
+
+## Gap 14: Regulatory Certification Process
+
+**What the tutorials show**: Zero. Not mentioned once in 20 transcripts.
+
+**What poker needs**: Nevada Gaming Control Board (NGCB) Technical Division approval before a single hand can be dealt for real money. The Virginia model (charitable gaming) has a different but equally demanding pathway. Both require:
+- Formal system documentation (the Deployment Bible is the right artifact)
+- Lab testing by an approved independent testing laboratory (BMM Testlabs, GLI, or equivalent)
+- Source code review or binary hash verification
+- Ongoing compliance monitoring (quarterly audits in some jurisdictions)
+- Incident reporting requirements (any malfunction, any disputed hand)
+
+**Why this matters**: This is the actual gate. A perfect vision system that hasn't cleared the NGCB cannot deal a single real-money hand in Nevada. Period.
+
+**What you must build yourself**:
+- A certification-ready system specification (what the system does, what it can't do, what triggers a human override)
+- A formal fail-safe specification (every failure mode and its response)
+- A test suite that an independent lab can run reproducibly
+- An immutable audit log that a regulator can inspect
+- A procedure for reporting malfunction events
+- Relationships with an approved testing laboratory before you have a product to certify
+
+Regulatory certification is not a post-launch step. It must be designed into the system from day one.
+
+---
+
+## Updated Summary: The Tutorial-to-Production Gap
+
+| What Tutorials Cover | What Production Requires | Gap Size |
+|---|---|---|
+| Single model inference | Multi-model real-time orchestration | LARGE |
+| Short demo clips | 12-hour continuous operation | LARGE |
+| Happy-path execution | Graceful degradation under failure | LARGE |
+| Passive observation | Closed-loop manipulation feedback | ENORMOUS |
+| Cooperative subjects | Adversarial actors (cheaters) | LARGE |
+| Standalone systems | Full casino IT integration | LARGE |
+| Single game type | Multi-game rule switching | MEDIUM |
+| Flat separated objects | Stacked chips, overlapping cards | MEDIUM |
+| Large objects | Sub-5mm suit symbols at distance | MEDIUM |
+| No compliance | Full regulatory audit trail + certification | ENORMOUS |
+| No interaction | Player communication and management | LARGE |
+| No physical handling | Complete card/chip manipulation | ENORMOUS |
+| Developer as domain expert | Formal poker expert partnership | LARGE |
+| No regulatory knowledge | NGCB certification process | ENORMOUS |
+
+The Roboflow video catalog provides approximately **30-40% of the knowledge needed** to build the perception layer of a robotic poker dealer. They provide 0% of the manipulation, interaction, compliance, regulatory, and infrastructure integration layers. The perception layer itself has critical gaps (stacked object counting, sub-5mm OCR, multi-model real-time orchestration, game-logic oracle) that require custom R&D beyond anything the tutorials demonstrate.
 
 This is not a criticism of the tutorials — they are excellent for what they teach. It is a clear-eyed assessment of the distance between "works in a notebook" and "approved for a casino floor."
