@@ -738,3 +738,30 @@ Seven Card Stud Hi-Lo Regular (No Qualifier):
 - Community card on 7th street more likely (players stay longer for split pot chances)
 - Mark deals sample hands of all four variants demonstrating full procedures
 
+=== LIMIT_OMAHA_HIGH_AND_HI_LO ===
+Source: TruePokerDealer Mixed Games Lesson 2 of 10 — "Limit Omaha High and Limit Omaha Hi-Low Split 8 or Better Sample Hands"
+Type: MEMBERS_ONLY (extracted from user-provided transcript)
+
+Key topics covered:
+- WSOP audition game list: complete listing of all games required for dealer audition
+- Limit Omaha blind structure: big blind = lower limit (2/4 limit → 1/2 blinds)
+- Four-card muck verification: check every fold has exactly 4 cards (audition scoring point)
+- Framing protocol: frame ONLY as you improve — don't frame losing hands
+- WSOP requires reading every tabled hand in tournament play
+- Omaha hand reading: exactly 2 from hand, 3 from board — detailed examples with common mistakes
+- Three of a kind on board in Omaha: look for pocket pairs for full houses (you need 2 from hand)
+- Flush on board in Omaha: player needs TWO suited cards, not just one
+- Low hand evaluation: five different rank cards all 8 or below; A-2 is nut low when no board card below 3
+- Splitting pots: always evaluate high first, then low
+- Odd chip in Omaha high: goes to worst position (closest to button / first to act post-flop)
+- Odd chip in hi-lo: extra chip goes to high hand
+- Pot stacking in hi-lo: WSOP says stack at end; some casinos stack throughout
+- Always stack pot even when no low is possible — don't leak board information
+- 50% rule for all-in in limit: 50%+ of a raise creates new raise plateau; under 50% does not
+- Cascading raise plateau example: 8 → 14 (raise) → 16 (no raise) → 18 (re-raise) → 22 (cap)
+- Burn under a chip on every street
+- Side pot shortcut: calculate shortfall, take from all remaining players
+- Limit Omaha players have very high expectations — low patience for dealer errors
+- Rake procedure: max rake, making change, coloring up rake chips
+- Mark deals sample hands of Omaha high and Omaha hi-lo with full showdown reading
+
