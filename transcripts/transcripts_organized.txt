@@ -765,3 +765,30 @@ Key topics covered:
 - Rake procedure: max rake, making change, coloring up rake chips
 - Mark deals sample hands of Omaha high and Omaha hi-lo with full showdown reading
 
+=== AUDITION_PROCEDURES_AND_ERROR_RECOVERY ===
+Source: TruePokerDealer "Marc Auditions Himself"
+Type: MEMBERS_ONLY (extracted from user-provided transcript)
+
+Key topics covered:
+- Complete audition walkthrough: bank setup, chip placement, spacers, blind buttons
+- Audition structure: 2/4 limit hand → 1/2 NL hand → 5/10 limit Omaha hi-lo → 5/5 PLO
+- Audition scoring systems: casinos use numerical scoring (legal defense against discrimination)
+- Video auditions: increasingly common, can be sent to hiring managers
+- Mini wash: do it in auditions, probably won't be noticed if you forget
+- Making change from the bank: auditioners specifically test this
+- Talk your game constantly: "raise to 10", "four players", announce everything
+- Rake calculation on the fly: track pot size mentally, take at correct thresholds
+- Reading hands at showdown: frame winning hand, kill losing hands
+- Side pot construction with shortcuts: leaving bets out, counting down, talking through math
+- "How much to pot?" test: auditioners test PLO pot calculation immediately (3× previous bet + trail + pot)
+- Hi-lo showdown error: forgetting it's hi-lo and mucking hands with qualifying lows
+- Snowball effect: one mistake leads to another during panic — stop and call floor
+- Floor call discipline: NEVER fix your own errors — call floor and explain
+- Audition recovery: each hand is a fresh chance; never give up
+- Active button system: when player busts, two big blinds posted, small on button until normal rotation resumes
+- Dead button vs active button: active button always in front of live player
+- Exposed card during shuffle: acknowledge it, reshuffle, no big deal
+- Pitch speed: accuracy > speed; speed comes with time
+- Limit Omaha players expect the world — reinforced again
+- Four-card muck verification mentioned during Omaha dealing
+
