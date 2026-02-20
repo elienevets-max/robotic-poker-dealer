@@ -20,6 +20,11 @@ A searchable catalog of skills and knowledge modules relevant to the Robotic Pok
 | 10 | Difficult Conversations | Conflict Resolution & Hard Talks | [`skills/difficult-conversations.md`](skills/difficult-conversations.md) | How do I navigate a high-stakes conversation without it going sideways? |
 | 11 | Robotics, Vision and Control | Robotics Evaluation & Technical Literacy | [`skills/robotics-vision-control.md`](skills/robotics-vision-control.md) | What can this robot actually do vs. what the vendor claims? |
 | 12 | Introduction to Autonomous Robots | Systems Integration & Autonomy Evaluation | [`skills/autonomous-robots.md`](skills/autonomous-robots.md) | How do subsystem errors compound into system-level failures? |
+| 13 | Vision Skill Map | Computer Vision Engineering | [`research/vision_skill_map.md`](research/vision_skill_map.md) | What CV skills do I need to build the perception layer of a robotic poker dealer? |
+| 14 | Vision Architecture Blueprint | Computer Vision Engineering | [`research/vision_architecture_blueprint.md`](research/vision_architecture_blueprint.md) | What does the full vision pipeline for a casino poker table look like as a system? |
+| 15 | Failure Taxonomy | Computer Vision Engineering | [`research/vision_failure_taxonomy.md`](research/vision_failure_taxonomy.md) | What are the top perception failures that will halt dealing or cause regulatory rejection? |
+| 16 | Vision Design Principles | Computer Vision Engineering | [`research/vision_design_principles.md`](research/vision_design_principles.md) | What non-obvious lessons from 20 production vision systems apply to the poker dealer? |
+| 17 | Gaps Analysis | Computer Vision Engineering | [`research/vision_gaps_what_roboflow_doesnt_teach.md`](research/vision_gaps_what_roboflow_doesnt_teach.md) | What does the tutorial ecosystem NOT teach that would cause a casino to reject deployment? |
 
 ---
 
@@ -130,6 +135,47 @@ The human interface layer — how to communicate honestly, give and receive feed
 - **Core Frameworks:** Three Conversations Model (What Happened, Feelings, Identity), Third Story Opening, Contribution vs. Blame Mapping, Intent vs. Impact Distinction, Learning Conversation, AND Stance, Full Preparation Protocol (8-step), Real-Time Navigation (10-step), Conversation Reset Protocol, Avoidance Breaking Protocol
 - **Key Concepts:** Three simultaneous conversation layers, Third Story (neutral observer opening), contribution mapping (systemic, forward-looking) vs. blame (individual, backward-looking), intent vs. impact gap, learning conversation (curiosity over certainty), AND stance (holding contradictory truths), acknowledging feelings before problem-solving, identity management in conflict, meta-communication (naming the dynamic), the cost of avoidance
 - **Tags:** `difficult-conversations` `conflict-resolution` `three-conversations` `feelings` `identity` `contribution` `third-story` `learning-conversation` `blame` `intent-vs-impact` `de-escalation` `poker` `investing` `partnerships` `negotiation`
+
+### Computer Vision Engineering — Poker Dealer Perception System
+
+Knowledge derived from 20 Roboflow production video transcripts, translated into deployable engineering knowledge for a casino-grade robotic poker dealer. These are not tutorial summaries — they are the lessons you'd only learn by building the system and discovering where the tutorials break.
+
+#### 13. Vision Skill Map
+- **File:** [`research/vision_skill_map.md`](research/vision_skill_map.md)
+- **Source:** 20 Roboflow transcripts (YOLOv5/v8/v11, RF-DETR, SAM2/3, ByteTrack, Jetson, Workflows, Blueprint Pro AI, PlayVision, Smart Parking, Basketball AI, and 10 others)
+- **Core Frameworks:** Dataset construction, active learning loop, object detection model selection (YOLO/RF-DETR), segmentation (SAM2/3), classification & OCR pipeline, inference architecture, real-time optimization, tracking (ByteTrack/SAM2), zone-based counting, edge deployment (Jetson/TensorRT), fleet management, failure handling, pipeline routing, spatial reasoning patterns, production reliability
+- **Key Concepts:** NMS-free detection for stateful systems, TensorRT on Jetson, PolygonZone spatial filtering, IOS (intersection-over-smaller-area) matching, SAM2 pixel tracking, SmallVLM2 OCR with constrained vocabulary, SigLIP unsupervised chip clustering, homography for table coordinate mapping, temporal state machines for event detection, multi-model orchestration (up to 29 models), classification-first routing, set-difference occupancy, game-logic oracle, schema-first output design
+- **Tags:** `computer-vision-engineering` `poker-vision` `object-detection` `tracking` `segmentation` `edge-deployment` `multi-model-pipeline` `dataset-design` `augmentation` `active-learning` `inference` `zone-counting` `ocr` `homography` `temporal-state-machine` `pipeline-routing` `spatial-reasoning` `casino-automation`
+
+#### 14. Vision Architecture Blueprint
+- **File:** [`research/vision_architecture_blueprint.md`](research/vision_architecture_blueprint.md)
+- **Source:** Synthesized from 20 transcripts + Deployment Bible domain constraints
+- **Core Frameworks:** 7-layer modular pipeline (Camera Array → Frame Classifier/Router → Detection Engine → Spatial Calibration → Tracking Engine → Zone Manager → Classification Engine → Game-Logic Oracle → State Machine → Rule Arbitration → Output/Actuation), hardware stack specification, deployment workflow
+- **Key Concepts:** 4K/60fps fixed overhead camera, RF-DETR-S as primary detector (NMS-free), SAM2-Tiny for card tracking, ByteTrack for chip tracking, keypoint homography (single computation at installation), 22-class detection taxonomy, Game-Logic Oracle (card count = 52 constraint), typed versioned output schema, NVIDIA Jetson Orin NX per table, TensorRT optimization, WebRTC surveillance feed, audit log for regulatory compliance
+- **Tags:** `vision-architecture` `poker-vision` `computer-vision-engineering` `pipeline-routing` `game-logic-oracle` `constraint-engine` `schema-design` `edge-deployment` `casino-automation` `regulatory-compliance` `audit-log` `homography` `tracking`
+
+#### 15. Failure Taxonomy
+- **File:** [`research/vision_failure_taxonomy.md`](research/vision_failure_taxonomy.md)
+- **Source:** 20 transcripts, analyzed for casino-specific failure modes
+- **Core Frameworks:** 26-entry failure taxonomy ranked by risk score (severity × frequency), covering card misidentification, chip count errors, tracker ID swaps, NMS jitter, SAM2 slowdown, lighting failures, homography errors, fold ambiguity, burn card leaks, duplicate card detection, fast pitch dropout, augmentation mismatch, VLM latency, version mismatch, game-logic oracle absence, pipeline router failure, zone polygon staleness
+- **Key Concepts:** Risk score = severity × frequency, "Roboflow tooling helps / fails" framing for each failure, hardening strategies specific to casino operations, regulatory implications of each failure class, distinction between model failures and architectural failures
+- **Tags:** `failure-taxonomy` `poker-vision` `computer-vision-engineering` `risk-management` `casino-automation` `regulatory-compliance` `card-detection` `chip-counting` `tracking` `game-logic-oracle` `pipeline-routing` `augmentation`
+
+#### 16. Vision Design Principles
+- **File:** [`research/vision_design_principles.md`](research/vision_design_principles.md)
+- **Source:** 20 transcripts — the lessons not in the tutorial titles
+- **Core Frameworks:** 17 non-obvious principles organized as "intuition vs. reality vs. poker implication" — covering tracking priority, zone logic, NMS-free detection, unsupervised generalization, VLM guardrails, real-time path splitting, fixed-camera advantage, event-locking vs. re-detection, edge deployment mandate, multi-model glue code budget, self-labeling bootstrap, closed-world advantage, bounding-box-is-not-the-deliverable, empty-is-not-a-class, task decomposition, training-inference resolution matching, first-deployment-as-data-collection
+- **Key Concepts:** Tracking > detection accuracy, zone events beat continuous position, NMS jitter = regulatory risk, SigLIP clustering for new chip sets, VLM output must pass through domain constraints, real-time path (33ms) + async verification path, fixed cameras eliminate dynamic homography, event-locked card assignments survive occlusion, 70% engineering effort on integration not models, 52-card closed system as free accuracy boost, output schema defined before pipeline code, empty states as set-difference residuals, 29-model decomposition principle
+- **Tags:** `design-principles` `poker-vision` `computer-vision-engineering` `production-ml` `tracking` `zone-counting` `pipeline-routing` `multi-model-pipeline` `casino-automation` `edge-deployment` `active-learning` `closed-world-constraints`
+
+#### 17. Gaps Analysis
+- **File:** [`research/vision_gaps_what_roboflow_doesnt_teach.md`](research/vision_gaps_what_roboflow_doesnt_teach.md)
+- **Source:** 20 transcripts analyzed for what they explicitly don't address
+- **Core Frameworks:** 14 gap categories mapped from "what tutorials show" → "what poker needs" → "what you must build yourself," plus a Tutorial-to-Production Gap summary table with gap size ratings (MEDIUM / LARGE / ENORMOUS)
+- **Key Concepts:** Stacked chip counting (tutorials count separated objects only), sub-5mm suit recognition at distance, real-time multi-model orchestration within 33ms, regulatory audit trail (NGCB), graceful degradation under component failure, physical manipulation feedback loop, adversarial robustness (cheating detection), multi-game rule switching, 12-hour reliability testing, casino IT integration, player interaction, card/chip physical handling, domain expert partnership model, regulatory certification process (BMM Testlabs/GLI)
+- **Tags:** `gaps-analysis` `poker-vision` `computer-vision-engineering` `regulatory-compliance` `casino-automation` `chip-counting` `ocr` `production-ml` `adversarial-robustness` `domain-expert` `certification` `graceful-degradation`
+
+---
 
 ### Robotics Evaluation & Technical Literacy
 
@@ -246,6 +292,20 @@ The reality filter for robotic system evaluation — understanding what robots c
 | "What's the right human-in-the-loop architecture for poker dealing?" | `autonomous-robots.md` | `robotics-vision-control.md` |
 | "How do I evaluate end-to-end performance vs component-level claims?" | `autonomous-robots.md` | `thinking-clearly.md` |
 | "Will this robot degrade gracefully or fail catastrophically?" | `autonomous-robots.md` | `antifragile.md` |
+| "What CV skills do I need to build the poker dealer vision system?" | `research/vision_skill_map.md` | `research/vision_architecture_blueprint.md` |
+| "What does the full vision pipeline for a poker table look like?" | `research/vision_architecture_blueprint.md` | `research/vision_skill_map.md` |
+| "What perception failures will cause the robot to fail in a casino?" | `research/vision_failure_taxonomy.md` | `research/vision_gaps_what_roboflow_doesnt_teach.md` |
+| "What non-obvious lessons apply from production vision systems?" | `research/vision_design_principles.md` | `research/vision_architecture_blueprint.md` |
+| "What does the Roboflow tutorial ecosystem NOT teach?" | `research/vision_gaps_what_roboflow_doesnt_teach.md` | `research/vision_design_principles.md` |
+| "How do I detect chips in stacked formations?" | `research/vision_failure_taxonomy.md` | `research/vision_skill_map.md` |
+| "How do I read card rank and suit reliably at showdown?" | `research/vision_failure_taxonomy.md` | `research/vision_skill_map.md` |
+| "What would cause a regulator to reject the vision system?" | `research/vision_gaps_what_roboflow_doesnt_teach.md` | `research/vision_failure_taxonomy.md` |
+| "How do I build a game-logic oracle that validates vision output?" | `research/vision_architecture_blueprint.md` | `research/vision_design_principles.md` |
+| "Which model should I use for the poker dealer — YOLO or RF-DETR?" | `research/vision_skill_map.md` | `research/vision_design_principles.md` |
+| "How do I track cards across frames when they look identical?" | `research/vision_design_principles.md` | `research/vision_skill_map.md` |
+| "What's the right camera configuration for a casino table?" | `research/vision_architecture_blueprint.md` | `research/vision_skill_map.md` |
+| "How do I count chips in the pot accurately?" | `research/vision_failure_taxonomy.md` | `research/vision_skill_map.md` |
+| "How do I deploy the vision system to a Jetson Orin?" | `research/vision_skill_map.md` | `research/vision_architecture_blueprint.md` |
 | "How do I give difficult feedback without damaging the relationship?" | `radical-candor.md` | `scout-mindset.md` |
 | "Why isn't my team giving me honest information?" | `radical-candor.md` | `scout-mindset.md` |
 | "I'm avoiding a hard conversation I know I need to have" | `radical-candor.md` | `antifragile.md` |
@@ -402,12 +462,28 @@ The reality filter for robotic system evaluation — understanding what robots c
 | Vendor Autonomy Decomposition (5-step) | Introduction to Autonomous Robots | Decompose claims → identify assumptions → identify interfaces → map failure propagation → find human intervention points |
 | Deployment Environment Fit Check | Introduction to Autonomous Robots | What changes dynamically? What is unmodeled? What agents are unpredictable? What happens when timing slips? |
 | Decentralized vs Centralized Control | Introduction to Autonomous Robots | Reactive/local vs deliberative/global decisions — mixing them poorly causes latency, oscillation, and indecision |
+| Classification-First Pipeline Routing | Vision Architecture Blueprint | Frame classifier runs before any detection model — routes to sub-pipeline by game phase; low-confidence → full-pipeline fallback |
+| Game-Logic Oracle (Constraint Engine) | Vision Architecture Blueprint | Validates every frame's vision output against domain rules: 52-card integrity, pot consistency, zone-phase consistency; violations halt dealing |
+| 7-Layer Poker Vision Pipeline | Vision Architecture Blueprint | Camera Array → Router → Detection → Calibration → Tracking → Zone Manager → Classification → Oracle → State Machine → Rule Arbitration → Output |
+| Typed Versioned Output Schema | Vision Architecture Blueprint | Terminal pipeline output is a JSON contract with schema_version field; breaking the schema is a breaking change for all downstream consumers |
+| 26-Entry Failure Taxonomy | Failure Taxonomy | All perception failures ranked by risk score (severity × frequency) with "Roboflow tooling helps / fails / hardening" structure per entry |
+| Real-Time + Verification Path Split | Vision Design Principles | Two parallel paths: real-time (33ms, lightweight) for game flow; async verification (1-5s, high-res) for catching real-time errors |
+| Zone-Based Spatial Reasoning | Vision Design Principles | Reduce "where is this object?" to "which zone is it in?" — zone events are more reliable than continuous position tracking |
+| Multi-Model Task Decomposition | Vision Design Principles | Count of models = count of genuinely distinct visual tasks; one model per task maximizes reliability and debuggability (Blueprint Pro AI: 29 models) |
+| Set-Difference Occupancy Logic | Vision Skill Map | all_zones − occupied_zones = empty_zones; empty is never a trained class — it is the absence of occupancy |
+| Bounding Box Padding as Proximity Heuristic | Vision Skill Map | Expand bboxes before computing overlap to detect proximity without a dedicated spatial relationship classifier |
+| Non-Class-Aware Detection Consensus | Vision Skill Map | When deduplicating renamed detection sets across set-difference operations, disable class-awareness to prevent duplicate boxes |
+| Expected-Count Validation | Vision Skill Map | Game-logic oracle compares vision output to known domain counts each frame; deviations trigger alerts, not silent continuation |
+| Value Transformation Chain | Vision Skill Map | Detection → zone assignment → event → count → statistic → decision; bounding boxes are never the deliverable |
+| DPI/Resolution Training-Inference Match | Vision Skill Map | Fix camera resolution and assert match between training and inference pipelines; mismatch degrades all models simultaneously |
+| Model Version Naming Convention | Vision Skill Map | API endpoint name = training dataset version number; version mismatch in production is immediately visible |
+| Tutorial-to-Production Gap Table | Gaps Analysis | 14-row summary: what tutorials cover vs. what production requires vs. gap size (MEDIUM/LARGE/ENORMOUS) for each dimension |
 
 ---
 
 ## All Tags
 
-`1-on-1` `action-bias` `antifragility` `asymmetry` `automation` `autonomous-systems` `autonomy-levels` `barbell-strategy` `base-rates` `Bayesian-reasoning` `Bayesian-updating` `behavioral-economics` `bias-detection` `black-swan` `blame` `Brier-score` `business-strategy` `calibration` `career-development` `casino-automation` `checklists` `circle-of-competence` `clear-thinking` `coaching` `cognitive-bias` `communication` `competitive-advantage` `compliance` `computer-vision` `confirmation-bias` `conflict-resolution` `contribution` `control-systems` `convexity` `de-escalation` `debiasing` `decision-making` `deployment-architecture` `deployment-risk` `difficult-conversations` `end-effectors` `environmental-assumptions` `epistemology` `error-propagation` `extremistan` `failure-modes` `falsifiability` `fat-tails` `feedback-loops` `feelings` `feedback` `Fermi-estimation` `field-guide` `forecasting` `fox-vs-hedgehog` `fragility` `graceful-degradation` `heuristics` `hormesis` `human-in-the-loop` `identity` `incentives` `intellectual-honesty` `intent-vs-impact` `investing` `inversion` `leadership` `learning-conversation` `lindy-effect` `lollapalooza` `loss-aversion` `management` `manipulation` `margin-of-safety` `mediocristan` `mental-models` `misjudgment` `moats` `motivated-reasoning` `multidisciplinary-thinking` `naive-interventionism` `negotiation` `operational-endurance` `optionality` `overconfidence` `partnerships` `perception` `performance` `poker` `position-sizing` `prediction` `probability` `psychology` `radical-candor` `rationality` `reasoning-errors` `redundancy` `risk` `risk-management` `robotics` `robustness` `ruin-avoidance` `scout-mindset` `sense-plan-act` `sensors` `sim-to-real` `skin-in-the-game` `state-estimation` `subsystem-coupling` `sunk-cost` `supervised-autonomy` `survivorship-bias` `System-1` `System-2` `systems-integration` `tail-risk` `team-culture` `third-story` `three-conversations` `updating` `vendor-evaluation` `via-negativa`
+`1-on-1` `action-bias` `active-learning` `adversarial-robustness` `annotation` `antifragility` `asymmetry` `audit-log` `augmentation` `automation` `autonomous-systems` `autonomy-levels` `barbell-strategy` `base-rates` `Bayesian-reasoning` `Bayesian-updating` `behavioral-economics` `bias-detection` `black-swan` `blame` `Brier-score` `business-strategy` `calibration` `card-detection` `career-development` `casino-automation` `certification` `checklists` `chip-counting` `circle-of-competence` `classification` `clear-thinking` `closed-world-constraints` `coaching` `cognitive-bias` `communication` `competitive-advantage` `compliance` `computer-vision` `computer-vision-engineering` `confirmation-bias` `conflict-resolution` `constraint-engine` `contribution` `control-systems` `convexity` `dataset-design` `de-escalation` `debiasing` `decision-making` `deployment-architecture` `deployment-risk` `design-principles` `difficult-conversations` `domain-expert` `edge-deployment` `end-effectors` `environmental-assumptions` `epistemology` `error-propagation` `extremistan` `failure-modes` `failure-taxonomy` `falsifiability` `fat-tails` `feedback` `feedback-loops` `feelings` `Fermi-estimation` `field-guide` `forecasting` `fox-vs-hedgehog` `fragility` `game-logic-oracle` `gaps-analysis` `graceful-degradation` `heuristics` `homography` `hormesis` `human-in-the-loop` `identity` `incentives` `inference` `intellectual-honesty` `intent-vs-impact` `investing` `inversion` `leadership` `learning-conversation` `lindy-effect` `lollapalooza` `loss-aversion` `management` `manipulation` `margin-of-safety` `mediocristan` `mental-models` `misjudgment` `moats` `model-versioning` `motivated-reasoning` `multi-model-pipeline` `multidisciplinary-thinking` `naive-interventionism` `negotiation` `object-detection` `ocr` `operational-endurance` `optionality` `overconfidence` `partnerships` `perception` `performance` `pipeline-routing` `poker` `poker-vision` `position-sizing` `prediction` `probability` `production-ml` `psychology` `radical-candor` `rationality` `reasoning-errors` `redundancy` `regulatory-compliance` `risk` `risk-management` `robotics` `robustness` `ruin-avoidance` `schema-design` `scout-mindset` `segmentation` `sense-plan-act` `sensors` `sim-to-real` `skin-in-the-game` `spatial-reasoning` `state-estimation` `subsystem-coupling` `sunk-cost` `supervised-autonomy` `survivorship-bias` `System-1` `System-2` `systems-integration` `tail-risk` `team-culture` `temporal-state-machine` `third-story` `three-conversations` `tracking` `updating` `vendor-evaluation` `via-negativa` `vision-architecture` `zone-counting`
 
 ---
 
@@ -425,9 +501,17 @@ skills/
 ├── antifragile.md              # Systems that gain from disorder, via negativa & convex positioning (Taleb)
 ├── radical-candor.md           # Honest feedback, caring leadership & communication (Scott)
 ├── difficult-conversations.md  # Navigating high-stakes talks across all three layers (Stone, Patton & Heen)
-└── robotics-vision-control.md  # Robotics evaluation, vision limits & vendor reality filter (Corke)
+├── robotics-vision-control.md  # Robotics evaluation, vision limits & vendor reality filter (Corke)
+└── autonomous-robots.md        # Systems integration, autonomy evaluation, error compounding (Correll)
+
+research/
+├── vision_skill_map.md                      # 67 CV skills across 7 categories, poker-translated (20 transcripts)
+├── vision_architecture_blueprint.md         # Full 7-layer pipeline spec for casino poker table
+├── vision_failure_taxonomy.md               # 26 perception failures ranked by severity × frequency
+├── vision_design_principles.md              # 17 non-obvious principles from production vision systems
+└── vision_gaps_what_roboflow_doesnt_teach.md # 14 gaps between tutorial knowledge and casino deployment
 ```
 
 ---
 
-*Last updated: 2026-02-20 | Total skills: 11 | Total frameworks: 120 | Total tags: 106*
+*Last updated: 2026-02-20 | Total skills: 17 | Total frameworks: 137 | Total tags: 128*
