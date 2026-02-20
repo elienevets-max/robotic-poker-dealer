@@ -532,3 +532,38 @@ Critical quotes from Mark Shumaker:
 - On mistakes: "One of the nice things about being a dealer, all you have to do when you mess up is call the floor."
 - On slowing down: "If I had just slowed down and not felt the pressure trying to go fast, it would have helped me a tremendous amount."
 
+## BIG_O_AND_OMAHA_ADVANCED
+
+Source: TruePokerDealer Mixed Games Lesson 5 of 10 - "Big O Sample Hands and Some Additional Omaha Info"
+Type: MEMBERS_ONLY transcript (full access obtained)
+Length: ~47,000 characters
+
+Key topics covered:
+- Big O = Five-Card Omaha, "big" = five hole cards instead of four
+- Tournament format: pot-limit, eight or better, high-low split (per WSOP manual)
+- Seven-max (seven players per table) due to increased card consumption
+- Pot-limit calculation reinforcement: 3× previous bet + trail + pot; small blind counts as big blind in cash
+- No limpers = 4× big blind; one limper = 5× big blind for pot-sized raise
+- Dealer must track running pot total mentally (e.g., 160 → 640 → 2,560 escalation)
+- Split-pot showdown procedure: kill losing hands, frame high hand first, push high half, lock up high, frame low hand, push low half
+- Pot stacking: begin after river is dealt; direct action first, then stack while paying attention
+- Stack by denomination (largest closest to dealer) for quick readability
+- Three-way chop: high gets half, two low winners split remaining half; odd chip to player nearest button
+- Dirty stack detection: wrong-denomination chip mixed in — dealer error and surveillance flag
+- Verify five cards on every muck (easy to miscount with unusual hand size)
+- Big O Double Barrel: variant with two boards, but NOT per-board split — best hand across either board wins high/low
+- Exposed card during Big O pitch: same rules as Hold'em (one = replace, two = misdeal)
+- Accidentally pulling extra card (burn card) during pitch: can put it back if not exposed
+- No rabbit hunting in any game — reiterated
+- Mark deals four complete sample hands demonstrating pot-limit calculation, split-pot evaluation, and three-way chops
+
+Critical quotes from Mark Shumaker:
+- On Big O definition: "Big Omaha, which the big just stands for five card Omaha."
+- On tournament format: "The general rule of thumb for Big O is that in tournament, this game is played as pot limit eight or better."
+- On table size: "Because there's five cards per player instead of four, we can't deal as many people in. So, we only deal to seven players max."
+- On pot tracking: "Before I bring this whole pot together, this is really important as a dealer. Before I bring this whole pot together, I want to know that number."
+- On stacking timing: "The WSOP suggests that we wait until the river is out to start stacking."
+- On action priority: "We don't want people waiting on us stacking the pot to start acting."
+- On dirty stacks: "You want to be real careful to stack it in a way where you can see any dirty stacks."
+- On three of a kind in Big O: "Three of a kind either in Omaha or Big O, never that good. You're just completely wasting a card. It's like you're playing four on five basketball."
+
